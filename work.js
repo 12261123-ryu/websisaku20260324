@@ -330,7 +330,8 @@ function renderRecommendations(currentWork, allWorks, knownMaterials) {
   // renderRecommendations 関数内の描画ループ部分
   recommended.forEach(work => {
     // ラベルがある場合のみ表示するHTMLを作成
-    const labelHtml = work.recLabel ? `<div class="rec-reason">${work.recLabel}</div>` : "";
+    const labelHtml = ""; //work.recLabel ? `<div class="rec-reason">${work.recLabel}</div>` : "";
+      //レコメンド理由を一旦消去してみている(空文字)。戻したい場合はコメントアウトを戻す
 
     const html = `
       <div class="work-item">

@@ -68,7 +68,7 @@ html::-webkit-scrollbar {
   box-shadow: inset 0 0 0 1.2px #7bbbef;
   /*padding-right: 40px; /* 右側のバーの幅分、内側に押し戻す */
   pointer-events: auto; /* 開いているときは操作可能にするため追加 */
-  overflow-y: auto;
+  overflow-y: hidden;
   font-family: "Times","Times New Roman","游明朝体","游明朝","Yu Mincho","YuMincho",serif;
 }
 .side-bar.is-open .fixed-labels {
@@ -145,7 +145,7 @@ align-itemsは左右、justfy-contentが上下*/
   flex-direction: column;
 }
 #menu-icon-toggle{
-  color: #888;
+  color:  #7bbbef /*#888*/;
   font-size: 25px;
   z-index: 900;
   position: relative;
@@ -498,9 +498,13 @@ footer{
     font-size: 16px;
   }
   .title-jp{
-      margin-right: 40px;     /* 和英タイトルの間の距離 */
+    margin-right: 40px;     /* 和英タイトルの間の距離 */
   }
-  
+
+  .work-info {
+    margin: 12px 4px 0 0px; /* topは作品名と画像の間の距離。rightとleftは左右の余白 */
+    padding: 0 0;
+  }
 }
 
 
