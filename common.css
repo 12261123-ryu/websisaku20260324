@@ -501,10 +501,6 @@ footer{
     margin-right: 40px;     /* 和英タイトルの間の距離 */
   }
 
-  .work-info {
-    margin: 12px 4px 0 0px; /* topは作品名と画像の間の距離。rightとleftは左右の余白 */
-    padding: 0 0;
-  }
 }
 
 

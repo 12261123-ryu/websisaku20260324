@@ -129,15 +129,15 @@
   .web-title{
     margin-left: 5px;
   }
-  .work-info{
-    padding: 0;
-    margin-left: 4px;
-  }
   .web-title .titletext{
     font-size: 14px;
     max-width: 400px;     /* 箱組みのために横幅制限 */
   }
 
+  .work-info { /* work-infoのレスポンシブはcommonではなくindexとworkで分けて指定 */
+    margin: 12px 4px 0 0px; /* topは作品名と画像の間の距離。rightとleftは左右の余白 */
+    padding: 0 0;
+  }
 }
 
 /* 820px〜1179px: 2列 */
@@ -163,6 +163,7 @@
   .web-title .titletext{
     max-width: 480px;     /* 箱組みのために横幅制限 */
   }
+  
 }
 
 /* 1180px〜: 3列・最大幅制限（ハッシュタグは左サイドバーに縦並び） */
