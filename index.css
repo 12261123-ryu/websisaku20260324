@@ -165,12 +165,21 @@
   }
 }
 
-/* 1180px〜: 3列・最大幅制限 */
+/* 1180px〜: 3列・最大幅制限（ハッシュタグは左サイドバーに縦並び） */
 @media (min-width: 1180px) {
+  /* 2列時（820px〜）と同じ gap。数値調整は 820px ブロックの .work-grid.for-index と揃える */
   .work-grid.for-index {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
   }
+
+  /* グリッド gap のみで間隔を取る（.work-item の margin-bottom と二重にならないように） */
+  .work-grid.for-index .work-item {
+    margin-bottom: 0;
+  }
+
   .content-wrapper {
     max-width: 1500px; /* 最大幅 */
     width: 100%;
@@ -178,6 +187,73 @@
     padding-left: 5%;
     box-sizing: border-box;
     margin: 0 auto;
+  }
+
+  /*
+   * ハッシュタグ: ビューポート左の所定位置に固定（スクロールしても同じ位置）
+   * メインは左に「タグ列の確保幅 + すき間」分の余白（タグと重ならないように）
+   * 調整: --index-tag-slot, --index-tag-gutter, --index-tag-top, left の 2.5%
+   */
+  .content-wrapper.index-page {
+    --index-tag-slot: 12rem;
+    --index-tag-gutter: 144px;
+    --index-tag-top: 56px;
+    display: block;
+    padding-left: calc(2.5% + var(--index-tag-slot) + var(--index-tag-gutter));
+  }
+
+  .content-wrapper.index-page > .filter-tags-wrapper {
+    position: fixed;
+    left: 2.5%;
+    top: var(--index-tag-top);
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.75rem;
+    margin-top: 0;
+    margin-left: 0;
+    width: max-content;
+    min-width: 0;
+    box-sizing: border-box;
+    padding-right: 0.25rem;
+    pointer-events: auto;
+  }
+
+  .content-wrapper.index-page #project-tags,
+  .content-wrapper.index-page #material-tags {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .content-wrapper.index-page .filter-tags {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 100%;
+    min-width: 0;
+    font-size: 13px;
+    line-height: 1.8;
+    row-gap: 0.45em;
+  }
+
+  /* タイトル〜グリッドの余白は 2 列時と同じ流れ（820px の .titletext max-width 等をそのまま利用） */
+  .content-wrapper.index-page > .web-title {
+    margin-top: 56px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content-wrapper.index-page .web-title .titletext {
+    max-width: 480px;
+    margin: 20px 0 60px 0;
+    line-height: 1.8;
   }
 }
 
