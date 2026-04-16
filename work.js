@@ -233,15 +233,14 @@ if (work.project === "M") {
 
     const renderImages = () => {
       if (work.image_list && work.image_list.length > 0) {
-        work.image_list.forEach(path => {
-          if (path !== work.main_image) {
+        work.image_list.forEach((path, index) => {
+          if (index === 0) return;  //前は一番上に使っていた画像を排除して残りを下に並べていく形式だったのを、上から順にナンバリングに従い並べる形式に試し変更中
             const imgTag = `
               <div class="content-item sub-image-item">
                 <img src="${path}" loading="lazy" decoding="async"
                 onerror="this.style.background='#f9f9f9'; this.removeAttribute('src');">
               </div>`;
             subContentContainer.insertAdjacentHTML('beforeend', imgTag);
-          }
         });
       }
     };
