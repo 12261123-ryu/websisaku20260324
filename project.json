@@ -70,6 +70,18 @@
             "description": ""
         },
         { 
+            "display": "布", 
+            "id":"布",
+            "type":"material",
+            "description": ""
+        },
+        { 
+            "display": "糸", 
+            "id":"糸",
+            "type":"material",
+            "description": ""
+        },
+        { 
             "display": "樹脂",
             "id":"樹脂",
             "type":"material",
@@ -93,7 +105,7 @@
             "description": ""
              },
         { 
-            "display": "スタイロ", 
+            "display": "スタイロフォーム", 
             "id":"スタイロフォーム",
             "type":"material",
             "description": ""
