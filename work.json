@@ -1,5 +1,500 @@
 [
   {
+    "school_number": "b01",
+    "sort_number": 1,
+    "name": "伊藤 幸乃",
+    "hiragana_name": "いとうゆきの",
+    "en_name": "Ito Yukino",
+    "title": "影響されるかたち",
+    "concept": "丸と曲線という最小限の要素で構成されたカバン。体に触れ、持たれ、動きを伴うことで輪郭は変形し続けます。本作は完成された固定的な形ではなく、環境に触れることで変化するかたちを目指しました。丸を体に沿わせ曲線が揺らぐカバンは、使い方によって様々な表情が見えてきます。使い方に決まりのないその様子と魅力的な形を写真に収めました。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "oti_yukino"
+    },
+    "materials": [
+      "布"
+    ],
+    "main_image": "images/images_2026/b01/b01_01.webp",
+    "image_list": [
+      "images/images_2026/b01/b01_01.webp",
+      "images/images_2026/b01/b01_02.webp",
+      "images/images_2026/b01/b01_03.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b02",
+    "sort_number": 2,
+    "name": "黄 佳妍",
+    "hiragana_name": "ふぁんがよん",
+    "en_name": "Hwang Gayeon",
+    "title": "糸編み座",
+    "concept": "手芸をテーマにした3Dオブゼクト。手芸で作られたものはなぜ平面に止まるか、編み物と言う方式を再解析したベンチソファー。 手芸がデザインになるとは何か、編み物の特徴を最も生かす方法を考察し、制作した。編み方は主に硬いという性質をまだ持つかぎ針編みを前提に進行。人が直接関わり、作品を体験できる形で工夫を伝える。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "__vvo.ovv__"
+    },
+    "materials": [
+      "糸"
+    ],
+    "main_image": "images/images_2026/b02/b02_01.webp",
+    "image_list": [
+      "images/images_2026/b02/b02_01.webp",
+      "images/images_2026/b02/b02_02.webp",
+      "images/images_2026/b02/b02_03.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b03",
+    "sort_number": 3,
+    "name": "永澤 桃太",
+    "hiragana_name": "ながさわとうた",
+    "en_name": "Nagasawa Tota",
+    "title": "Replacing with leather",
+    "concept": "私たちの生活は、多くのモノで溢れています。それらはすべて誰かがデザインしたプロダクトでありながら、そのほとんどは注目されずに消費され、捨てられてしまいます。本作品では、そんな「身近な製品」がもつ魅力に気づいてもらうことを目標に、日常的に目にするアイテムをレザーでリプロダクトしました。レザーは高級素材のひとつであり、強い存在感を放ちます。普段は意識しない製品の魅力に、気づくきっかけをつくる試みです。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "レザー"
+    ],
+    "main_image": "images/images_2026/b03/b03_01.webp",
+    "image_list": [
+      "images/images_2026/b03/b03_01.webp",
+      "images/images_2026/b03/b03_02.webp",
+      "images/images_2026/b03/b03_03.webp",
+      "images/images_2026/b03/b03_04.webp",
+      "images/images_2026/b03/b03_05.webp",
+      "images/images_2026/b03/b03_06.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b04",
+    "sort_number": 4,
+    "name": "野口 安海也",
+    "hiragana_name": "のぐちあみや",
+    "en_name": "Noguchi Amiya",
+    "title": "木彫りの球",
+    "concept": "何かを手で削り出す行為は、機械の精密さでは再現できない独特の質感と形状を生み出します。 削る工程の中で生まれる傷や歪み、安定しないノミの軌道から生まれる「不完全さ」にこそ、私は人間味や自然な暖かみを感じます。 鑑賞者の皆さんにもこの作品を通じて、そういった手づくりの魅力を少しでも感じ取って頂けると幸いです。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "木材"
+    ],
+    "main_image": "images/images_2026/b04/b04_01.webp",
+    "image_list": [
+      "images/images_2026/b04/b04_01.webp",
+      "images/images_2026/b04/b04_02.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b05",
+    "sort_number": 5,
+    "name": "大洲 碧流",
+    "hiragana_name": "おおずあいる",
+    "en_name": "Ozu Airu",
+    "title": "環",
+    "concept": "ビーカーの水をポンプで一定量吸い上げ、使い捨てフォークの上に一滴ずつ落とす。水滴は稜線に沿って重力で移動し、先端から落下する。一滴が落ちるたびに、次の一滴分が吸い上げられ、落ちた水はビーカーへ戻って循環する。水滴をのせたフォークは、雨露に濡れた葉のように見える。反復する動きを見つめていると、フォーク＝道具という見え方から少しずつ離れ、自然物と人工物の境界が揺らいでいく。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "樹脂",
+      "水",
+      "蠕動ポンプ"
+    ],
+    "main_image": "images/images_2026/b05/b05_01.webp",
+    "image_list": [
+      "images/images_2026/b05/b05_01.webp",
+      "images/images_2026/b05/b05_02.webp",
+      "images/images_2026/b05/b05_03.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b06",
+    "sort_number": 6,
+    "name": "耿 海博",
+    "hiragana_name": "こうかいはく",
+    "en_name": "Geng Haibo",
+    "title": "自然、人工、重力",
+    "concept": "モノは中からの力、外からの力が同時に作用しながらその形を維持している。空間もまた同じく、静かに見えるが激しく揺らいでいる。人工的に作られたこの空間も、自然の力で満たされている。丸石の両端を平に切り、積み上げ、袋に石膏を満たし、麻袋を平に置く。この空間も野原も海辺も何が違うのだろうか。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "kou.9160"
+    },
+    "materials": [
+      "石",
+      "石膏",
+      "麻袋"
+    ],
+    "main_image": "images/images_2026/b06/b06_01.webp",
+    "image_list": [
+      "images/images_2026/b06/b06_01.webp",
+      "images/images_2026/b06/b06_02.webp",
+      "images/images_2026/b06/b06_03.webp",
+      "images/images_2026/b06/b06_04.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b07",
+    "sort_number": 7,
+    "name": "坂倉 彩月",
+    "hiragana_name": "さかくらさつき",
+    "en_name": "Sakakura Satsuki",
+    "title": "そこに似合う彫刻",
+    "concept": "食器棚に重ねられたお椀。コップに挿された歯ブラシ。生活の中で生まれる、そうした何気ない姿に魅力を感じてきた。その魅力を崩さず、置かれた場所や空間がわずかに温かくなるようなものを、形にできないかと考えた。生活を振り返ると、記憶の断片にあるものたちは、ぼんやりと、曖昧に揺らいでいる。手の感触を通して形を探り、磨くほどに輪郭の緩んだ形は、その場に柔らかく溶け込んでいく。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "satsuki.works"
+    },
+    "materials": [
+      "木材"
+    ],
+    "main_image": "images/images_2026/b07/b07_01.webp",
+    "image_list": [
+      "images/images_2026/b07/b07_01.webp",
+      "images/images_2026/b07/b07_02.webp",
+      "images/images_2026/b07/b07_03.webp",
+      "images/images_2026/b07/b07_04.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b08",
+    "sort_number": 8,
+    "name": "芹澤 周",
+    "hiragana_name": "せりざわしゅう",
+    "en_name": "Serizawa Shu",
+    "title": "砂と水",
+    "concept": "撥水加工を施した砂の上を、弾かれた水滴は球となり転がる。溜まり、引っかかりながらも、下へと逞しく流れる。その動きに健気さを覚え、そして生命感を強く感じた。ごく普通な自然物の関係性に少し手を加えることで生まれた、見慣れない動きや、新しいうつろいが生まれているのを、ただ見て受け入れるということに価値を感じ制作した。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "2057_wa"
+    },
+    "materials": [
+      "砂",
+      "水"
+    ],
+    "main_image": "images/images_2026/b08/b08_01.webp",
+    "image_list": [
+      "images/images_2026/b08/b08_01.webp",
+      "images/images_2026/b08/b08_02.webp"
+    ],
+    "video_list": [
+      "https://drive.google.com/file/d/1N6W_wlYt0A_EnGxmVz3Jz2zpEkDd8NQ5/view"
+    ],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b09",
+    "sort_number": 9,
+    "name": "田村 紅茉",
+    "hiragana_name": "たむらくれま",
+    "en_name": "Tamura Kurema",
+    "title": "あわい",
+    "concept": "ピンと張った布に身体やものを押し当て、現れた像を布越しに撮影した。「あわい」とは、二つの事象が接するところを指す言葉である。「触れないが、知っている。」という、概念と実体のあわいを、1枚の布を介して可視化することを試みた。写真を眺めながらも意識はこの場から離れ、記憶や感情の世界へと静かに接続されていく。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "kurema_tamura"
+    },
+    "materials": [
+      "布"
+    ],
+    "main_image": "images/images_2026/b09/b09_01.webp",
+    "image_list": [
+      "images/images_2026/b09/b09_01.webp",
+      "images/images_2026/b09/b09_02.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b10",
+    "sort_number": 10,
+    "name": "寺嶋 希海",
+    "hiragana_name": "てらしまのぞみ",
+    "en_name": "Terashima Nozomi",
+    "title": "空のかたち",
+    "concept": "青い紙をちぎると、そこに飛行機雲が現れた。形を持たない雲と、紙をちぎるという操作の出来ない行為に繋がりを感じた。そして、紙の外形に角度を付け一辺から二辺を切る。そこには窓から空を眺めるような影響を与える。青い紙をちぎる。切る。紙に対する関与の違いから二つの意味が生まれ、それらが一体となった空のかたち。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "紙"
+    ],
+    "main_image": "images/images_2026/b10/b10_01.webp",
+    "image_list": [
+      "images/images_2026/b10/b10_01.webp",
+      "images/images_2026/b10/b10_02.webp",
+      "images/images_2026/b10/b10_03.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b11",
+    "sort_number": 11,
+    "name": "冨岡 星来",
+    "hiragana_name": "とみおかせいら",
+    "en_name": "Tomioka Seira",
+    "title": "私の見ているもの",
+    "concept": "私のありふれた日常の中には、大切なものが潜んでいる。それらのものを前にした時、私は自分の眼でものの断片を切り取り、見ている。たとえあなたが同じ対象物を眺めていたとしても、あなたが見るものと私が見るものはきっと違う。なぜなら人が何かと関わった時、そこには関係性や経験、情が生まれ、その積み重ねによって見え方は変わってゆくから。この作品は、私が見ている日常の愛しい断片たちを形に残した等身大の記録である。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "紙"
+    ],
+    "main_image": "images/images_2026/b11/b11_01.webp",
+    "image_list": [
+      "images/images_2026/b11/b11_01.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b12",
+    "sort_number": 12,
+    "name": "藤野 早香",
+    "hiragana_name": "ふじのさやか",
+    "en_name": "Fujino Sayaka",
+    "title": "繊細さの斥力",
+    "concept": "繊細なものを見ると、その美しさに惹かれながらも、触れるのをためらう瞬間がある。この反応から、繊細なものの周囲には「斥力の場」が生じているのではないかと考えた。自らを守るため、近づくものを押し返すような力の働く空間である。本作では、今にも吹き飛びそうな危うさの中で、作品の魅力としての「引力」とその脆さが放つ「斥力」を両立させた。繊細さと惹かれるものとの間に、相反する力が交差する境界が浮かび上がる。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "fujino_uni"
+    },
+    "materials": [
+      "紙"
+    ],
+    "main_image": "images/images_2026/b12/b12_01.webp",
+    "image_list": [
+      "images/images_2026/b12/b12_01.webp",
+      "images/images_2026/b12/b12_02.webp",
+      "images/images_2026/b12/b12_03.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b13",
+    "sort_number": 13,
+    "name": "山本 琉太郎",
+    "hiragana_name": "やまもとりゅうたろう",
+    "en_name": "Yamamoto Ryutaro",
+    "title": "つながり",
+    "concept": "角材を使って彫刻を作った。角材はこの空間におけるルールであり「つながり」である。需要に合わせて製材された規格が、私と世界もつなげている。積み木で遊ぶ子供のような遊び心で、あなたと私もつながっている。四角で構成されたオブジェが、何かに見えるかもしれない。私が角材をこう組み合わせた、その気持ちがわかるかもしれない。そこにあるのは角材による「つながり」なのだと私は思う。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "ryutaro_m_y"
+    },
+    "materials": [
+      "木材"
+    ],
+    "main_image": "images/images_2026/b13/b13_01.webp",
+    "image_list": [
+      "images/images_2026/b13/b13_01.webp",
+      "images/images_2026/b13/b13_02.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b14",
+    "sort_number": 14,
+    "name": "宮田 小春",
+    "hiragana_name": "みやたこはる",
+    "en_name": "Miyata Koharu",
+    "title": "Being",
+    "concept": "現象はくり返す。揺らぎ、浮遊、収縮、均衡。エネルギーの振る舞いに、存在を感じる。昨年祖父が亡くなった。身体に触れて、初めて死を知った。亡くなる前後での変化は血液の流れの有無で、私は流れに生命を感じていたと気づいた。このことをきっかけに、流れをエネルギーの動きと捉え、エネルギーを現象化することで、あらゆる存在が現れてくるのではないかと考えた。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "koharu_miyata"
+    },
+    "materials": [
+      "金属",
+      "樹脂",
+      "ガラス"
+    ],
+    "main_image": "images/images_2026/b14/b14_01.webp",
+    "image_list": [
+      "images/images_2026/b14/b14_01.webp",
+      "images/images_2026/b14/b14_02.webp",
+      "images/images_2026/b14/b14_03.webp",
+      "images/images_2026/b14/b14_04.webp",
+      "images/images_2026/b14/b14_05.webp",
+      "images/images_2026/b14/b14_06.webp",
+      "images/images_2026/b14/b14_07.webp"
+    ],
+    "video_list": [
+      "https://www.youtube.com/shorts/tmuGfQnHfXk"
+    ],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b15",
+    "sort_number": 15,
+    "name": "横山 大輔",
+    "hiragana_name": "よこやまだいすけ",
+    "en_name": "Yokoyama Daisuke",
+    "title": "意図と無作為の境界",
+    "concept": "制作において「意図に始まり、無作為に生まれる\"意図を超えた結果\"を期待する。」という制作姿勢を取り、これを意図と無作為の境界と名付けました。手法を考えそこで生まれる結果を期待する実験・研究制作です。この作品は、実験を繰り返す中で偶然見つけた無限に増殖・縮小可能な入れ子構造(フラクタル)の図案を用いて制作した障子、立体作品です。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "木材"
+    ],
+    "main_image": "images/images_2026/b15/b15_01.webp",
+    "image_list": [
+      "images/images_2026/b15/b15_01.webp",
+      "images/images_2026/b15/b15_02.webp",
+      "images/images_2026/b15/b15_03.webp",
+      "images/images_2026/b15/b15_04.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b16",
+    "sort_number": 16,
+    "name": "横山 優奈",
+    "hiragana_name": "よこやまゆうな",
+    "en_name": "Yokoyama Yuna",
+    "title": "新しいかたち",
+    "concept": "わたしは新しいかたちを考える。これは、新しい関係性のための道具たち。角度がふつうと少し違う。傾いているところに手が向かう。斜辺をひとつ与えると、正面がなくなり身体の向きが勝手に変わる。2人がけベンチに腰掛け、手を置き、斜辺にそって内側を向いてしまう。わたしは分かる。そこには新しい関係性がうまれている。わたしは新しいかたちを考える。この角度や、それに似合う高さや幅がきっと大事なんだと思う。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "樹脂",
+      "木材"
+    ],
+    "main_image": "images/images_2026/b16/b16_01.webp",
+    "image_list": [
+      "images/images_2026/b16/b16_01.webp",
+      "images/images_2026/b16/b16_02.webp",
+      "images/images_2026/b16/b16_03.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b17",
+    "sort_number": 17,
+    "name": "米山 彩良",
+    "hiragana_name": "よねやまさら",
+    "en_name": "Yoneyama Sara",
+    "title": "地球のかけら",
+    "concept": "立体として存在していた素材を砕き、製粉した粉を用いて絵を描いた。形を失っても素材そのものは変わらず、依然として平面の中にかけらとして残り続ける。物質が形態を変えながら移行していく過程に着目し、立体と平面、二次元と三次元の境界を曖昧にすることで、そのあいだに横たわる隔たりを、静かに揺さぶる試みである。",
+    "project": "A",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "sarayoneee"
+    },
+    "materials": [
+      "紙（高知麻紙）",
+      "膠",
+      "墨汁",
+      "その他素材"
+    ],
+    "main_image": "images/images_2026/b17/b17_01.webp",
+    "image_list": [
+      "images/images_2026/b17/b17_01.webp",
+      "images/images_2026/b17/b17_02.webp",
+      "images/images_2026/b17/b17_03.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
     "school_number": "b18",
     "sort_number": 18,
     "name": "チャ ヨン",
@@ -18,13 +513,15 @@
       "スピーカー",
       "絵の具"
     ],
-    "main_image": "images/Bachelor_2026/b18/b18_01.webp",
+    "main_image": "images/images_2026/b18/b18_01.webp",
+    "image_list": [
+      "images/images_2026/b18/b18_01.webp",
+      "images/images_2026/b18/b18_02.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b18/b18_01.webp",
-      "images/Bachelor_2026/b18/b18_02.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b19",
@@ -45,17 +542,19 @@
       "磁性流体",
       "アクリルケース"
     ],
-    "main_image": "images/Bachelor_2026/b19/b19_01.webp",
+    "main_image": "images/images_2026/b19/b19_01.webp",
+    "image_list": [
+      "images/images_2026/b19/b19_01.webp",
+      "images/images_2026/b19/b19_02.webp",
+      "images/images_2026/b19/b19_03.webp",
+      "images/images_2026/b19/b19_04.webp"
+    ],
     "video_list": [
       "https://www.instagram.com/reel/DV9LNG1E5X2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b19/b19_01.webp",
-      "images/Bachelor_2026/b19/b19_02.webp",
-      "images/Bachelor_2026/b19/b19_03.webp",
-      "images/Bachelor_2026/b19/b19_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b20",
@@ -74,13 +573,15 @@
     "materials": [
       "樹脂"
     ],
-    "main_image": "images/Bachelor_2026/b20/b20_01.webp",
+    "main_image": "images/images_2026/b20/b20_01.webp",
+    "image_list": [
+      "images/images_2026/b20/b20_01.webp",
+      "images/images_2026/b20/b20_02.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b20/b20_01.webp",
-      "images/Bachelor_2026/b20/b20_02.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b21",
@@ -100,15 +601,17 @@
       "プロジェクター",
       "TPU"
     ],
-    "main_image": "images/Bachelor_2026/b21/b21_01.webp",
+    "main_image": "images/images_2026/b21/b21_01.webp",
+    "image_list": [
+      "images/images_2026/b21/b21_01.webp",
+      "images/images_2026/b21/b21_02.webp",
+      "images/images_2026/b21/b21_03.webp",
+      "images/images_2026/b21/b21_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b21/b21_01.webp",
-      "images/Bachelor_2026/b21/b21_02.webp",
-      "images/Bachelor_2026/b21/b21_03.webp",
-      "images/Bachelor_2026/b21/b21_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b22",
@@ -128,15 +631,17 @@
       "紙",
       "モーター"
     ],
-    "main_image": "images/Bachelor_2026/b22/b22_01.webp",
+    "main_image": "images/images_2026/b22/b22_02.webp",
+    "image_list": [
+      "images/images_2026/b22/b22_01.webp",
+      "images/images_2026/b22/b22_02.webp"
+    ],
     "video_list": [
       "https://drive.google.com/file/d/1EAWCacnR3xW_NAcCjfrp_GPzoplm1Ay5/view?usp=drive_link"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b22/b22_01.webp",
-      "images/Bachelor_2026/b22/b22_02.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b23",
@@ -156,14 +661,16 @@
       "竹",
       "感熱紙"
     ],
-    "main_image": "images/Bachelor_2026/b23/b23_01.webp",
+    "main_image": "images/images_2026/b23/b23_01.webp",
+    "image_list": [
+      "images/images_2026/b23/b23_01.webp",
+      "images/images_2026/b23/b23_02.webp",
+      "images/images_2026/b23/b23_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b23/b23_01.webp",
-      "images/Bachelor_2026/b23/b23_02.webp",
-      "images/Bachelor_2026/b23/b23_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b24",
@@ -183,16 +690,18 @@
       "紙",
       "写真表現"
     ],
-    "main_image": "images/Bachelor_2026/b24/b24_01.webp",
+    "main_image": "images/images_2026/b24/b24_01.webp",
+    "image_list": [
+      "images/images_2026/b24/b24_01.webp",
+      "images/images_2026/b24/b24_02.webp",
+      "images/images_2026/b24/b24_03.webp",
+      "images/images_2026/b24/b24_04.webp",
+      "images/images_2026/b24/b24_05.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b24/b24_01.webp",
-      "images/Bachelor_2026/b24/b24_02.webp",
-      "images/Bachelor_2026/b24/b24_03.webp",
-      "images/Bachelor_2026/b24/b24_04.webp",
-      "images/Bachelor_2026/b24/b24_05.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b25",
@@ -211,14 +720,16 @@
     "materials": [
       "毛糸"
     ],
-    "main_image": "images/Bachelor_2026/b25/b25_01.webp",
+    "main_image": "images/images_2026/b25/b25_01.webp",
+    "image_list": [
+      "images/images_2026/b25/b25_01.webp",
+      "images/images_2026/b25/b25_02.webp",
+      "images/images_2026/b25/b25_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b25/b25_01.webp",
-      "images/Bachelor_2026/b25/b25_02.webp",
-      "images/Bachelor_2026/b25/b25_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b26",
@@ -237,14 +748,16 @@
     "materials": [
       "金属"
     ],
-    "main_image": "images/Bachelor_2026/b26/b26_01.webp",
+    "main_image": "images/images_2026/b26/b26_01.webp",
+    "image_list": [
+      "images/images_2026/b26/b26_01.webp",
+      "images/images_2026/b26/b26_02.webp",
+      "images/images_2026/b26/b26_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b26/b26_01.webp",
-      "images/Bachelor_2026/b26/b26_02.webp",
-      "images/Bachelor_2026/b26/b26_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b27",
@@ -267,15 +780,17 @@
       "砂",
       "シリコン"
     ],
-    "main_image": "images/Bachelor_2026/b27/b27_01.webp",
+    "main_image": "images/images_2026/b27/b27_02.webp",
+    "image_list": [
+      "images/images_2026/b27/b27_01.webp",
+      "images/images_2026/b27/b27_02.webp",
+      "images/images_2026/b27/b27_03.webp",
+      "images/images_2026/b27/b27_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b27/b27_01.webp",
-      "images/Bachelor_2026/b27/b27_02.webp",
-      "images/Bachelor_2026/b27/b27_03.webp",
-      "images/Bachelor_2026/b27/b27_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b28",
@@ -295,21 +810,23 @@
       "樹脂",
       "小麦粘土"
     ],
-    "main_image": "images/Bachelor_2026/b28/b28_01.webp",
+    "main_image": "images/images_2026/b28/b28_02.webp",
+    "image_list": [
+      "images/images_2026/b28/b28_01.webp",
+      "images/images_2026/b28/b28_02.webp",
+      "images/images_2026/b28/b28_03.webp",
+      "images/images_2026/b28/b28_04.webp",
+      "images/images_2026/b28/b28_05.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b28/b28_01.webp",
-      "images/Bachelor_2026/b28/b28_02.webp",
-      "images/Bachelor_2026/b28/b28_03.webp",
-      "images/Bachelor_2026/b28/b28_04.webp",
-      "images/Bachelor_2026/b28/b28_05.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b29",
     "sort_number": 29,
-    "name": "真塩 柚子",
+    "name": "眞塩 柚子",
     "hiragana_name": "ましおゆず",
     "en_name": "Mashio Yuzu",
     "title": "もとのすがた",
@@ -326,14 +843,16 @@
       "ガラス",
       "木材"
     ],
-    "main_image": "images/Bachelor_2026/b29/b29_01.webp",
+    "main_image": "images/images_2026/b29/b29_02.webp",
+    "image_list": [
+      "images/images_2026/b29/b29_01.webp",
+      "images/images_2026/b29/b29_02.webp",
+      "images/images_2026/b29/b29_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b29/b29_01.webp",
-      "images/Bachelor_2026/b29/b29_02.webp",
-      "images/Bachelor_2026/b29/b29_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b30",
@@ -351,18 +870,21 @@
     },
     "materials": [
       "モニター",
-      "木　電子工作"
+      "木材",
+      "電子工作"
     ],
-    "main_image": "images/Bachelor_2026/b30/b30_01.webp",
+    "main_image": "images/images_2026/b30/b30_01.webp",
+    "image_list": [
+      "images/images_2026/b30/b30_01.webp",
+      "images/images_2026/b30/b30_02.webp",
+      "images/images_2026/b30/b30_03.webp"
+    ],
     "video_list": [
       "https://youtu.be/Nm9Z-eFMmp4?si=ced3ohwdq1G4vE_-"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b30/b30_01.webp",
-      "images/Bachelor_2026/b30/b30_02.webp",
-      "images/Bachelor_2026/b30/b30_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b31",
@@ -381,15 +903,17 @@
     "materials": [
       "モニター"
     ],
-    "main_image": "images/Bachelor_2026/b31/b31_01.webp",
+    "main_image": "images/images_2026/b31/b31_04.webp",
+    "image_list": [
+      "images/images_2026/b31/b31_01.webp",
+      "images/images_2026/b31/b31_02.webp",
+      "images/images_2026/b31/b31_03.webp",
+      "images/images_2026/b31/b31_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b31/b31_01.webp",
-      "images/Bachelor_2026/b31/b31_02.webp",
-      "images/Bachelor_2026/b31/b31_03.webp",
-      "images/Bachelor_2026/b31/b31_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b32",
@@ -407,18 +931,22 @@
     },
     "materials": [
       "木材",
-      "植物（三種：ドラセナ、カポック、ハオルチア)",
+      "植物（三種：ドラセナ",
+      "カポック",
+      "ハオルチア）",
       "電子工作部品"
     ],
-    "main_image": "images/Bachelor_2026/b32/b32_01.webp",
+    "main_image": "images/images_2026/b32/b32_04.webp",
+    "image_list": [
+      "images/images_2026/b32/b32_01.webp",
+      "images/images_2026/b32/b32_02.webp",
+      "images/images_2026/b32/b32_03.webp",
+      "images/images_2026/b32/b32_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b32/b32_01.webp",
-      "images/Bachelor_2026/b32/b32_02.webp",
-      "images/Bachelor_2026/b32/b32_03.webp",
-      "images/Bachelor_2026/b32/b32_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b33",
@@ -436,18 +964,20 @@
     },
     "materials": [
       "紙",
-      "木",
+      "木材",
       "ウレタンフォーム"
     ],
-    "main_image": "images/Bachelor_2026/b33/b33_01.webp",
+    "main_image": "images/images_2026/b33/b33_01.webp",
+    "image_list": [
+      "images/images_2026/b33/b33_01.webp",
+      "images/images_2026/b33/b33_02.webp",
+      "images/images_2026/b33/b33_03.webp",
+      "images/images_2026/b33/b33_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b33/b33_01.webp",
-      "images/Bachelor_2026/b33/b33_02.webp",
-      "images/Bachelor_2026/b33/b33_03.webp",
-      "images/Bachelor_2026/b33/b33_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b34",
@@ -464,17 +994,20 @@
       "id": ""
     },
     "materials": [
-      "木材・ガラス"
+      "木材",
+      "ガラス"
     ],
-    "main_image": "images/Bachelor_2026/b34/b34_01.webp",
+    "main_image": "images/images_2026/b34/b34_01.webp",
+    "image_list": [
+      "images/images_2026/b34/b34_01.webp",
+      "images/images_2026/b34/b34_02.webp",
+      "images/images_2026/b34/b34_03.webp",
+      "images/images_2026/b34/b34_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b34/b34_01.webp",
-      "images/Bachelor_2026/b34/b34_02.webp",
-      "images/Bachelor_2026/b34/b34_03.webp",
-      "images/Bachelor_2026/b34/b34_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b35",
@@ -496,15 +1029,17 @@
       "アクリル",
       "プリズム"
     ],
-    "main_image": "images/Bachelor_2026/b35/b35_01.webp",
+    "main_image": "images/images_2026/b35/b35_01.webp",
+    "image_list": [
+      "images/images_2026/b35/b35_01.webp",
+      "images/images_2026/b35/b35_02.webp",
+      "images/images_2026/b35/b35_03.webp",
+      "images/images_2026/b35/b35_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b35/b35_01.webp",
-      "images/Bachelor_2026/b35/b35_02.webp",
-      "images/Bachelor_2026/b35/b35_03.webp",
-      "images/Bachelor_2026/b35/b35_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b36",
@@ -526,14 +1061,16 @@
       "スタイロフォーム",
       "スチレンボード"
     ],
-    "main_image": "images/Bachelor_2026/b36/b36_01.webp",
+    "main_image": "images/images_2026/b36/b36_01.webp",
+    "image_list": [
+      "images/images_2026/b36/b36_01.webp",
+      "images/images_2026/b36/b36_02.webp",
+      "images/images_2026/b36/b36_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b36/b36_01.webp",
-      "images/Bachelor_2026/b36/b36_02.webp",
-      "images/Bachelor_2026/b36/b36_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b37",
@@ -552,20 +1089,22 @@
     "materials": [
       "モニター"
     ],
-    "main_image": "images/Bachelor_2026/b37/b37_01.webp",
+    "main_image": "images/images_2026/b37/b37_01.webp",
+    "image_list": [
+      "images/images_2026/b37/b37_01.webp",
+      "images/images_2026/b37/b37_02.webp",
+      "images/images_2026/b37/b37_03.webp",
+      "images/images_2026/b37/b37_04.webp",
+      "images/images_2026/b37/b37_05.webp",
+      "images/images_2026/b37/b37_06.webp",
+      "images/images_2026/b37/b37_07.webp"
+    ],
     "video_list": [
       "https://youtu.be/How-qsxdg00"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b37/b37_01.webp",
-      "images/Bachelor_2026/b37/b37_02.webp",
-      "images/Bachelor_2026/b37/b37_03.webp",
-      "images/Bachelor_2026/b37/b37_04.webp",
-      "images/Bachelor_2026/b37/b37_05.webp",
-      "images/Bachelor_2026/b37/b37_06.webp",
-      "images/Bachelor_2026/b37/b37_07.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b38",
@@ -585,20 +1124,22 @@
       "紙",
       "水性ペン"
     ],
-    "main_image": "images/Bachelor_2026/b38/b38_01.webp",
+    "main_image": "images/images_2026/b38/b38_07.webp",
+    "image_list": [
+      "images/images_2026/b38/b38_01.webp",
+      "images/images_2026/b38/b38_02.webp",
+      "images/images_2026/b38/b38_03.webp",
+      "images/images_2026/b38/b38_04.webp",
+      "images/images_2026/b38/b38_05.webp",
+      "images/images_2026/b38/b38_06.webp",
+      "images/images_2026/b38/b38_07.webp"
+    ],
     "video_list": [
       "https://youtu.be/-OnQwlJV2Q8"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b38/b38_01.webp",
-      "images/Bachelor_2026/b38/b38_02.webp",
-      "images/Bachelor_2026/b38/b38_03.webp",
-      "images/Bachelor_2026/b38/b38_04.webp",
-      "images/Bachelor_2026/b38/b38_05.webp",
-      "images/Bachelor_2026/b38/b38_06.webp",
-      "images/Bachelor_2026/b38/b38_07.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b39",
@@ -619,15 +1160,15 @@
       "糸",
       "モーター"
     ],
-    "main_image": "images/Bachelor_2026/b39/b39_01.webp",
-    "video_list": [
-      "https://www.instagram.com/yue.cho/"
-    ],
-    "video_to_last": false,
+    "main_image": "images/images_2026/b39/b39_02.webp",
     "image_list": [
-      "images/Bachelor_2026/b39/b39_01.webp",
-      "images/Bachelor_2026/b39/b39_02.webp"
-    ]
+      "images/images_2026/b39/b39_01.webp",
+      "images/images_2026/b39/b39_02.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b40",
@@ -646,14 +1187,16 @@
     "materials": [
       "モニター"
     ],
-    "main_image": "images/Bachelor_2026/b40/b40_01.webp",
+    "main_image": "images/images_2026/b40/b40_03.webp",
+    "image_list": [
+      "images/images_2026/b40/b40_01.webp",
+      "images/images_2026/b40/b40_02.webp",
+      "images/images_2026/b40/b40_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b40/b40_01.webp",
-      "images/Bachelor_2026/b40/b40_02.webp",
-      "images/Bachelor_2026/b40/b40_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b41",
@@ -673,17 +1216,19 @@
       "紙",
       "水蒸気"
     ],
-    "main_image": "images/Bachelor_2026/b41/b41_01.webp",
+    "main_image": "images/images_2026/b41/b41_02.webp",
+    "image_list": [
+      "images/images_2026/b41/b41_01.webp",
+      "images/images_2026/b41/b41_02.webp",
+      "images/images_2026/b41/b41_03.webp",
+      "images/images_2026/b41/b41_04.webp"
+    ],
     "video_list": [
       "https://youtu.be/ef67j6lX1Yc"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b41/b41_01.webp",
-      "images/Bachelor_2026/b41/b41_02.webp",
-      "images/Bachelor_2026/b41/b41_03.webp",
-      "images/Bachelor_2026/b41/b41_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b42",
@@ -704,17 +1249,19 @@
       "樹脂",
       "木材"
     ],
-    "main_image": "images/Bachelor_2026/b42/b42_01.webp",
+    "main_image": "images/images_2026/b42/b42_01.webp",
+    "image_list": [
+      "images/images_2026/b42/b42_01.webp",
+      "images/images_2026/b42/b42_02.webp",
+      "images/images_2026/b42/b42_03.webp",
+      "images/images_2026/b42/b42_04.webp"
+    ],
     "video_list": [
       "https://youtu.be/4hkqjGFStHk"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b42/b42_01.webp",
-      "images/Bachelor_2026/b42/b42_02.webp",
-      "images/Bachelor_2026/b42/b42_03.webp",
-      "images/Bachelor_2026/b42/b42_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b43",
@@ -734,14 +1281,16 @@
       "モニター",
       "プロジェクター"
     ],
-    "main_image": "images/Bachelor_2026/b43/b43_01.webp",
+    "main_image": "images/images_2026/b43/b43_01.webp",
+    "image_list": [
+      "images/images_2026/b43/b43_01.webp",
+      "images/images_2026/b43/b43_02.webp",
+      "images/images_2026/b43/b43_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b43/b43_01.webp",
-      "images/Bachelor_2026/b43/b43_02.webp",
-      "images/Bachelor_2026/b43/b43_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b44",
@@ -760,14 +1309,16 @@
     "materials": [
       "アクリル"
     ],
-    "main_image": "images/Bachelor_2026/b44/b44_01.webp",
+    "main_image": "images/images_2026/b44/b44_02.webp",
+    "image_list": [
+      "images/images_2026/b44/b44_01.webp",
+      "images/images_2026/b44/b44_02.webp",
+      "images/images_2026/b44/b44_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b44/b44_01.webp",
-      "images/Bachelor_2026/b44/b44_02.webp",
-      "images/Bachelor_2026/b44/b44_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b45",
@@ -788,13 +1339,15 @@
       "布",
       "金属"
     ],
-    "main_image": "images/Bachelor_2026/b45/b45_01.webp",
+    "main_image": "images/images_2026/b45/b45_01.webp",
+    "image_list": [
+      "images/images_2026/b45/b45_01.webp",
+      "images/images_2026/b45/b45_02.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b45/b45_01.webp",
-      "images/Bachelor_2026/b45/b45_02.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b46",
@@ -814,15 +1367,17 @@
       "ガラス",
       "プロジェクター"
     ],
-    "main_image": "images/Bachelor_2026/b46/b46_01.webp",
+    "main_image": "images/images_2026/b46/b46_02.webp",
+    "image_list": [
+      "images/images_2026/b46/b46_01.webp",
+      "images/images_2026/b46/b46_02.webp"
+    ],
     "video_list": [
       "https://youtu.be/FT1-0TvUVLs?si=v8cVQQhl5yjoPUoC"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b46/b46_01.webp",
-      "images/Bachelor_2026/b46/b46_02.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b47",
@@ -842,15 +1397,17 @@
       "プロジェクター",
       "テグス"
     ],
-    "main_image": "images/Bachelor_2026/b47/b47_01.webp",
+    "main_image": "images/images_2026/b47/b47_01.webp",
+    "image_list": [
+      "images/images_2026/b47/b47_01.webp",
+      "images/images_2026/b47/b47_02.webp"
+    ],
     "video_list": [
       "https://drive.google.com/file/d/1n-7aWl1SaAZoFLyNyoqoIzWZ-bo2g06h/view?usp=drive_link"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b47/b47_01.webp",
-      "images/Bachelor_2026/b47/b47_02.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b48",
@@ -873,17 +1430,19 @@
       "フォトトランジスタ",
       "赤外線LED"
     ],
-    "main_image": "images/Bachelor_2026/b48/b48_01.webp",
+    "main_image": "images/images_2026/b48/b48_01.webp",
+    "image_list": [
+      "images/images_2026/b48/b48_01.webp",
+      "images/images_2026/b48/b48_02.webp",
+      "images/images_2026/b48/b48_03.webp",
+      "images/images_2026/b48/b48_04.webp"
+    ],
     "video_list": [
       "https://www.youtube.com/watch?v=ioFjGKohozQ"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b48/b48_01.webp",
-      "images/Bachelor_2026/b48/b48_02.webp",
-      "images/Bachelor_2026/b48/b48_03.webp",
-      "images/Bachelor_2026/b48/b48_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b49",
@@ -902,14 +1461,16 @@
     "materials": [
       "布"
     ],
-    "main_image": "images/Bachelor_2026/b49/b49_01.webp",
+    "main_image": "images/images_2026/b49/b49_02.webp",
+    "image_list": [
+      "images/images_2026/b49/b49_01.webp",
+      "images/images_2026/b49/b49_02.webp",
+      "images/images_2026/b49/b49_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b49/b49_01.webp",
-      "images/Bachelor_2026/b49/b49_02.webp",
-      "images/Bachelor_2026/b49/b49_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b50",
@@ -928,14 +1489,16 @@
     "materials": [
       "樹脂"
     ],
-    "main_image": "images/Bachelor_2026/b50/b50_01.webp",
+    "main_image": "images/images_2026/b50/b50_03.webp",
+    "image_list": [
+      "images/images_2026/b50/b50_01.webp",
+      "images/images_2026/b50/b50_02.webp",
+      "images/images_2026/b50/b50_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b50/b50_01.webp",
-      "images/Bachelor_2026/b50/b50_02.webp",
-      "images/Bachelor_2026/b50/b50_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b51",
@@ -955,14 +1518,16 @@
       "カニカマ",
       "紙"
     ],
-    "main_image": "images/Bachelor_2026/b51/b51_01.webp",
+    "main_image": "images/images_2026/b51/b51_01.webp",
+    "image_list": [
+      "images/images_2026/b51/b51_01.webp",
+      "images/images_2026/b51/b51_02.webp",
+      "images/images_2026/b51/b51_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b51/b51_01.webp",
-      "images/Bachelor_2026/b51/b51_02.webp",
-      "images/Bachelor_2026/b51/b51_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b52",
@@ -982,18 +1547,20 @@
       "樹脂",
       "アクリル"
     ],
-    "main_image": "images/Bachelor_2026/b52/b52_01.webp",
+    "main_image": "images/images_2026/b52/b52_01.webp",
+    "image_list": [
+      "images/images_2026/b52/b52_01.webp",
+      "images/images_2026/b52/b52_02.webp",
+      "images/images_2026/b52/b52_03.webp",
+      "images/images_2026/b52/b52_04.webp",
+      "images/images_2026/b52/b52_05.webp",
+      "images/images_2026/b52/b52_06.webp",
+      "images/images_2026/b52/b52_07.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b52/b52_01.webp",
-      "images/Bachelor_2026/b52/b52_02.webp",
-      "images/Bachelor_2026/b52/b52_03.webp",
-      "images/Bachelor_2026/b52/b52_04.webp",
-      "images/Bachelor_2026/b52/b52_05.webp",
-      "images/Bachelor_2026/b52/b52_06.webp",
-      "images/Bachelor_2026/b52/b52_07.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b53",
@@ -1012,15 +1579,17 @@
     "materials": [
       "木材"
     ],
-    "main_image": "images/Bachelor_2026/b53/b53_01.webp",
+    "main_image": "images/images_2026/b53/b53_02.webp",
+    "image_list": [
+      "images/images_2026/b53/b53_01.webp",
+      "images/images_2026/b53/b53_02.webp",
+      "images/images_2026/b53/b53_03.webp",
+      "images/images_2026/b53/b53_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b53/b53_01.webp",
-      "images/Bachelor_2026/b53/b53_02.webp",
-      "images/Bachelor_2026/b53/b53_03.webp",
-      "images/Bachelor_2026/b53/b53_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b54",
@@ -1040,17 +1609,17 @@
       "紙",
       "人工毛"
     ],
-    "main_image": "images/Bachelor_2026/b54/b54_01.webp",
-    "video_list": [
-      "https://www.instagram.com/honoka_sasaki_011?igsh=aHBqcGpvdXFlY3E1&utm_source=qr"
-    ],
-    "video_to_last": false,
+    "main_image": "images/images_2026/b54/b54_01.webp",
     "image_list": [
-      "images/Bachelor_2026/b54/b54_01.webp",
-      "images/Bachelor_2026/b54/b54_02.webp",
-      "images/Bachelor_2026/b54/b54_03.webp",
-      "images/Bachelor_2026/b54/b54_04.webp"
-    ]
+      "images/images_2026/b54/b54_01.webp",
+      "images/images_2026/b54/b54_02.webp",
+      "images/images_2026/b54/b54_03.webp",
+      "images/images_2026/b54/b54_04.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b55",
@@ -1071,14 +1640,16 @@
       "ジェッソ",
       "モデリングペースト"
     ],
-    "main_image": "images/Bachelor_2026/b55/b55_01.webp",
+    "main_image": "images/images_2026/b55/b55_02.webp",
+    "image_list": [
+      "images/images_2026/b55/b55_01.webp",
+      "images/images_2026/b55/b55_02.webp",
+      "images/images_2026/b55/b55_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b55/b55_01.webp",
-      "images/Bachelor_2026/b55/b55_02.webp",
-      "images/Bachelor_2026/b55/b55_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b56",
@@ -1098,14 +1669,16 @@
       "紙",
       "布"
     ],
-    "main_image": "images/Bachelor_2026/b56/b56_01.webp",
+    "main_image": "images/images_2026/b56/b56_01.webp",
+    "image_list": [
+      "images/images_2026/b56/b56_01.webp",
+      "images/images_2026/b56/b56_02.webp",
+      "images/images_2026/b56/b56_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b56/b56_01.webp",
-      "images/Bachelor_2026/b56/b56_02.webp",
-      "images/Bachelor_2026/b56/b56_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b57",
@@ -1125,16 +1698,18 @@
       "プロジェクター",
       "スピーカー"
     ],
-    "main_image": "images/Bachelor_2026/b57/b57_01.webp",
+    "main_image": "images/images_2026/b57/b57_01.webp",
+    "image_list": [
+      "images/images_2026/b57/b57_01.webp",
+      "images/images_2026/b57/b57_02.webp",
+      "images/images_2026/b57/b57_03.webp"
+    ],
     "video_list": [
-      "https://www.youtube.com/playlist?list=PL1p13Zwi0wBRkBe_Tz2w5OfNtizWmCvPN"
+      "https://youtu.be/V0ugcvfGXr4?si=BsWw2_F4xGQs_Pq5"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b57/b57_01.webp",
-      "images/Bachelor_2026/b57/b57_02.webp",
-      "images/Bachelor_2026/b57/b57_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b58",
@@ -1153,13 +1728,15 @@
     "materials": [
       "プロジェクター"
     ],
-    "main_image": "images/Bachelor_2026/b58/b58_01.webp",
+    "main_image": "images/images_2026/b58/b58_01.webp",
+    "image_list": [
+      "images/images_2026/b58/b58_01.webp",
+      "images/images_2026/b58/b58_02.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b58/b58_01.webp",
-      "images/Bachelor_2026/b58/b58_02.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b59",
@@ -1180,14 +1757,16 @@
       "布",
       "モニター"
     ],
-    "main_image": "images/Bachelor_2026/b59/b59_01.webp",
+    "main_image": "images/images_2026/b59/b59_01.webp",
+    "image_list": [
+      "images/images_2026/b59/b59_01.webp",
+      "images/images_2026/b59/b59_02.webp",
+      "images/images_2026/b59/b59_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b59/b59_01.webp",
-      "images/Bachelor_2026/b59/b59_02.webp",
-      "images/Bachelor_2026/b59/b59_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b60",
@@ -1207,14 +1786,16 @@
       "紙",
       "糸"
     ],
-    "main_image": "images/Bachelor_2026/b60/b60_01.webp",
+    "main_image": "images/images_2026/b60/b60_03.webp",
+    "image_list": [
+      "images/images_2026/b60/b60_01.webp",
+      "images/images_2026/b60/b60_02.webp",
+      "images/images_2026/b60/b60_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b60/b60_01.webp",
-      "images/Bachelor_2026/b60/b60_02.webp",
-      "images/Bachelor_2026/b60/b60_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b61",
@@ -1233,14 +1814,16 @@
     "materials": [
       "布"
     ],
-    "main_image": "images/Bachelor_2026/b61/b61_01.webp",
+    "main_image": "images/images_2026/b61/b61_02.webp",
+    "image_list": [
+      "images/images_2026/b61/b61_01.webp",
+      "images/images_2026/b61/b61_02.webp",
+      "images/images_2026/b61/b61_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b61/b61_01.webp",
-      "images/Bachelor_2026/b61/b61_02.webp",
-      "images/Bachelor_2026/b61/b61_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b62",
@@ -1260,15 +1843,17 @@
       "ガラス",
       "ミョウバン"
     ],
-    "main_image": "images/Bachelor_2026/b62/b62_01.webp",
+    "main_image": "images/images_2026/b62/b62_01.webp",
+    "image_list": [
+      "images/images_2026/b62/b62_01.webp",
+      "images/images_2026/b62/b62_02.webp",
+      "images/images_2026/b62/b62_03.webp",
+      "images/images_2026/b62/b62_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b62/b62_01.webp",
-      "images/Bachelor_2026/b62/b62_02.webp",
-      "images/Bachelor_2026/b62/b62_03.webp",
-      "images/Bachelor_2026/b62/b62_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b63",
@@ -1288,15 +1873,17 @@
       "布",
       "糸"
     ],
-    "main_image": "images/Bachelor_2026/b63/b63_01.webp",
+    "main_image": "images/images_2026/b63/b63_01.webp",
+    "image_list": [
+      "images/images_2026/b63/b63_01.webp",
+      "images/images_2026/b63/b63_02.webp"
+    ],
     "video_list": [
       "https://drive.google.com/file/d/1yepVzX_bX9w0DfOXejQS0hrpExwCtXIu/view?usp=drive_link"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b63/b63_01.webp",
-      "images/Bachelor_2026/b63/b63_02.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b64",
@@ -1316,13 +1903,15 @@
       "モニター",
       "木材"
     ],
-    "main_image": "images/Bachelor_2026/b64/b64_01.webp",
+    "main_image": "images/images_2026/b64/b64_01.webp",
+    "image_list": [
+      "images/images_2026/b64/b64_01.webp",
+      "images/images_2026/b64/b64_02.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b64/b64_01.webp",
-      "images/Bachelor_2026/b64/b64_02.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b65",
@@ -1342,15 +1931,17 @@
       "布",
       "コーヒー"
     ],
-    "main_image": "images/Bachelor_2026/b65/b65_01.webp",
+    "main_image": "images/images_2026/b65/b65_01.webp",
+    "image_list": [
+      "images/images_2026/b65/b65_01.webp",
+      "images/images_2026/b65/b65_02.webp",
+      "images/images_2026/b65/b65_03.webp",
+      "images/images_2026/b65/b65_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b65/b65_01.webp",
-      "images/Bachelor_2026/b65/b65_02.webp",
-      "images/Bachelor_2026/b65/b65_03.webp",
-      "images/Bachelor_2026/b65/b65_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b66",
@@ -1370,14 +1961,16 @@
       "紙",
       "アクリル絵の具"
     ],
-    "main_image": "images/Bachelor_2026/b66/b66_01.webp",
+    "main_image": "images/images_2026/b66/b66_02.webp",
+    "image_list": [
+      "images/images_2026/b66/b66_01.webp",
+      "images/images_2026/b66/b66_02.webp",
+      "images/images_2026/b66/b66_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b66/b66_01.webp",
-      "images/Bachelor_2026/b66/b66_02.webp",
-      "images/Bachelor_2026/b66/b66_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b67",
@@ -1394,115 +1987,22 @@
       "id": "about4000km"
     },
     "materials": [
-      "榧"
+      "木材（榧）"
     ],
-    "main_image": "images/Bachelor_2026/b67/b67_01.webp",
+    "main_image": "images/images_2026/b67/b67_01.webp",
+    "image_list": [
+      "images/images_2026/b67/b67_01.webp",
+      "images/images_2026/b67/b67_02.webp",
+      "images/images_2026/b67/b67_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b67/b67_01.webp",
-      "images/Bachelor_2026/b67/b67_02.webp",
-      "images/Bachelor_2026/b67/b67_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b68",
     "sort_number": 68,
-    "name": "山口 桃佳",
-    "hiragana_name": "やまぐちももか",
-    "en_name": "Yamaguchi Momoka",
-    "title": "共生",
-    "concept": "この4年間で何百枚もの線を重ねるうちに、私は｢生きている絵｣を描きたいと思うようになった。私が生命力を感じるものは、ひとつの大きな存在ではなく、小さく雑多なものたちが群れをなす瞬間だ。手で描かれた形や色が集まり、互いに呼吸するようにそこに在る。その共生の気配を見ることを目標に、今回の作品群を制作した。",
-    "project": "D",
-    "Master_project": "",
-    "contact": {
-      "type": "Instagram",
-      "id": "inu_gab_human"
-    },
-    "materials": [
-      "紙"
-    ],
-    "main_image": "images/Bachelor_2026/b68/b68_01.webp",
-    "video_list": [],
-    "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b68/b68_01.webp",
-      "images/Bachelor_2026/b68/b68_02.webp",
-      "images/Bachelor_2026/b68/b68_03.webp"
-    ]
-  },
-  {
-    "school_number": "b69",
-    "sort_number": 69,
-    "name": "横山 颯",
-    "hiragana_name": "よこやまそう",
-    "en_name": "Yokoyama Sou",
-    "title": "不可解像",
-    "concept": "狂いが生み出す純粋な美を求めて。私たちが世界をみる時に生じる認識のフィルターや偏りは、各々の経験や自我などの「アイデンティティ」が作用している。本作は手元を見ずに描く偶発的な線と意図的な再構成を組み合わせることで、認識と現実のずれを可視化した。そこに描かれた情報は狂っている。だからこそ、描く意味があるのだ。狂いは我々の純粋性を肯定する。そこに美しさをみる。",
-    "project": "D",
-    "Master_project": "",
-    "contact": {
-      "type": "Instagram",
-      "id": "sou_side_"
-    },
-    "materials": [
-      "紙",
-      "金属",
-      "アクリル"
-    ],
-    "main_image": "images/Bachelor_2026/b69/b69_01.webp",
-    "video_list": [],
-    "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b69/b69_01.webp",
-      "images/Bachelor_2026/b69/b69_02.webp",
-      "images/Bachelor_2026/b69/b69_03.webp",
-      "images/Bachelor_2026/b69/b69_04.webp",
-      "images/Bachelor_2026/b69/b69_05.webp",
-      "images/Bachelor_2026/b69/b69_06.webp",
-      "images/Bachelor_2026/b69/b69_07.webp",
-      "images/Bachelor_2026/b69/b69_08.webp"
-    ]
-  },
-  {
-    "school_number": "b70",
-    "sort_number": 70,
-    "name": "吉澤 夢",
-    "hiragana_name": "よしざわゆめ",
-    "en_name": "Yoshizawa Yume",
-    "title": "バクバクバグバク",
-    "concept": "バクの「バグバク」には、悩みがあります。びっくりしたり焦ったりして心臓がバクバクすると、体にバグが起きて、知らない自分に変身してしまうのです。それがこわくて、なかなか家の外に出られません。バグバクは毎晩、食べたいものを食べたり、行きたい場所へ行ったりする夢を見ます。そして朝起きると、それが夢だったことに悲しくなるのです。ある日「このままじゃいけない」と思い、外へ出る決心をします。",
-    "project": "D",
-    "Master_project": "",
-    "contact": {
-      "type": "",
-      "id": ""
-    },
-    "materials": [
-      "紙",
-      "木"
-    ],
-    "main_image": "images/Bachelor_2026/b70/b70_01.webp",
-    "video_list": [],
-    "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b70/b70_01.webp",
-      "images/Bachelor_2026/b70/b70_02.webp",
-      "images/Bachelor_2026/b70/b70_03.webp",
-      "images/Bachelor_2026/b70/b70_04.webp",
-      "images/Bachelor_2026/b70/b70_05.webp",
-      "images/Bachelor_2026/b70/b70_06.webp",
-      "images/Bachelor_2026/b70/b70_07.webp",
-      "images/Bachelor_2026/b70/b70_08.webp",
-      "images/Bachelor_2026/b70/b70_09.webp",
-      "images/Bachelor_2026/b70/b70_10.webp",
-      "images/Bachelor_2026/b70/b70_11.webp",
-      "images/Bachelor_2026/b70/b70_12.webp"
-    ]
-  },
-  {
-    "school_number": "b71",
-    "sort_number": 71,
     "name": "栁澤 杏月",
     "hiragana_name": "やなぎさわあんず",
     "en_name": "Yanagisawa Anzu",
@@ -1519,15 +2019,106 @@
       "モニター",
       "木材"
     ],
-    "main_image": "images/Bachelor_2026/b71/b71_01.webp",
+    "main_image": "images/images_2026/b68/b68_01.webp",
+    "image_list": [
+      "images/images_2026/b68/b68_01.webp",
+      "images/images_2026/b68/b68_02.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b69",
+    "sort_number": 69,
+    "name": "山口 桃佳",
+    "hiragana_name": "やまぐちももか",
+    "en_name": "Yamaguchi Momoka",
+    "title": "共生",
+    "concept": "この4年間で何百枚もの線を重ねるうちに、私は｢生きている絵｣を描きたいと思うようになった。私が生命力を感じるものは、ひとつの大きな存在ではなく、小さく雑多なものたちが群れをなす瞬間だ。手で描かれた形や色が集まり、互いに呼吸するようにそこに在る。その共生の気配を見ることを目標に、今回の作品群を制作した。",
+    "project": "D",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "inu_gab_human"
+    },
+    "materials": [
+      "紙"
+    ],
+    "main_image": "images/images_2026/b69/b69_01.webp",
     "image_list": [
-      "images/Bachelor_2026/b71/b71_01.webp",
-      "images/Bachelor_2026/b71/b71_02.webp",
-      "images/Bachelor_2026/b71/b71_03.webp",
-      "images/Bachelor_2026/b71/b71_04.webp"
-    ]
+      "images/images_2026/b69/b69_01.webp",
+      "images/images_2026/b69/b69_02.webp",
+      "images/images_2026/b69/b69_03.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b70",
+    "sort_number": 70,
+    "name": "横山 颯",
+    "hiragana_name": "よこやまそう",
+    "en_name": "Yokoyama Sou",
+    "title": "不可解像",
+    "concept": "狂いが生み出す純粋な美を求めて。私たちが世界をみる時に生じる認識のフィルターや偏りは、各々の経験や自我などの「アイデンティティ」が作用している。本作は手元を見ずに描く偶発的な線と意図的な再構成を組み合わせることで、認識と現実のずれを可視化した。そこに描かれた情報は狂っている。だからこそ、描く意味があるのだ。狂いは我々の純粋性を肯定する。そこに美しさをみる。",
+    "project": "D",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "sou_side_"
+    },
+    "materials": [
+      "紙",
+      "金属",
+      "アクリル"
+    ],
+    "main_image": "images/images_2026/b70/b70_01.webp",
+    "image_list": [
+      "images/images_2026/b70/b70_01.webp",
+      "images/images_2026/b70/b70_02.webp",
+      "images/images_2026/b70/b70_03.webp",
+      "images/images_2026/b70/b70_04.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b71",
+    "sort_number": 71,
+    "name": "吉澤 夢",
+    "hiragana_name": "よしざわゆめ",
+    "en_name": "Yoshizawa Yume",
+    "title": "バクバクバグバク",
+    "concept": "バクの「バグバク」には、悩みがあります。びっくりしたり焦ったりして心臓がバクバクすると、体にバグが起きて、知らない自分に変身してしまうのです。それがこわくて、なかなか家の外に出られません。バグバクは毎晩、食べたいものを食べたり、行きたい場所へ行ったりする夢を見ます。そして朝起きると、それが夢だったことに悲しくなるのです。ある日「このままじゃいけない」と思い、外へ出る決心をします。",
+    "project": "D",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "紙",
+      "木材"
+    ],
+    "main_image": "images/images_2026/b71/b71_02.webp",
+    "image_list": [
+      "images/images_2026/b71/b71_01.webp",
+      "images/images_2026/b71/b71_02.webp",
+      "images/images_2026/b71/b71_03.webp",
+      "images/images_2026/b71/b71_04.webp",
+      "images/images_2026/b71/b71_05.webp",
+      "images/images_2026/b71/b71_06.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b72",
@@ -1550,25 +2141,19 @@
       "スタイロフォーム",
       "FRP"
     ],
-    "main_image": "images/Bachelor_2026/b72/b72_01.webp",
+    "main_image": "images/images_2026/b72/b72_04.webp",
+    "image_list": [
+      "images/images_2026/b72/b72_01.webp",
+      "images/images_2026/b72/b72_02.webp",
+      "images/images_2026/b72/b72_03.webp",
+      "images/images_2026/b72/b72_04.webp"
+    ],
     "video_list": [
       "https://youtube.com/shorts/TghhSHMwgm8?feature=shared"
     ],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b72/b72_01.webp",
-      "images/Bachelor_2026/b72/b72_02.webp",
-      "images/Bachelor_2026/b72/b72_03.webp",
-      "images/Bachelor_2026/b72/b72_04.webp",
-      "images/Bachelor_2026/b72/b72_05.webp",
-      "images/Bachelor_2026/b72/b72_06.webp",
-      "images/Bachelor_2026/b72/b72_07.webp",
-      "images/Bachelor_2026/b72/b72_08.webp",
-      "images/Bachelor_2026/b72/b72_09.webp",
-      "images/Bachelor_2026/b72/b72_10.webp",
-      "images/Bachelor_2026/b72/b72_11.webp",
-      "images/Bachelor_2026/b72/b72_12.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b73",
@@ -1587,19 +2172,17 @@
     "materials": [
       "布"
     ],
-    "main_image": "images/Bachelor_2026/b73/b73_01.webp",
+    "main_image": "images/images_2026/b73/b73_01.webp",
+    "image_list": [
+      "images/images_2026/b73/b73_01.webp",
+      "images/images_2026/b73/b73_02.webp",
+      "images/images_2026/b73/b73_03.webp",
+      "images/images_2026/b73/b73_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b73/b73_01.webp",
-      "images/Bachelor_2026/b73/b73_02.webp",
-      "images/Bachelor_2026/b73/b73_03.webp",
-      "images/Bachelor_2026/b73/b73_04.webp",
-      "images/Bachelor_2026/b73/b73_05.webp",
-      "images/Bachelor_2026/b73/b73_06.webp",
-      "images/Bachelor_2026/b73/b73_07.webp",
-      "images/Bachelor_2026/b73/b73_08.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b74",
@@ -1619,17 +2202,16 @@
       "スタイロフォーム",
       "コンクリート"
     ],
-    "main_image": "images/Bachelor_2026/b74/b74_01.webp",
+    "main_image": "images/images_2026/b74/b74_02.webp",
+    "image_list": [
+      "images/images_2026/b74/b74_01.webp",
+      "images/images_2026/b74/b74_02.webp",
+      "images/images_2026/b74/b74_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b74/b74_01.webp",
-      "images/Bachelor_2026/b74/b74_02.webp",
-      "images/Bachelor_2026/b74/b74_03.webp",
-      "images/Bachelor_2026/b74/b74_04.webp",
-      "images/Bachelor_2026/b74/b74_05.webp",
-      "images/Bachelor_2026/b74/b74_06.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b75",
@@ -1649,14 +2231,16 @@
       "紙",
       "樹脂"
     ],
-    "main_image": "images/Bachelor_2026/b75/b75_01.webp",
+    "main_image": "images/images_2026/b75/b75_01.webp",
+    "image_list": [
+      "images/images_2026/b75/b75_01.webp",
+      "images/images_2026/b75/b75_02.webp",
+      "images/images_2026/b75/b75_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b75/b75_01.webp",
-      "images/Bachelor_2026/b75/b75_02.webp",
-      "images/Bachelor_2026/b75/b75_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b76",
@@ -1676,13 +2260,15 @@
       "石粉粘土",
       "木材"
     ],
-    "main_image": "images/Bachelor_2026/b76/b76_01.webp",
+    "main_image": "images/images_2026/b76/b76_01.webp",
+    "image_list": [
+      "images/images_2026/b76/b76_01.webp",
+      "images/images_2026/b76/b76_02.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b76/b76_01.webp",
-      "images/Bachelor_2026/b76/b76_02.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b77",
@@ -1701,16 +2287,18 @@
     "materials": [
       "樹脂"
     ],
-    "main_image": "images/Bachelor_2026/b77/b77_01.webp",
+    "main_image": "images/images_2026/b77/b77_03.webp",
+    "image_list": [
+      "images/images_2026/b77/b77_01.webp",
+      "images/images_2026/b77/b77_02.webp",
+      "images/images_2026/b77/b77_03.webp",
+      "images/images_2026/b77/b77_04.webp",
+      "images/images_2026/b77/b77_05.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b77/b77_01.webp",
-      "images/Bachelor_2026/b77/b77_02.webp",
-      "images/Bachelor_2026/b77/b77_03.webp",
-      "images/Bachelor_2026/b77/b77_04.webp",
-      "images/Bachelor_2026/b77/b77_05.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b78",
@@ -1729,15 +2317,17 @@
     "materials": [
       "金属"
     ],
-    "main_image": "images/Bachelor_2026/b78/b78_01.webp",
+    "main_image": "images/images_2026/b78/b78_01.webp",
+    "image_list": [
+      "images/images_2026/b78/b78_01.webp",
+      "images/images_2026/b78/b78_02.webp",
+      "images/images_2026/b78/b78_03.webp",
+      "images/images_2026/b78/b78_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b78/b78_01.webp",
-      "images/Bachelor_2026/b78/b78_02.webp",
-      "images/Bachelor_2026/b78/b78_03.webp",
-      "images/Bachelor_2026/b78/b78_04.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b79",
@@ -1756,14 +2346,16 @@
     "materials": [
       "石粉粘土"
     ],
-    "main_image": "images/Bachelor_2026/b79/b79_01.webp",
+    "main_image": "images/images_2026/b79/b79_01.webp",
+    "image_list": [
+      "images/images_2026/b79/b79_01.webp",
+      "images/images_2026/b79/b79_02.webp",
+      "images/images_2026/b79/b79_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b79/b79_01.webp",
-      "images/Bachelor_2026/b79/b79_02.webp",
-      "images/Bachelor_2026/b79/b79_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b80",
@@ -1782,13 +2374,15 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/Bachelor_2026/b80/b80_01.webp",
+    "main_image": "images/images_2026/b80/b80_01.webp",
+    "image_list": [
+      "images/images_2026/b80/b80_01.webp",
+      "images/images_2026/b80/b80_02.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b80/b80_01.webp",
-      "images/Bachelor_2026/b80/b80_02.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b81",
@@ -1807,14 +2401,16 @@
     "materials": [
       "木材"
     ],
-    "main_image": "images/Bachelor_2026/b81/b81_01.webp",
+    "main_image": "images/images_2026/b81/b81_01.webp",
+    "image_list": [
+      "images/images_2026/b81/b81_01.webp",
+      "images/images_2026/b81/b81_02.webp",
+      "images/images_2026/b81/b81_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b81/b81_01.webp",
-      "images/Bachelor_2026/b81/b81_02.webp",
-      "images/Bachelor_2026/b81/b81_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b82",
@@ -1834,16 +2430,18 @@
       "木材",
       "石塑粘土"
     ],
-    "main_image": "images/Bachelor_2026/b82/b82_01.webp",
+    "main_image": "images/images_2026/b82/b82_01.webp",
+    "image_list": [
+      "images/images_2026/b82/b82_01.webp",
+      "images/images_2026/b82/b82_02.webp",
+      "images/images_2026/b82/b82_03.webp",
+      "images/images_2026/b82/b82_04.webp",
+      "images/images_2026/b82/b82_05.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b82/b82_01.webp",
-      "images/Bachelor_2026/b82/b82_02.webp",
-      "images/Bachelor_2026/b82/b82_03.webp",
-      "images/Bachelor_2026/b82/b82_04.webp",
-      "images/Bachelor_2026/b82/b82_05.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b83",
@@ -1862,14 +2460,16 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/Bachelor_2026/b83/b83_01.webp",
+    "main_image": "images/images_2026/b83/b83_01.webp",
+    "image_list": [
+      "images/images_2026/b83/b83_01.webp",
+      "images/images_2026/b83/b83_02.webp",
+      "images/images_2026/b83/b83_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b83/b83_01.webp",
-      "images/Bachelor_2026/b83/b83_02.webp",
-      "images/Bachelor_2026/b83/b83_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b84",
@@ -1890,14 +2490,16 @@
       "樹脂",
       "スタイロフォーム"
     ],
-    "main_image": "images/Bachelor_2026/b84/b84_01.webp",
+    "main_image": "images/images_2026/b84/b84_01.webp",
+    "image_list": [
+      "images/images_2026/b84/b84_01.webp",
+      "images/images_2026/b84/b84_02.webp",
+      "images/images_2026/b84/b84_03.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
-    "image_list": [
-      "images/Bachelor_2026/b84/b84_01.webp",
-      "images/Bachelor_2026/b84/b84_02.webp",
-      "images/Bachelor_2026/b84/b84_03.webp"
-    ]
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "b85",
@@ -1917,14 +2519,562 @@
       "布",
       "樹脂"
     ],
-    "main_image": "images/Bachelor_2026/b85/b85_01.webp",
+    "main_image": "images/images_2026/b85/b85_01.webp",
+    "image_list": [
+      "images/images_2026/b85/b85_01.webp",
+      "images/images_2026/b85/b85_02.webp",
+      "images/images_2026/b85/b85_03.webp",
+      "images/images_2026/b85/b85_04.webp"
+    ],
     "video_list": [],
     "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b86",
+    "sort_number": 86,
+    "name": "キム ガヒョン",
+    "hiragana_name": "きむがひょん",
+    "en_name": "Kim Gahyun",
+    "title": "思い込みの形",
+    "concept": "食事をする瞬間を題材にし、手と結果の間に存在する道具を意図的に省略した、ロトスコーピングを用いた2Dアニメーション ゲシュタルト現象は視覚認知だけでなく、コミュニケーションの過程にも表れると考えます。人との会話では、文脈や状況から不足した情報を補完し、意味を理解することができます。本作品では、意図的に生み出された「情報の空白」が、周囲の文脈や視覚的手がかりによって成立することを表現します。",
+    "project": "Y",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "プロジェクター"
+    ],
+    "main_image": "images/images_2026/b86/b86_01.webp",
     "image_list": [
-      "images/Bachelor_2026/b85/b85_01.webp",
-      "images/Bachelor_2026/b85/b85_02.webp",
-      "images/Bachelor_2026/b85/b85_03.webp",
-      "images/Bachelor_2026/b85/b85_04.webp"
-    ]
+      "images/images_2026/b86/b86_01.webp",
+      "images/images_2026/b86/b86_02.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b87",
+    "sort_number": 87,
+    "name": "チャ ミン",
+    "hiragana_name": "ちゃみん",
+    "en_name": "Cha Min",
+    "title": "物が感情を表す時",
+    "concept": "私たちは絵や映画みたいな作品を鑑賞する時、私たち人の立場から立って作品を見て感じることが多いです。それなら、私たち人の立場ではなく物の立場から見たとしたらどんなものを見て感じるのでしょうか？私たち人の日常の中にある物を見て観察することで、その日常の中で物が感じる感情と感覚を表し、「物が感情を表す時」を表現した作品です。",
+    "project": "Y",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "プロジェクター"
+    ],
+    "main_image": "images/images_2026/b87/b87_01.webp",
+    "image_list": [
+      "images/images_2026/b87/b87_01.webp",
+      "images/images_2026/b87/b87_02.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b88",
+    "sort_number": 88,
+    "name": "張替 咲良",
+    "hiragana_name": "はりがえさくら",
+    "en_name": "Harigae Sakura",
+    "title": "viewer",
+    "concept": "会場に設置したカメラで来場者の姿を撮影し、その映像をリアルタイムでプロジェクターに投影する。鑑賞者は作品を見る主体から、見られる対象へと立場を反転させられる。展示空間における「見る／見られる」という関係性を可視化することで、作品と鑑賞者の境界の曖昧さや、私たちが日常的に置かれている視線の構造を問い直す。今日ここに、様々な卒業作品を見に来たあなたは、私の卒業作品になる。",
+    "project": "Y",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "プロジェクター",
+      "カメラ"
+    ],
+    "main_image": "images/images_2026/b88/b88_01.webp",
+    "image_list": [
+      "images/images_2026/b88/b88_01.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b89",
+    "sort_number": 89,
+    "name": "伊藤 陽平",
+    "hiragana_name": "いとうようへい",
+    "en_name": "Ito Yohei",
+    "title": "打ち消し",
+    "concept": "『マイナス×マイナス＝プラス』のように、歪み×歪み＝正常という現象をテーマにした作品。あらかじめ歪ませた映像を、同じ歪みを加えるよう補正されたカメラで撮影することで、結果として“正常に見える映像”が成立する。歪んだモチーフが正しい形として知覚される瞬間に生まれる安心感と、歪んだ映像と正常な映像とのギャップを体験させる。",
+    "project": "Y",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "モニター",
+      "カメラ",
+      "PC"
+    ],
+    "main_image": "images/images_2026/b89/b89_01.webp",
+    "image_list": [
+      "images/images_2026/b89/b89_01.webp",
+      "images/images_2026/b89/b89_02.webp",
+      "images/images_2026/b89/b89_03.webp",
+      "images/images_2026/b89/b89_04.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b90",
+    "sort_number": 90,
+    "name": "齋田 健太",
+    "hiragana_name": "さいだけんた",
+    "en_name": "Saida Kenta",
+    "title": "余白",
+    "concept": "不完全な物がもつ魅力について考え、私はモノの一部のみを切り取った彫刻を制作しました。人が想像する行為の中には、「余白」が存在します。これらはあえて一部しか提示しないことで、鑑賞者が残りを補い、想像し、これまで無意識のうちに感じ取ってきた感覚を呼び起こします。これらの作品は、鑑賞者が自ら気づくという「喜び」を生み出すことを目指しています。",
+    "project": "Y",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "3___saiji"
+    },
+    "materials": [
+      "紙",
+      "布",
+      "金属",
+      "樹脂"
+    ],
+    "main_image": "images/images_2026/b90/b90_01.webp",
+    "image_list": [
+      "images/images_2026/b90/b90_01.webp",
+      "images/images_2026/b90/b90_02.webp",
+      "images/images_2026/b90/b90_03.webp",
+      "images/images_2026/b90/b90_04.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b91",
+    "sort_number": 91,
+    "name": "佐々木 成美",
+    "hiragana_name": "ささきなるみ",
+    "en_name": "Sasaki Narumi",
+    "title": "95:5",
+    "concept": "日本は男女どちらかが苗字を変えないと結婚できない、世界最後の夫婦同氏制の国です。現状、結婚に伴い苗字を変えているのは女性が95%で、男性は5%と偏っています。この100枚の肖像は、結婚による改姓者の男女比を可視化したものです。実際に改姓を経験した男女の旧姓のハンコで顔を描き、苗字も顔も生まれ持ったアイデンティティであることを表現しました。",
+    "project": "Y",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "narumi._.sasaki"
+    },
+    "materials": [
+      "紙",
+      "木材"
+    ],
+    "main_image": "images/images_2026/b91/b91_01.webp",
+    "image_list": [
+      "images/images_2026/b91/b91_01.webp",
+      "images/images_2026/b91/b91_02.webp",
+      "images/images_2026/b91/b91_03.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b92",
+    "sort_number": 92,
+    "name": "福本 紗菜",
+    "hiragana_name": "ふくもとさな",
+    "en_name": "Fukumoto Sana",
+    "title": "blown out highlights",
+    "concept": "古い写真を見返す時、そこに映るのは確かに私であるが記憶が朧げであるため、私ではない違う人の様に感じる。記憶がぼんやり蘇る写真を見ると経験や知識から新しく情景が想起される。「写真の白飛び」という日常の偶発的な表現を用い有性さを飛ばし、匿名性のある写真の表現を試みた。この表現より生まれた写真からは、それぞれの経験や知識を通して白く飛んだ余白を埋めるように、様々な感情や情景を感じられるかもしれない。",
+    "project": "Y",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "紙",
+      "アルミフレーム",
+      "テープライト"
+    ],
+    "main_image": "images/images_2026/b92/b92_01.webp",
+    "image_list": [
+      "images/images_2026/b92/b92_01.webp",
+      "images/images_2026/b92/b92_02.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b93",
+    "sort_number": 93,
+    "name": "八木 美海",
+    "hiragana_name": "やぎみみ",
+    "en_name": "Yagi Mimi",
+    "title": "目標と失敗がもたらすモノの行為主体性の強化",
+    "concept": "ヒトは生活において自らで意思決定し、能動的に行動する、行為の主体性を持っている。モノに行為主体性を宿したとき、我々がそれをどのように感じ取るのかを探る試みである。モノに目標を与え主体的に行動させると、環境や対象との関係によってエラーが生じる。その過程で現れる成功や失敗が、モノに主体性やキャラクターを持たせるのではないか。",
+    "project": "Y",
+    "Master_project": "",
+    "contact": {
+      "type": "Instagram",
+      "id": "y_g_m_m"
+    },
+    "materials": [
+      "木材",
+      "コンクリート",
+      "Arduino",
+      "電子部品"
+    ],
+    "main_image": "images/images_2026/b93/b93_01.webp",
+    "image_list": [
+      "images/images_2026/b93/b93_01.webp",
+      "images/images_2026/b93/b93_02.webp"
+    ],
+    "video_list": [
+      "https://www.youtube.com/watch?v=_yYRmunRKhk"
+    ],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "b94",
+    "sort_number": 94,
+    "name": "山口 葵",
+    "hiragana_name": "やまぐちあおい",
+    "en_name": "Yamaguchi Aoi",
+    "title": "とある、ことばの記録",
+    "concept": "通常つけない文字にてんてん(濁点)やまる(半濁点)をつけた架空のことばを制作し、本にまとめた。文字の形や本来のことばが持つ意味から皆なんとなく“よめてしまう”、共通する概念があることに面白さを感じた。てんてんやまるをつけることによって、ことばの持っている意味やイメージに新たな広がりを感じてもらいたい。",
+    "project": "Y",
+    "Master_project": "",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "紙",
+      "木材"
+    ],
+    "main_image": "images/images_2026/b94/b94_01.webp",
+    "image_list": [
+      "images/images_2026/b94/b94_01.webp",
+      "images/images_2026/b94/b94_02.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "https://drive.google.com/drive/folders/147PVPH2v1WyRXuSuOfnekMB0JQ7hgxt7?usp=drive_link",
+    "link_type": "pdf"
+  },
+  {
+    "school_number": "m01",
+    "sort_number": 95,
+    "name": "姚 琛璐",
+    "hiragana_name": "ようちんろ",
+    "en_name": "Yao Chenlu",
+    "title": "Face on the Building",
+    "concept": "「Face on the Building」シリーズでは、建築を「居住のための対象」から切り離し、知覚されることそのものとして捉えることを試みている。扉や窓がもはや出入りや使用を指し示さなくなるとき、立面や動線、そして痕跡が、感情や表情を担い始める。本シリーズを通して、日常の中に潜在する風景をあらためて見出し、生活や空間を少しずらした視点から捉えることを目指している。",
+    "project": "M",
+    "Master_project": "佐野ゼミ",
+    "contact": {
+      "type": "Instagram",
+      "id": "tanlu_yao"
+    },
+    "materials": [
+      "紙",
+      "色鉛筆"
+    ],
+    "main_image": "images/images_2026/m01/m01_01.webp",
+    "image_list": [
+      "images/images_2026/m01/m01_01.webp",
+      "images/images_2026/m01/m01_02.webp",
+      "images/images_2026/m01/m01_03.webp",
+      "images/images_2026/m01/m01_04.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "m02",
+    "sort_number": 96,
+    "name": "黄 時雨",
+    "hiragana_name": "こうしぐれ",
+    "en_name": "Huang Shiyu",
+    "title": "接続される現在",
+    "concept": "観測装置は、私の存在と世界の存在を同期にする場。不確実な技術の森の中で、リアリティを領得するための糸口となる。装置の周囲を回り、覗き込み、動き続ける。剥き出しの断片たちは、身体に編み直され、一つのリアリティへと収束していく。私は装置を作る。それは、技術という名のブラックボックスに、再び生身の身体をき入れるための、ささやかな抵抗である。",
+    "project": "M",
+    "Master_project": "菅ゼミ",
+    "contact": {
+      "type": "Instagram",
+      "id": "yellow__house"
+    },
+    "materials": [
+      "ミクストメディア"
+    ],
+    "main_image": "images/images_2026/m02/m02_01.webp",
+    "image_list": [
+      "images/images_2026/m02/m02_01.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "https://huangshiyu.studio.site/works/graduationshow",
+    "link_type": "web"
+  },
+  {
+    "school_number": "m03",
+    "sort_number": 97,
+    "name": "髙橋 海松",
+    "hiragana_name": "たかはしみる",
+    "en_name": "Takahashi Miru",
+    "title": "この葉にかくれていることは",
+    "concept": "文庫本を一冊、ズボンのポケットにさして歩く人がいる。そこには何がかくれているのだろう。にぎやかな海がまるごと、それとも、砂の吹く町の百年かもしれない。一冊の本をほどき、バラバラにすると、つらなっていた言葉もまた、一瞬を切り取る窓へと変わった。この葉があれば、人は、新しい景色を見つけることができ、忘れたくない一瞬に帰ることができる。言葉をひとつ、ポケットに入れておけば、いつでも、何度でも。",
+    "project": "M",
+    "Master_project": "菅ゼミ",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "紙",
+      "糸"
+    ],
+    "main_image": "images/images_2026/m03/m03_01.webp",
+    "image_list": [
+      "images/images_2026/m03/m03_01.webp",
+      "images/images_2026/m03/m03_02.webp",
+      "images/images_2026/m03/m03_03.webp",
+      "images/images_2026/m03/m03_04.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "m04",
+    "sort_number": 98,
+    "name": "チャ チャ",
+    "hiragana_name": "ちゃちゃ",
+    "en_name": "Chaucer Xie",
+    "title": "相形",
+    "concept": "流れのなかに相が残り、動きのなかに型を成す。その動的な平衡を目にする時、私たちは物質の中に、本来あるはずのない「意志」の輪郭を見出す。",
+    "project": "M",
+    "Master_project": "荒牧ゼミ",
+    "contact": {
+      "type": "Instagram",
+      "id": "chaucer.xie"
+    },
+    "materials": [
+      "ミクストメディア"
+    ],
+    "main_image": "images/images_2026/m04/m04_01.webp",
+    "image_list": [
+      "images/images_2026/m04/m04_01.webp",
+      "images/images_2026/m04/m04_02.webp",
+      "images/images_2026/m04/m04_03.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "https://chaucerxie.art/work",
+    "link_type": "web"
+  },
+  {
+    "school_number": "m05",
+    "sort_number": 99,
+    "name": "宮内 暖笑",
+    "hiragana_name": "みやうちのえ",
+    "en_name": "Miyauchi Noe",
+    "title": "お茶会\n\nlive~drawing~\n\nDreaming Dog\n\nお皿を洗っています",
+    "concept": "回転する動きによって糸を上下し、お茶を淹れる作品。 糸の先には茶葉が繋がれていて、カップに漬けることでお茶を淹れていく。\\n\\nサーキュレーターの風にはためく布の動きによって生成するドローイング作品。布で作られたオブジェに風が吹き抜けると、踊っているような動きを見せる。オブジェには糸とペンがつながれていて、糸を伝って回転する画用紙に動きの痕跡が残されていく。\\n\\n公園で駆け回ることを夢見る犬。 小さな犬のオブジェは、内部の犬のおもちゃの動きと連動しフィールドを駆け回る。\\n\\n動きに反応して皿を洗う作品。４つの距離センサーが周囲の動きを感知し、皿を洗う動きに変換する。動くものが側にない限り、働くことはない。",
+    "project": "M",
+    "Master_project": "荒牧ゼミ",
+    "contact": {
+      "type": "Instagram",
+      "id": "dakerosaaaa"
+    },
+    "materials": [
+      "木材",
+      "金属",
+      "ターンテーブル",
+      "茶葉",
+      "ティーカップ","紙",
+      "木材",
+      "布",
+      "金属",
+      "ペン",
+      "サーキュレーター",
+      "ターンテーブル","木材",
+      "布",
+      "金属",
+      "砂",
+      "玩具",
+      "乾電池",
+      "磁石","金属",
+      "皿",
+      "スポンジ",
+      "距離センサー"
+    ],
+    "main_image": "images/images_2026/m05/m05_01.webp",
+    "image_list": [
+      "images/images_2026/m05/m05_01.webp",
+      "images/images_2026/m05/m05_02.webp",
+      "images/images_2026/m05/m05_03.webp",
+      "images/images_2026/m05/m05_04.webp",
+      "images/images_2026/m05/m05_05.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "m09",
+    "sort_number": 103,
+    "name": "シュ シフ",
+    "hiragana_name": "しゅしふ",
+    "en_name": "Zhu Sifu",
+    "title": "「みみもと​」 最終章の​心に​響く​音",
+    "concept": "人生の終わりに寄り添う、音のケアを提案する作品。聴覚は人間に最後まで残る感覚である。調査から、終末期の多くの患者が孤独の中で最期を迎えている現実が見えてきた。入院生活で常に耳元にある枕に音を宿し、朝と黄昏、季節の移ろい、大切な人の声を届けることで、最終章の時間を静かにつなぎ、人生の終わりを孤独なものではなくしていく。",
+    "project": "M",
+    "Master_project": "佐々木ゼミ",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "紙",
+      "木材",
+      "樹脂",
+      "モニター"
+    ],
+    "main_image": "images/images_2026/m09/m09_01.webp",
+    "image_list": [
+      "images/images_2026/m09/m09_01.webp",
+      "images/images_2026/m09/m09_02.webp"
+    ],
+    "video_list": [
+      "https://youtu.be/KKpT7AsfhxM?si=2xOvcpjpOZvLvAve"
+    ],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "m10",
+    "sort_number": 104,
+    "name": "藤井 菫",
+    "hiragana_name": "ふじいすみれ",
+    "en_name": "Fujii Sumire",
+    "title": "実存の確認",
+    "concept": "空間はいつも私たちのまわりにあるのに、その姿を直接見ることはできない。空間の実存は、身体との関わりの中で成立している。本作は、触れること、そこに身体を置くことを通して、背景として扱われてきた空間の存在を捉え直す試みである。視覚的な把握におさまらない感覚の層に注目し、空間が確かに「在る」ものとして持続している状態を示そうとしている。",
+    "project": "M",
+    "Master_project": "長崎ゼミ",
+    "contact": {
+      "type": "Instagram",
+      "id": "sumi_pionpion"
+    },
+    "materials": [
+      "石膏",
+      "寒天",
+      "飴",
+      "紙"
+    ],
+    "main_image": "images/images_2026/m10/m10_01.webp",
+    "image_list": [
+      "images/images_2026/m10/m10_01.webp",
+      "images/images_2026/m10/m10_02.webp",
+      "images/images_2026/m10/m10_03.webp",
+      "images/images_2026/m10/m10_04.webp",
+      "images/images_2026/m10/m10_05.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "m11",
+    "sort_number": 105,
+    "name": "ユ ゼファン",
+    "hiragana_name": "ゆぜふぁん",
+    "en_name": "Yu Zhefan",
+    "title": "RESEARCH ABOUT EVERYDAY THINGS",
+    "concept": "東京滞在中に記録した日常の風景や都市環境に見られる即興的な形態の発見を起点とし、板金に対して「切る」と「折る」という二つの操作のみを用いて造形を行うプロジェクトである。最小限の操作によって生じる形態からパターンを抽出し、写真に捉えられた日常的かつ実用的な形の在り方を抽象化された操作へと翻訳することで、素材の特性と形態生成のプロセスを検証し、造形の可能性を探る。",
+    "project": "M",
+    "Master_project": "長崎ゼミ",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "金属"
+    ],
+    "main_image": "images/images_2026/m11/m11_01.webp",
+    "image_list": [
+      "images/images_2026/m11/m11_01.webp",
+      "images/images_2026/m11/m11_02.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
+  },
+  {
+    "school_number": "m12",
+    "sort_number": 106,
+    "name": "余 津津",
+    "hiragana_name": "ゆじんじん",
+    "en_name": "Yu Jinjin",
+    "title": "時間のカタチ",
+    "concept": "私たちは日々、時計やカレンダーなどの時間道具を通じて時間を理解し、生活に取り入れている。しかし、時間はこれらのツールによって、いつの間にか具体的で独自の「かたち」を与えられていることに、あまり気づかない。本研究では、時間の「かたち」がどのように変化し、私たちの知覚や行動に影響を及ぼしているのかを探りたい。そして、時間の「見え方」や「感じ方」に新たな視点をもたらす表現の可能性を模索していく。",
+    "project": "M",
+    "Master_project": "永井ゼミ",
+    "contact": {
+      "type": "",
+      "id": ""
+    },
+    "materials": [
+      "紙"
+    ],
+    "main_image": "images/images_2026/m12/m12_01.webp",
+    "image_list": [
+      "images/images_2026/m12/m12_01.webp",
+      "images/images_2026/m12/m12_02.webp",
+      "images/images_2026/m12/m12_03.webp",
+      "images/images_2026/m12/m12_04.webp"
+    ],
+    "video_list": [],
+    "video_to_last": false,
+    "link": "",
+    "link_type": ""
   }
 ]
