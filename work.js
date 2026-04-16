@@ -68,8 +68,11 @@ async function loadWorkDetail() {
 function renderWorkPage(work, knownMaterials = []) {
   // --- 1. 画像・基本テキストの流し込み ---
   // GAS側でパスが完成しているため、そのまま src に流し込む
-  document.getElementById('main-visual').innerHTML = `<img src="${work.main_image}" style="width:100%; height:auto;" decoding="async" onerror="this.style.background='#f9f9f9'; this.removeAttribute('src');">`;
-  document.getElementById('work-title').innerText = work.title;
+
+  //4/17:main_imageをサムネイルのみに使用し、個別ページでの画像順をナンバリングに従う版に一旦変更中
+  const mainDisplayImage = (work.image_list && work.image_list.length > 0) ? work.image_list[0] : work.main_image;
+  document.getElementById('main-visual').innerHTML = `<img src="${mainDisplayImage}" style="width:100%; height:auto;" decoding="async" alt="" onerror="this.style.background='#f9f9f9'; this.removeAttribute('src'); this.style.display='block'; this.style.width='100%';">`;  document.getElementById('work-title').innerText = work.title;
+
   document.getElementById('work-designer').innerText = work.name;
   document.getElementById('work-concept').innerText = work.concept;
 
