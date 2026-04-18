@@ -402,7 +402,7 @@ align-itemsは左右、justfy-contentが上下*/
   opacity: 0.7; /* ホバー時は青い層を重ねる */
 }
 .work-item-link:hover .work-info{
-  color: magenta;
+  color: rgb(237, 45, 154);
   transition: 0.3s ease;
 }
 .work-item-link:hover .work-thumbnail img {
@@ -412,7 +412,7 @@ align-itemsは左右、justfy-contentが上下*/
 
 
 .menu-links a:hover{
-  color: magenta;
+  color: rgb(237, 45, 154);
   text-decoration: underline;
   transition: 0.3s;
 }
@@ -438,12 +438,12 @@ align-itemsは左右、justfy-contentが上下*/
   transition: color 1.2s ease;
 }
 .work-item-link:active .work-info{
-  color: magenta;
+  color: rgb(237, 45, 154);
   transition: color 0s;
 }
 
 .menu-links a:active{
-  color: magenta;
+  color: rgb(237, 45, 154);
   text-decoration: underline;
   transition: 0s;
 }

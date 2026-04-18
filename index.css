@@ -21,7 +21,7 @@
   white-space: nowrap;
 }
 .filter-tags span.active {
-  color: magenta;
+  color: rgb(237, 45, 154);
 }
 
 .filter-tags-wrapper{
@@ -35,11 +35,11 @@
 /* PC用 */
 @media (hover: hover) {
 .filter-tags span:hover{
-  color: magenta;
+  color: rgb(237, 45, 154);
   transition: 0.3s ease;
 }
 .filter-tags span.active:hover{
-  color: magenta;
+  color: rgb(237, 45, 154);
   opacity: 0.3;
   transition: 0.3s ease;
 }
@@ -47,7 +47,7 @@
 /* スマホ用 */
 @media (hover: none) {
 .filter-tags span.active {
-  color: magenta;
+  color: rgb(237, 45, 154);
 }
 }
 

@@ -174,11 +174,11 @@
   #work-contact a:hover,
   .return-to-Top a:hover {
   text-decoration: underline;
-  color: magenta;
+  color: rgb(237, 45, 154);
   transition: 0.3s ease;
 }
 .work-item-link:hover .rec-reason{
-  color: magenta;
+  color: rgb(237, 45, 154);
   transition: 0.3s ease;
 }
 }
@@ -188,11 +188,11 @@
 #work-contact a:active,
 .return-to-Top a:active {
   text-decoration: underline;
-  color: magenta;
+  color: rgb(237, 45, 154);
   transition: 0s ease;
 }
 .work-item-link:active .rec-reason{
-  color: magenta;
+  color: rgb(237, 45, 154);
   transition: 0s ease;
 }
 
