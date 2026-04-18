@@ -146,7 +146,12 @@ else {
       if (searchKey === "others" || searchKey === "その他") {
         return work.materials && work.materials.some(m => !knownMaterials.includes(m.trim()));
       }
-      return (String(work.project) === String(searchKey)) || (work.materials && work.materials.includes(searchKey));
+
+      //紙や木材だけど、種類を()で書いている人も引っかかるようにする
+      return (String(work.project) === String(searchKey)) || 
+        (work.materials && work.materials.some(m => 
+        m.trim() === searchKey || m.trim().replace(/（.*）|\(.*\)/, '').trim() === searchKey
+      ));
     });
 
     displayWorks.sort((a, b) => {

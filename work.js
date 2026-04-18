@@ -94,12 +94,14 @@ if (work.project === "M") {
     const knowns = []; // 絞り込みにある主要素材
     const others = []; // その他
 
+    //紙や木材で種類を()で書いているものをその他ではなくその素材扱いで取り出して表記
     work.materials.forEach(m => {
       const trimmedM = m.trim();
       if (!trimmedM) return;
-      if (knownMaterials.includes(trimmedM)) {
+      const baseM = trimmedM.replace(/（.*）|\(.*\)/, '').trim(); // 括弧を除いた素材名
+      if (knownMaterials.includes(baseM)) {
       // 主要素材はリンク付きのHTML文字列として保存
-      knowns.push(`<a href="index.html?filter=${trimmedM}" class="tag-link">#${trimmedM}</a>`);
+      knowns.push(`<a href="index.html?filter=${baseM}" class="tag-link">#${trimmedM}</a>`);
     } else {
       others.push(trimmedM);
     }
@@ -152,6 +154,18 @@ if (work.project === "M") {
     // contact_typeが空欄なら項目自体を隠す
     if (contactArea) contactArea.style.display = 'none';
   }
+  
+  // ---個人ウェブを連絡先SNSに改行した下に表示(提出されたlinkが個人サイトウェブ(link_type=web)のとき)---
+  if (work.link && work.link_type === 'web') {
+    const webLinkElem = document.getElementById('work-contact-area');
+    const webLinkContent = document.getElementById('work-contact');
+    if (webLinkElem && webLinkContent) {
+      webLinkElem.style.display = 'flex';
+      const existingContent = webLinkContent.innerHTML;
+      const separator = existingContent ? '<br>' : '';
+      webLinkContent.innerHTML += `${separator}<a href="${work.link}" target="_blank" rel="noopener noreferrer">個人ウェブサイト</a>`;
+    }
+  }
 
   }
 
@@ -170,16 +184,17 @@ if (work.project === "M") {
       // YouTube（ショート判定あり）
       const youtubeMatch = trimmedUrl.match(/(?:v=|shorts\/|youtu\.be\/|embed\/)([a-zA-Z0-9_-]{11})/);
         if (youtubeMatch) {
-          isVertical = trimmedUrl.includes('shorts/');
+          isVertical = trimmedUrl.includes('shorts/') || (work.video_class && work.video_class.includes('vertical'));
           embedHtml = `<iframe src="https://www.youtube.com/embed/${youtubeMatch[1]}" allowfullscreen></iframe>`;
-      }
+        }
 
       // Vimeo
       if (!embedHtml) {
-        const vimeoMatch = trimmedUrl.match(/vimeo\.com\/(?:video\/)?(\d+)/);
-        if (vimeoMatch) {
-          embedHtml = `<iframe src="https://player.vimeo.com/video/${vimeoMatch[1]}" allowfullscreen></iframe>`;
-        }
+      const vimeoMatch = trimmedUrl.match(/vimeo\.com\/(?:video\/)?(\d+)/);
+      if (vimeoMatch) {
+        isVertical = work.link_type === 'vimeo' || (work.video_class && work.video_class.includes('vertical'));
+        embedHtml = `<iframe src="https://player.vimeo.com/video/${vimeoMatch[1]}" allowfullscreen></iframe>`;
+      }
       }
 
       // Google Drive動画
@@ -254,6 +269,20 @@ if (work.project === "M") {
       renderImages();
     }
   }
+
+  // link_type=PDFの表示
+  if (work.link && work.link_type === 'pdf') {
+    const driveMatch = work.link.match(/drive\.google\.com\/file\/d\/([a-zA-Z0-9_-]+)/);
+  if (driveMatch) {
+    const pdfTag = `
+      <div class="content-item pdf-item">
+        <iframe src="https://drive.google.com/file/d/${driveMatch[1]}/preview" 
+          style="width:100%; height:600px; border:none;">
+        </iframe>
+      </div>`;
+    subContentContainer.insertAdjacentHTML('beforeend', pdfTag);
+  }
+}
 }
 
 
@@ -265,6 +294,30 @@ if (work.project === "M") {
 function renderRecommendations(currentWork, allWorks, knownMaterials) {
   const container = document.getElementById('recommend-list');
   if (!container) return;
+
+  //個別ページに入ったら、レコメンドをSessionStorageに保存して固定し、2回目以降は保存済みのものを表示
+  //タブを閉じるとリセット
+  const storageKey = `recommend_${currentWork.school_number}`;
+  const savedRecommend = sessionStorage.getItem(storageKey);
+  if (savedRecommend) {
+    const savedWorks = JSON.parse(savedRecommend);
+    savedWorks.forEach(work => {
+      const html = `
+        <div class="work-item">
+          <a href="work.html?p=${work.en_name}" class="work-item-link">
+            <div class="work-thumbnail">
+              <img src="${work.main_image}" alt="${work.title}" loading="lazy" decoding="async">
+            </div>
+            <div class="work-info">
+              <span class="work-title">${work.title}</span>
+              <span class="work-designer">${work.name}</span>
+            </div>
+          </a>
+        </div>`;
+      container.insertAdjacentHTML('beforeend', html);
+    });
+    return;
+  }
 
   const selectedNames = new Set([currentWork.en_name]);
   const recommended = [];
@@ -331,6 +384,16 @@ function renderRecommendations(currentWork, allWorks, knownMaterials) {
 
   // --- HTMLの描画 ---
   // renderRecommendations 関数内の描画ループ部分
+
+  //レコメンドの固定。sessionStorageに保存
+    const saveData = recommended.map(w => ({
+      en_name: w.en_name,
+      main_image: w.main_image,
+      title: w.title,
+      name: w.name
+    }));
+    sessionStorage.setItem(storageKey, JSON.stringify(saveData));
+
   recommended.forEach(work => {
     // ラベルがある場合のみ表示するHTMLを作成
     const labelHtml = ""; //work.recLabel ? `<div class="rec-reason">${work.recLabel}</div>` : "";

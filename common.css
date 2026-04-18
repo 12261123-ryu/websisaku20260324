@@ -70,6 +70,15 @@ html::-webkit-scrollbar {
   pointer-events: auto; /* 開いているときは操作可能にするため追加 */
   overflow-y: hidden;
   font-family: "Times","Times New Roman","游明朝体","游明朝","Yu Mincho","YuMincho",serif;
+
+  /*メニューを画面全体展開に試し変更4/18*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
 }
 .side-bar.is-open .fixed-labels {
   background-color: transparent;
@@ -448,6 +457,13 @@ footer{
   font-family: "Times","Times New Roman","游明朝体","游明朝","Yu Mincho","YuMincho",serif;
   color: #4a4a4a;
 }
+.footer-text-aboutonly{
+  display: flex;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+  max-width: 410px;
+}
 .footer-text{
   display: flex;
   font-size: 18px;
@@ -474,11 +490,18 @@ footer{
 
 
 
+
 /*レスポンシブ*/
 
 @media (min-width:600px)  {
+  /* 試しに広い画面の時のみサイドバーの当たり判定をバー全体にする(バー上ではスクロールできなくなる) */
+  .fixed-labels {
+    pointer-events: auto; /* 帯全体でクリックに反応するようにする */
+    cursor: pointer;      /* どこを触っても指マークが出るようにする */
+  }
+
   footer {
-    padding: 0 10px 50px 10px;
+    padding: 0 30px 25px 30px;
   }
 }
 
@@ -501,19 +524,12 @@ footer{
     margin-right: 40px;     /* 和英タイトルの間の距離 */
   }
 
-}
-
-
-
-
-/*レスポンシブ*/
-
-/* 試しに広い画面の時のみサイドバーの当たり判定をバー全体にする(バー上ではスクロールできなくなる) */
-@media (min-width: 600px) {
-  .fixed-labels {
-    pointer-events: auto; /* 帯全体でクリックに反応するようにする */
-    cursor: pointer;      /* どこを触っても指マークが出るようにする */
+  footer {
+    padding: 0 0px 25px 0px;
   }
 }
+
+
+
 
 

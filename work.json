@@ -24,6 +24,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -52,6 +53,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -83,6 +85,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -110,6 +113,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -140,6 +144,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -171,6 +176,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -200,6 +206,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -229,9 +236,10 @@
     "video_list": [
       "https://drive.google.com/file/d/1N6W_wlYt0A_EnGxmVz3Jz2zpEkDd8NQ5/view"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b09",
@@ -257,6 +265,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -285,6 +294,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -311,6 +321,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -339,6 +350,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -366,6 +378,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -401,9 +414,10 @@
     "video_list": [
       "https://www.youtube.com/shorts/tmuGfQnHfXk"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b15",
@@ -431,6 +445,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -460,6 +475,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -491,6 +507,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -520,6 +537,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -552,9 +570,10 @@
     "video_list": [
       "https://www.instagram.com/reel/DV9LNG1E5X2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b20",
@@ -580,6 +599,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -610,6 +630,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -639,9 +660,10 @@
     "video_list": [
       "https://drive.google.com/file/d/1EAWCacnR3xW_NAcCjfrp_GPzoplm1Ay5/view?usp=drive_link"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b23",
@@ -669,6 +691,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -700,6 +723,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -728,6 +752,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -756,6 +781,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -789,6 +815,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -820,6 +847,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -851,6 +879,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -882,9 +911,10 @@
     "video_list": [
       "https://youtu.be/Nm9Z-eFMmp4?si=ced3ohwdq1G4vE_-"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b31",
@@ -912,6 +942,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -943,6 +974,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -974,6 +1006,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1004,6 +1037,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1036,6 +1070,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1067,6 +1102,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1100,9 +1136,10 @@
     "video_list": [
       "https://youtu.be/How-qsxdg00"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b38",
@@ -1135,9 +1172,10 @@
     "video_list": [
       "https://youtu.be/-OnQwlJV2Q8"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b39",
@@ -1165,6 +1203,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1193,6 +1232,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1224,9 +1264,10 @@
     "video_list": [
       "https://youtu.be/ef67j6lX1Yc"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b42",
@@ -1257,9 +1298,10 @@
     "video_list": [
       "https://youtu.be/4hkqjGFStHk"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b43",
@@ -1287,6 +1329,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1315,6 +1358,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1344,6 +1388,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1373,9 +1418,10 @@
     "video_list": [
       "https://youtu.be/FT1-0TvUVLs?si=v8cVQQhl5yjoPUoC"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b47",
@@ -1403,9 +1449,10 @@
     "video_list": [
       "https://drive.google.com/file/d/1n-7aWl1SaAZoFLyNyoqoIzWZ-bo2g06h/view?usp=drive_link"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b48",
@@ -1438,9 +1485,10 @@
     "video_list": [
       "https://www.youtube.com/watch?v=ioFjGKohozQ"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b49",
@@ -1467,6 +1515,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1495,6 +1544,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1524,6 +1574,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1557,6 +1608,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1586,6 +1638,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1616,6 +1669,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1646,6 +1700,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1675,6 +1730,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1705,9 +1761,10 @@
     "video_list": [
       "https://youtu.be/V0ugcvfGXr4?si=BsWw2_F4xGQs_Pq5"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b58",
@@ -1733,6 +1790,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1763,6 +1821,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1792,6 +1851,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1820,6 +1880,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1850,6 +1911,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1879,9 +1941,10 @@
     "video_list": [
       "https://drive.google.com/file/d/1yepVzX_bX9w0DfOXejQS0hrpExwCtXIu/view?usp=drive_link"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b64",
@@ -1908,6 +1971,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1938,6 +2002,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1967,6 +2032,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -1995,6 +2061,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2024,6 +2091,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2052,6 +2120,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2083,6 +2152,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2115,6 +2185,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2149,9 +2220,10 @@
     "video_list": [
       "https://youtube.com/shorts/TghhSHMwgm8?feature=shared"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b73",
@@ -2179,6 +2251,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2208,6 +2281,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2237,6 +2311,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2265,6 +2340,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2295,6 +2371,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2324,6 +2401,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2352,6 +2430,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2379,6 +2458,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2407,6 +2487,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2438,6 +2519,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2466,6 +2548,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2496,6 +2579,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2526,6 +2610,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2553,6 +2638,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2580,6 +2666,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2607,6 +2694,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2638,6 +2726,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2670,6 +2759,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2699,6 +2789,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2728,6 +2819,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2759,9 +2851,10 @@
     "video_list": [
       "https://www.youtube.com/watch?v=_yYRmunRKhk"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "b94",
@@ -2788,7 +2881,8 @@
     ],
     "video_list": [],
     "video_to_last": false,
-    "link": "https://drive.google.com/drive/folders/147PVPH2v1WyRXuSuOfnekMB0JQ7hgxt7?usp=drive_link",
+    "video_class": [],
+    "link": "https://drive.google.com/file/d/1cjly3ucy56lEPWkKR3-FbbZMegDGtfIL/view",
     "link_type": "pdf"
   },
   {
@@ -2818,6 +2912,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2844,6 +2939,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "https://huangshiyu.studio.site/works/graduationshow",
     "link_type": "web"
   },
@@ -2874,6 +2970,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2902,6 +2999,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "https://chaucerxie.art/work",
     "link_type": "web"
   },
@@ -2911,7 +3009,7 @@
     "name": "宮内 暖笑",
     "hiragana_name": "みやうちのえ",
     "en_name": "Miyauchi Noe",
-    "title": "お茶会\n\nlive~drawing~\n\nDreaming Dog\n\nお皿を洗っています",
+    "title": "お茶会\\n\\nlive~drawing~\\n\\nDreaming Dog\\n\\nお皿を洗っています",
     "concept": "回転する動きによって糸を上下し、お茶を淹れる作品。 糸の先には茶葉が繋がれていて、カップに漬けることでお茶を淹れていく。\\n\\nサーキュレーターの風にはためく布の動きによって生成するドローイング作品。布で作られたオブジェに風が吹き抜けると、踊っているような動きを見せる。オブジェには糸とペンがつながれていて、糸を伝って回転する画用紙に動きの痕跡が残されていく。\\n\\n公園で駆け回ることを夢見る犬。 小さな犬のオブジェは、内部の犬のおもちゃの動きと連動しフィールドを駆け回る。\\n\\n動きに反応して皿を洗う作品。４つの距離センサーが周囲の動きを感知し、皿を洗う動きに変換する。動くものが側にない限り、働くことはない。",
     "project": "M",
     "Master_project": "荒牧ゼミ",
@@ -2924,19 +3022,19 @@
       "金属",
       "ターンテーブル",
       "茶葉",
-      "ティーカップ","紙",
+      "ティーカップ\\n\\n紙",
       "木材",
       "布",
       "金属",
       "ペン",
       "サーキュレーター",
-      "ターンテーブル","木材",
+      "ターンテーブル\\n\\n木材",
       "布",
       "金属",
       "砂",
       "玩具",
       "乾電池",
-      "磁石","金属",
+      "磁石\\n\\n金属",
       "皿",
       "スポンジ",
       "距離センサー"
@@ -2951,6 +3049,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -2982,9 +3081,10 @@
     "video_list": [
       "https://youtu.be/KKpT7AsfhxM?si=2xOvcpjpOZvLvAve"
     ],
+    "link_type": "",
     "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_class": [],
+    "link": ""
   },
   {
     "school_number": "m10",
@@ -3014,10 +3114,15 @@
       "images/images_2026/m10/m10_04.webp",
       "images/images_2026/m10/m10_05.webp"
     ],
-    "video_list": [],
-    "video_to_last": false,
-    "link": "",
-    "link_type": ""
+    "video_list": [
+      "https://vimeo.com/1165141751?fl=pl&fe=sh"
+    ],
+    "link_type": "",
+    "video_to_last": true,
+    "video_class": [
+      "vertical"
+    ],
+    "link": ""
   },
   {
     "school_number": "m11",
@@ -3043,6 +3148,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   },
@@ -3072,6 +3178,7 @@
     ],
     "video_list": [],
     "video_to_last": false,
+    "video_class": [],
     "link": "",
     "link_type": ""
   }
