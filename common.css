@@ -459,10 +459,10 @@ footer{
 }
 .footer-text-aboutonly{
   display: flex;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.5;
   padding-bottom: 20px;
-  max-width: 410px;
+  max-width: 330px;
 }
 .footer-text{
   display: flex;
@@ -503,6 +503,9 @@ footer{
   footer {
     padding: 0 30px 25px 30px;
   }
+  .footer-text-aboutonly{
+    font-size:14px;
+  }
 }
 
 
@@ -526,6 +529,9 @@ footer{
 
   footer {
     padding: 0 0px 25px 0px;
+  }
+  .footer-text-aboutonly{
+    max-width: 380px;
   }
 }
 
