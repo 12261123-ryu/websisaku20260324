@@ -415,7 +415,7 @@
       "https://www.youtube.com/shorts/tmuGfQnHfXk"
     ],
     "link_type": "",
-    "video_to_last": false,
+    "video_to_last": true,
     "video_class": [],
     "link": ""
   },
@@ -571,7 +571,7 @@
       "https://www.instagram.com/reel/DV9LNG1E5X2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
     ],
     "link_type": "",
-    "video_to_last": false,
+    "video_to_last": true,
     "video_class": [],
     "link": ""
   },
@@ -1942,7 +1942,7 @@
       "https://drive.google.com/file/d/1yepVzX_bX9w0DfOXejQS0hrpExwCtXIu/view?usp=drive_link"
     ],
     "link_type": "",
-    "video_to_last": false,
+    "video_to_last": true,
     "video_class": [],
     "link": ""
   },
@@ -2221,7 +2221,7 @@
       "https://youtube.com/shorts/TghhSHMwgm8?feature=shared"
     ],
     "link_type": "",
-    "video_to_last": false,
+    "video_to_last": true,
     "video_class": [],
     "link": ""
   },
