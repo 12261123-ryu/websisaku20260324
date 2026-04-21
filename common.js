@@ -46,6 +46,8 @@ fixedLabels.addEventListener('click', (e) => {
       sideBar.classList.add('is-open');
       menuIcon.textContent = '×';
       document.body.classList.add('menu-open');
+      // 高さを動的に設定
+      sideBar.style.height = window.innerHeight + 'px';
     } else {
       // スマホ：アイコンか 真ん中の文字(.bar-mid) を直接押した時だけ開く
       if (e.target.closest('#menu-icon-toggle') || e.target.closest('.bar-mid')) {
@@ -60,6 +62,8 @@ fixedLabels.addEventListener('click', (e) => {
     sideBar.classList.remove('is-open');
     menuIcon.textContent = '≡';
     document.body.classList.remove('menu-open');
+    // 高さをリセット
+    sideBar.style.height = '';
   }
 });
 
