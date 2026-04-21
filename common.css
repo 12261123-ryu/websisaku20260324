@@ -35,7 +35,9 @@ html::-webkit-scrollbar {
   z-index: 1;
   background-color: transparent;
 }
-
+body.menu-open .main-window {
+  visibility: hidden;
+}
 
 
 
