@@ -54,6 +54,8 @@ fixedLabels.addEventListener('click', (e) => {
         sideBar.classList.add('is-open');
         menuIcon.textContent = '×';
         document.body.classList.add('menu-open');
+        // 高さを動的に設定
+        sideBar.style.height = screen.height + 'px';
       }
     }
   } else {
