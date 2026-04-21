@@ -46,12 +46,22 @@ fixedLabels.addEventListener('click', (e) => {
       sideBar.classList.add('is-open');
       menuIcon.textContent = '×';
       document.body.classList.add('menu-open');
+
+      const overlay = document.createElement('div');
+      overlay.id = 'menu-overlay';
+      overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:#fff;z-index:699;';
+      document.body.appendChild(overlay);
     } else {
       // スマホ：アイコンか 真ん中の文字(.bar-mid) を直接押した時だけ開く
       if (e.target.closest('#menu-icon-toggle') || e.target.closest('.bar-mid')) {
         sideBar.classList.add('is-open');
         menuIcon.textContent = '×';
         document.body.classList.add('menu-open');
+      
+        const overlay = document.createElement('div');
+        overlay.id = 'menu-overlay';
+        overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:#fff;z-index:699;';
+        document.body.appendChild(overlay);
       }
     }
   } else {
@@ -60,6 +70,9 @@ fixedLabels.addEventListener('click', (e) => {
     sideBar.classList.remove('is-open');
     menuIcon.textContent = '≡';
     document.body.classList.remove('menu-open');
+
+    const overlay = document.getElementById('menu-overlay');
+    if (overlay) overlay.remove();
   }
 });
 
