@@ -1,0 +1,79 @@
+
+
+
+
+.web-title{
+    margin: 120px 20px 0px 15px;
+}
+.web-title .title{
+    font-family: "Times","Times New Roman","游明朝体","游明朝","Yu Mincho","YuMincho",serif;
+    font-size: 19px;
+    color: #4a4a4a;
+}
+.web-title .titletext{
+  /*font-family: "Times","Times New Roman","游ゴシック","游ゴシック体","Yu Gothic","YuGothic",serif;*/
+  font-family: 'YakuHanJPs', 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    color: #4a4a4a;
+    margin: 20px 0 60px 0;
+    max-width: 350px;     /* 箱組みのために横幅制限 */
+    line-height: 1.8;
+    text-align: justify;
+    white-space: pre-wrap;
+}
+.web-title a.title {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+
+
+
+
+/* 600px〜819px: 1列・左右に余白 */
+@media (min-width: 600px) {
+  .content-wrapper {
+    padding-left: 7%;
+    padding-right: calc(40px + 7%);
+  }
+
+  .web-title{
+    margin-left: 5px;
+  }
+  .web-title .titletext{
+    font-size: 14px;
+    max-width: 400px;     /* 箱組みのために横幅制限 */
+  }
+
+}
+
+/* 820px〜1179px: 2列 */
+@media (min-width: 820px) {
+  .content-wrapper {
+    padding-left: 5%;
+    padding-right: calc(40px + 5%);
+  }
+
+
+  .web-title .title{
+    font-size: 30px;
+  }
+  .web-title .titletext{
+    max-width: 480px;     /* 箱組みのために横幅制限 */
+  }
+  
+}
+
+/* 1180px〜: 3列・最大幅制限（ハッシュタグは左サイドバーに縦並び） */
+@media (min-width: 1180px) {
+  .content-wrapper {
+    max-width: 1500px; /* 最大幅 */
+    width: 100%;
+    padding-right: calc(40px + 5%); /* サイドバーの幅40px+余白 */
+    padding-left: 5%;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+}
+

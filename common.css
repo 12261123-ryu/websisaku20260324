@@ -77,8 +77,7 @@ html::-webkit-scrollbar {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 100vw;
-  height: 100dvh;
+  min-height: -webkit-fill-available;
 }
 .side-bar.is-open .fixed-labels {
   background-color: transparent;
