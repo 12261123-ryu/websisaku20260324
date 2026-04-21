@@ -163,18 +163,18 @@ else {
   displayWorks.forEach(work => {
     const thumbPath = `${work.main_image}`;
     const workHTML = `
-      <a href="work.html?p=${work.en_name}" class="work-item-link">
-        <article class="work-item">
-          <div class="work-thumbnail">
-            <img src="${thumbPath}" alt="${work.title}" loading="lazy" decoding="async">
-          </div>
-          <div class="work-info">
-            <span class="work-title">${work.title}</span>
-            <span class="work-designer">${work.name}</span>
-          </div>
-        </article>
-      </a>
-    `;
+  <a href="work.html?p=${work.en_name}" class="work-item-link">
+    <article class="work-item">
+      <div class="work-thumbnail">
+        <img src="${thumbPath}" alt="${work.title}" loading="lazy" decoding="async">
+      </div>
+      <div class="work-info">
+        <span class="work-title">${work.title.replace(/\n/g, ' / ')}</span>
+        <span class="work-designer">${work.name}</span>
+      </div>
+    </article>
+  </a>
+`;
     workList.insertAdjacentHTML('beforeend', workHTML);
   });
   
