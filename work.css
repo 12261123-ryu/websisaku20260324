@@ -121,6 +121,17 @@
 
 
 
+/* 画像レイアウトの指定 */
+.image-layout-stamp img {
+  width: 55px;
+  height: auto;
+  display: block;
+  margin: 120px auto;
+}
+
+
+
+
 .content-wrapper.work-part{
   width: 100%;
 }

@@ -248,17 +248,26 @@ if (work.project === "M") {
 
     const renderImages = () => {
       if (work.image_list && work.image_list.length > 0) {
-        work.image_list.forEach((path, index) => {
+        work.image_list.forEach((item, index) => {
           if (index === 0) return;  //前は一番上に使っていた画像を排除して残りを下に並べていく形式だったのを、上から順にナンバリングに従い並べる形式に試し変更中
-            const imgTag = `
-              <div class="content-item sub-image-item">
-                <img src="${path}" loading="lazy" decoding="async"
-                onerror="this.style.background='#f9f9f9'; this.removeAttribute('src');">
-              </div>`;
-            subContentContainer.insertAdjacentHTML('beforeend', imgTag);
-        });
-      }
-    };
+            
+      // オブジェクト形式と文字列形式の両対応
+      const imgPath = typeof item === 'string' ? item : item.path;
+      const layout = typeof item === 'object' && item.layout ? item.layout : null;
+      const width = typeof item === 'object' && item.width ? item.width : null;
+
+      const layoutClass = layout ? ` image-layout-${layout}` : '';
+      const widthStyle = width ? `style="width:${width}%"` : '';
+
+      const imgTag = `
+        <div class="content-item sub-image-item${layoutClass}">
+          <img src="${imgPath}" loading="lazy" decoding="async" ${widthStyle}
+          onerror="this.style.background='#f9f9f9'; this.removeAttribute('src');">
+        </div>`;
+      subContentContainer.insertAdjacentHTML('beforeend', imgTag);
+    });
+  }
+};
 
     // video_to_lastフラグで並び順を入れ替え
     if (work.video_to_last) {

@@ -2786,7 +2786,11 @@
     "main_image": "images/images_2026/b91/b91_01.webp",
     "image_list": [
       "images/images_2026/b91/b91_01.webp",
-      "images/images_2026/b91/b91_02.webp",
+      {
+        "path": "images/images_2026/b91/b91_02.webp",
+        "layout": "stamp",
+        "width": null
+      },
       "images/images_2026/b91/b91_03.webp"
     ],
     "video_list": [],
