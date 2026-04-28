@@ -11,7 +11,7 @@
   color: #888;
   display: flex;
   flex-wrap: wrap;       /* 画面端で自動で次の行へ */
-  line-height: 2;      /* 行間を少し空けてタップしやすく */
+  line-height: 0;      /* 行間を少し空けてタップしやすく */
 }
 
 .filter-tags span {
@@ -98,13 +98,13 @@
 
 
 @media (max-width:599px) {
-      .filter-tags-wrapper {
+    .filter-tags-wrapper {
         display: flex;
         flex-wrap: wrap;
-      }
+    }
     #project-tags, #material-tags {
         display: contents; /* divの枠を消して中身だけ出す */
-      }      
+    }      
 }
 
 
@@ -183,7 +183,7 @@
   .content-wrapper {
     max-width: 1500px; /* 最大幅 */
     width: 100%;
-    padding-right: calc(40px + 5%); /* サイドバーの幅40px+余白 */
+    padding-right: 5%;
     padding-left: 5%;
     box-sizing: border-box;
     margin: 0 auto;
@@ -195,28 +195,26 @@
    * 調整: --index-tag-slot, --index-tag-gutter, --index-tag-top, left の 2.5%
    */
   .content-wrapper.index-page {
-    --index-tag-slot: 12rem;
-    --index-tag-gutter: 144px;
-    --index-tag-top: 56px;
-    display: block;
-    padding-left: calc(2.5% + var(--index-tag-slot) + var(--index-tag-gutter));
+    gap: 90px; /*グリッドとタグ&メニューの間の距離*/
   }
 
-  .content-wrapper.index-page > .filter-tags-wrapper {
-    position: fixed;
-    left: 2.5%;
-    top: var(--index-tag-top);
-    z-index: 50;
+  .content-wrapper.index-page > .main-content {
+    order: 1;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .content-wrapper.index-page > .navi-and-menu-wrapper {
+    order: 2;
+    position: sticky;
+    top: 56px;
     display: flex;
+    flex-shrink: 0;
     flex-direction: column;
     align-items: flex-start;
     gap: 1.75rem;
     margin-top: 0;
-    margin-left: 0;
-    width: max-content;
-    min-width: 0;
-    box-sizing: border-box;
-    padding-right: 0.25rem;
+    width: 155px;
     pointer-events: auto;
   }
 
@@ -227,7 +225,6 @@
     flex-wrap: nowrap;
     align-items: flex-start;
     width: 100%;
-    min-width: 0;
   }
 
   .content-wrapper.index-page .filter-tags {
@@ -235,25 +232,34 @@
     flex-wrap: nowrap;
     align-items: flex-start;
     width: 100%;
-    min-width: 0;
     font-size: 13px;
     line-height: 1.8;
     row-gap: 0.45em;
   }
 
   /* タイトル〜グリッドの余白は 2 列時と同じ流れ（820px の .titletext max-width 等をそのまま利用） */
-  .content-wrapper.index-page > .web-title {
-    margin-top: 56px;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
+  .content-wrapper.index-page .main-content .web-title {
+    margin: 56px 0 0 0 ;
   }
 
-  .content-wrapper.index-page .web-title .titletext {
+  .content-wrapper.index-page .main-content .web-title .titletext {
     max-width: 480px;
     margin: 20px 0 60px 0;
     line-height: 1.8;
   }
+
+
+
 }
 
+/*縦幅制限・横幅1180px以上では右端メニューの表示のためには最低930px必要そう*/
+@media (min-width: 1180px) and (max-height: 929px) {
+  .content-wrapper.index-page > .navi-and-menu-wrapper {
+    gap: 1.1rem;
+  }
+
+  .content-wrapper.index-page .filter-tags {
+    line-height: 1.8;
+    row-gap: 0.3em;
+  }
+}

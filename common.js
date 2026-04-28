@@ -70,12 +70,38 @@ fixedLabels.addEventListener('click', (e) => {
     sideBar.classList.remove('is-open');
     menuIcon.textContent = '≡';
     document.body.classList.remove('menu-open');
+    sideBar.style.display = ''; // インラインstyleをリセット→CSSのdisplay:noneに戻る
 
     const overlay = document.getElementById('menu-overlay');
     if (overlay) overlay.remove();
   }
 });
 
+
+
+//gimmick-btnでサイドバーを開く(play withモード)
+//一番上のfixedLabels.addEventListenerの中に、ボタンを閉じた時の挙動も追記している
+const gimmickBtn = document.getElementById('gimmick-btn');
+if (gimmickBtn) {
+  gimmickBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    sideBar.classList.add('is-open');
+    menuIcon.textContent = '×';
+    document.body.classList.add('menu-open');
+    // 1180px以上ではCSSでside-barがdisplay:noneのため、インラインstyleで強制表示（インラインスタイルはCSSより優先される）
+    sideBar.style.display = 'flex';
+    const overlay = document.createElement('div');
+    overlay.id = 'menu-overlay';
+    overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:#fff;z-index:699;';
+    document.body.appendChild(overlay);
+  });
+}
+// メニューを開いている時にウィンドウサイズが変わっても表示を維持
+window.addEventListener('resize', () => {
+  if (sideBar.classList.contains('is-open')) {
+    sideBar.style.display = 'flex';
+  }
+});
 
 // タッチイベントを有効化する
 //一覧などの作品ブロックをタップ時に、ホバーのように一瞬画像は青く文字はマゼンタにする試し

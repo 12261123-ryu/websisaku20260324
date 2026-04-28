@@ -12,6 +12,65 @@
   z-index: 720;
 }
 
+
+/* メニュー画面の二重罫線枠 */
+#tubu-stage.menu-open::before,
+#tubu-stage.menu-open::after {
+  content: "";
+  position: fixed;
+  pointer-events: none;
+  border: 1.2px solid #7bbbef;
+  z-index: 721;
+}
+
+#tubu-stage.menu-open::before {
+  top: 45px;
+  left: 45px;
+  right: 45px;
+  bottom: 45px;
+}
+
+#tubu-stage.menu-open::after {
+  top: 41.5px;
+  left: 41.5px;
+  right: 41.5px;
+  bottom: 41.5px;
+}
+
+
+
+.tubu-floating-text {
+  position: absolute;
+  font-family: "游明朝体","游明朝","Yu Mincho","YuMincho",serif;
+  font-size: 12px;
+  color: #888;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+#floating-reset {
+  pointer-events: auto;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+@media (hover: hover) {
+  #floating-reset:hover {
+    color: rgb(237, 45, 154);
+    transition: 0.3s ease;
+    text-decoration: underline;
+  }
+}
+@media (hover: none) {
+  #floating-reset:active {
+    color: rgb(237, 45, 154);
+    transition: 0s;
+    text-decoration: underline;
+  }
+}
+
+
+
+
 /* 通常時は粒が「画像等の後ろ」になるように、main-windowの背景を透過して下に描画できる状態にする */
 html,
 body {
@@ -24,8 +83,8 @@ body {
 
 .tubu-floater {
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   user-select: none;
   cursor: pointer;
   will-change: left, top, transform, filter;

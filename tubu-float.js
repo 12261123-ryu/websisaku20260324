@@ -21,16 +21,27 @@
 
   //追加
   // ゼミごとのつぶつぶカラーセット定義
-  const PROJECT_RECIPES = {
-    'A': ["tubu1.webp", "tubu1.webp", "tubu3.webp", "tubu3.webp", "tubu5.webp"],
-    'B': ["tubu1.webp", "tubu3.webp", "tubu3.webp", "tubu4.webp", "tubu4.webp"],
-    'C': ["tubu2.webp", "tubu3.webp", "tubu4.webp", "tubu4.webp", "tubu4.webp"],
-    'D': ["tubu1.webp", "tubu1.webp", "tubu1.webp", "tubu1.webp", "tubu4.webp"],
-    'F': ["tubu1.webp", "tubu1.webp", "tubu2.webp", "tubu5.webp", "tubu5.webp"],
-    'Y': ["tubu2.webp", "tubu2.webp", "tubu2.webp", "tubu4.webp", "tubu5.webp"],
-    'M': ["tubu1.webp", "tubu2.webp", "tubu3.webp", "tubu4.webp", "tubu5.webp"],
-    'all': ["tubu1.webp", "tubu2.webp", "tubu3.webp", "tubu4.webp", "tubu5.webp"]
-  };
+//  const PROJECT_RECIPES = {
+//    'A': ["tubu1.webp", "tubu1.webp", "tubu3.webp", "tubu3.webp", "tubu5.webp"],
+//    'B': ["tubu1.webp", "tubu3.webp", "tubu3.webp", "tubu4.webp", "tubu4.webp"],
+//    'C': ["tubu2.webp", "tubu3.webp", "tubu4.webp", "tubu4.webp", "tubu4.webp"],
+//    'D': ["tubu1.webp", "tubu1.webp", "tubu1.webp", "tubu1.webp", "tubu4.webp"],
+//    'F': ["tubu1.webp", "tubu1.webp", "tubu2.webp", "tubu5.webp", "tubu5.webp"],
+//    'Y': ["tubu2.webp", "tubu2.webp", "tubu2.webp", "tubu4.webp", "tubu5.webp"],
+//    'M': ["tubu1.webp", "tubu2.webp", "tubu3.webp", "tubu4.webp", "tubu5.webp"],
+//    'all': ["tubu1.webp", "tubu2.webp", "tubu3.webp", "tubu4.webp", "tubu5.webp"]
+//  };
+    const PROJECT_RECIPES = {
+  'A': ["tubu5.webp", "tubu1.webp", "tubu3.webp", "tubu3.webp", "tubu1.webp"],
+  'B': ["tubu3.webp", "tubu4.webp", "tubu1.webp", "tubu4.webp", "tubu3.webp"],
+  'C': ["tubu4.webp", "tubu2.webp", "tubu4.webp", "tubu3.webp", "tubu4.webp"],
+  'D': ["tubu1.webp", "tubu4.webp", "tubu1.webp", "tubu1.webp", "tubu1.webp"],
+  'F': ["tubu2.webp", "tubu1.webp", "tubu5.webp", "tubu5.webp", "tubu1.webp"],
+  'Y': ["tubu5.webp", "tubu4.webp", "tubu2.webp", "tubu2.webp", "tubu2.webp"],
+  'M': ["tubu4.webp", "tubu3.webp", "tubu5.webp", "tubu1.webp", "tubu2.webp"],
+  'all': ["tubu1.webp", "tubu2.webp", "tubu3.webp", "tubu4.webp", "tubu5.webp"]
+};
+
 
   let currentRecipeKey = 'all';
 
@@ -61,6 +72,16 @@
         imgEl.src = `images/tubu/${newImgName}`;
       }
     });
+
+    //play withアイコンをゼミごとに切り替え
+    const gimmickIcon = document.querySelector('.gimmick-icon');
+    if (gimmickIcon) {
+      const iconName = ['A','B','C','D','F','M','Y'].includes(key)
+        ? `icon_playwith_${key}.webp`
+        : `icon_playwith.webp`; // allやその他はデフォルト
+      gimmickIcon.src = `images/tubu/${iconName}`;
+    }
+
   };
 
   window.syncTubuCount = function() {
@@ -83,6 +104,42 @@
   /** @type {{el:HTMLDivElement,imgName:string,x:number,y:number,vx:number,vy:number,rot:number,shimmerTimer:number|null}[]} */
   const floaters = [];
 
+  // 漂うテキスト要素
+  const floatingTexts = [];
+  function createFloatingText(text, id) {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+  
+    const el = document.createElement("div");
+    el.className = "tubu-floating-text";
+    el.id = id;
+    el.textContent = text;
+  
+    const x = randomBetween(IMG_SIZE * 3, width - 200);
+    const y = randomBetween(IMG_SIZE * 3, height - 50);
+    const rot = randomBetween(-20, 20); //テキスト生成時の傾き範囲
+    const speed = randomBetween(0.06, 0.16);
+    const angle = randomBetween(0, Math.PI * 2);
+
+    el.style.left = `${x}px`;
+    el.style.top = `${y}px`;
+    el.style.transform = `rotate(${rot}deg)`;
+
+    const data = {
+      el,
+      x,
+      y,
+      vx: Math.cos(angle) * speed,
+      vy: Math.sin(angle) * speed,
+      rot,
+    };
+
+    stage.appendChild(el);
+    floatingTexts.push(data);
+    return data;
+  }
+
+
   function randomBetween(min, max) {
     return min + Math.random() * (max - min);
   }
@@ -95,13 +152,42 @@
     return sideBar.classList.contains("is-open");
   }
 
+  //漂うテキストを追加
   function syncInteractivity() {
-    if (isMenuOpen()) {
-      stage.classList.add("menu-open");
-    } else {
-      stage.classList.remove("menu-open");
+  if (isMenuOpen()) {
+    stage.classList.add("menu-open");
+    // テキストを生成（まだない場合のみ）
+    if (floatingTexts.length === 0) {
+      createFloatingText("（つぶつぶをさわってみてください。）", "floating-hint");
+      createFloatingText("リセット", "floating-reset");
+      createFloatingText(`つぶつぶの数　${floaters.length} / ${getMaxCount()}`, "floating-count");
+    
+      const resetEl = document.getElementById('floating-reset');
+      if (resetEl) {
+      resetEl.addEventListener('click', () => {
+      //メニューで増やした分を消す
+      const baseCount = getBaseCount();
+      while (floaters.length > baseCount) {
+        const removed = floaters.pop();
+        removed.el.remove();
+      }
+      // リセット時にカウント表示を更新
+      const countEl = document.getElementById('floating-count');
+      if (countEl) {
+        countEl.textContent = `つぶつぶの数　${floaters.length} / ${getMaxCount()}`;
+      }
+      });
     }
+
+    }
+  } else {
+    stage.classList.remove("menu-open");
+    // テキストを削除
+    floatingTexts.forEach(d => d.el.remove());
+    floatingTexts.length = 0;
   }
+}
+
 
   function scheduleShimmer(data) {
     const delay = randomBetween(2000, 10000);
@@ -194,35 +280,66 @@
       const by = Math.sin(angle) * dist;
       createFloater(data.imgName, data.x, data.y, true, bx, by);
     }
+
+    //漂うテキストのカウント表示を更新
+    const countEl = document.getElementById('floating-count');
+    if (countEl) {
+      countEl.textContent = `つぶつぶの数　${floaters.length} / ${getMaxCount()}`;
+    }
   }
 
 
-  function tick() {
-    const width = window.innerWidth;
-    const height = window.innerHeight;
+function tick() {
+  const width = window.innerWidth;
+  const height = window.innerHeight;
 
-    for (const d of floaters) {
-      if (d.el.classList.contains("spawning")) continue;
+  for (const d of floaters) {
+    if (d.el.classList.contains("spawning")) continue;
 
+    d.x += d.vx;
+    d.y += d.vy;
+
+    // 画面内に入ったらenteringフラグを解除
+    if (d.entering) {
+      if (d.x > 0 && d.x < width - IMG_SIZE && d.y > 0 && d.y < height - IMG_SIZE) {
+        d.entering = false;
+      }
+      d.el.style.left = `${d.x}px`;
+      d.el.style.top = `${d.y}px`;
+      continue; // 壁判定をスキップ
+    }
+
+    //ウィンドウ内での反射
+    //if (d.x <= 0) { d.x = 0; d.vx = Math.abs(d.vx); }
+    //if (d.x >= width - IMG_SIZE) { d.x = width - IMG_SIZE; d.vx = -Math.abs(d.vx); }
+    //if (d.y <= 0) { d.y = 0; d.vy = Math.abs(d.vy); }
+    //if (d.y >= height - IMG_SIZE) { d.y = height - IMG_SIZE; d.vy = -Math.abs(d.vy); }
+
+    //ウィンドウ内反射+メニュー開時は漂う範囲を罫線内に限定
+    const margin = isMenuOpen() ? 45 : 0; //メニュー開いている時は余白45px(左の数値)、閉じてる時0px
+    if (d.x <= margin) { d.x = margin; d.vx = Math.abs(d.vx); }
+    if (d.x >= width - IMG_SIZE - margin) { d.x = width - IMG_SIZE - margin; d.vx = -Math.abs(d.vx); }
+    if (d.y <= margin) { d.y = margin; d.vy = Math.abs(d.vy); }
+    if (d.y >= height - IMG_SIZE - margin) { d.y = height - IMG_SIZE - margin; d.vy = -Math.abs(d.vy); }
+
+
+    d.el.style.left = `${d.x}px`;
+    d.el.style.top = `${d.y}px`;
+  }
+
+  // 漂うテキストの動き
+    for (const d of floatingTexts) {
       d.x += d.vx;
       d.y += d.vy;
 
-      if (d.x <= 0) {
-        d.x = 0;
-        d.vx = Math.abs(d.vx);
-      }
-      if (d.x >= width - IMG_SIZE) {
-        d.x = width - IMG_SIZE;
-        d.vx = -Math.abs(d.vx);
-      }
-      if (d.y <= 0) {
-        d.y = 0;
-        d.vy = Math.abs(d.vy);
-      }
-      if (d.y >= height - IMG_SIZE) {
-        d.y = height - IMG_SIZE;
-        d.vy = -Math.abs(d.vy);
-      }
+      const textWidth = d.el.offsetWidth;
+      const textHeight = d.el.offsetHeight;
+      const margin = 40;
+
+      if (d.x <= margin) { d.x = margin; d.vx = Math.abs(d.vx); }
+      if (d.x >= width - textWidth - margin) { d.x = width - textWidth - margin; d.vx = -Math.abs(d.vx); }
+      if (d.y <= margin) { d.y = margin; d.vy = Math.abs(d.vy); }
+      if (d.y >= height - textHeight - margin) { d.y = height - textHeight - margin; d.vy = -Math.abs(d.vy); }
 
       d.el.style.left = `${d.x}px`;
       d.el.style.top = `${d.y}px`;
@@ -230,6 +347,7 @@
 
     requestAnimationFrame(tick);
   }
+
 
   function handleDocumentPointerDown(event) {
     if (!isMenuOpen()) return;
@@ -288,23 +406,73 @@
 //    }
 //  }
 //個別ページを閲覧するたびに初期数を1つずつ最大5まで増やすギミックを試す用
+// + ウェブに入った時、画面外からつぶが入ってくる
 function createInitialFloaters() {
   const width = window.innerWidth;
   const height = window.innerHeight;
-  const baseCount = getBaseCount(); // INITIAL_COUNTの代わりに
+  const baseCount = getBaseCount();
 
   const params = new URLSearchParams(window.location.search);
   const filter = params.get('filter');
   const recipeKey = PROJECT_RECIPES[filter] ? filter : 'all';
   const recipe = PROJECT_RECIPES[recipeKey];
 
+  const navType = performance.getEntriesByType('navigation')[0]?.type;
+  const isFirstVisit = navType === 'navigate' && (window.location.pathname === '/' || window.location.pathname.endsWith('index.html')) && !sessionStorage.getItem('hasVisited');
   for (let i = 0; i < baseCount; i += 1) {
     const imgName = recipe[i % recipe.length];
-    const x = randomBetween(IMG_SIZE * 2, Math.max(IMG_SIZE * 2, width - IMG_SIZE * 3));
-    const y = randomBetween(IMG_SIZE * 2, Math.max(IMG_SIZE * 2, height - IMG_SIZE * 3));
-    createFloater(imgName, x, y, false);
+
+    
+    if (isFirstVisit) {
+      // 通常の漂う速度
+      const speed = randomBetween(0.25, 0.25);
+      const angle = randomBetween(0, Math.PI * 2);
+      const vx = Math.cos(angle) * speed;
+      const vy = Math.sin(angle) * speed;
+
+      // 画面外からその方向の逆向きにスタート地点を決める
+      // 画面端から20px以内に入るまでの距離分だけ外に出す
+      const targetX = randomBetween(IMG_SIZE * 2, width - IMG_SIZE * 3);
+      const targetY = randomBetween(IMG_SIZE * 2, height - IMG_SIZE * 3);
+
+      // 画面端20px以内の地点からさらに外に向かってスタート
+      const side = Math.floor(Math.random() * 4);
+      let startX, startY;
+
+      if (side === 0) { // 上から
+        startX = randomBetween(0, width);
+        startY = -IMG_SIZE;
+      } else if (side === 1) { // 右から
+        startX = width + IMG_SIZE;
+        startY = randomBetween(0, height);
+      } else if (side === 2) { // 下から
+        startX = randomBetween(0, width);
+        startY = height + IMG_SIZE;
+      } else { // 左から
+        startX = -IMG_SIZE;
+        startY = randomBetween(0, height);
+      }
+
+      // 入ってくる方向ベクトルを計算
+      const dx = targetX - startX;
+      const dy = targetY - startY;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      const enterVx = (dx / dist) * speed;
+      const enterVy = (dy / dist) * speed;
+
+      const data = createFloater(imgName, startX, startY, false);
+      data.vx = enterVx;
+      data.vy = enterVy;
+      data.entering = true;
+
+    } else {
+      const x = randomBetween(IMG_SIZE * 2, Math.max(IMG_SIZE * 2, width - IMG_SIZE * 3));
+      const y = randomBetween(IMG_SIZE * 2, Math.max(IMG_SIZE * 2, height - IMG_SIZE * 3));
+      createFloater(imgName, x, y, false);
+    }
   }
 }
+
 
 
 

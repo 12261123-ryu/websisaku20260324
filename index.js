@@ -31,6 +31,40 @@ fetch('project.json')
     const projectSection = document.getElementById('project-tags');
     const materialSection = document.getElementById('material-tags');
 
+
+    // #全作品タグを先頭に追加
+    const allSpan = document.createElement('span');
+    allSpan.dataset.id = 'all';
+    allSpan.innerHTML = '#全作品&nbsp;&nbsp;';
+    allSpan.style.cursor = 'pointer';
+    allSpan.classList.add('active');
+    projectSection.appendChild(allSpan);
+
+    allSpan.addEventListener('click', () => {
+      if (activeTagId === null) return;
+      activeTagId = null;
+      document.querySelectorAll('.filter-tags span').forEach(s => s.classList.remove('active'));
+      allSpan.classList.add('active');
+      sessionStorage.removeItem('lastFilter');
+      history.replaceState(null, '', 'index.html');
+      if (window.updateTubuColors) {
+        window.updateTubuColors('all');
+      }
+      renderWorks("all");
+    });
+
+    allSpan.addEventListener('mouseenter', () => {
+      if (window.updateTubuColors) {
+        window.updateTubuColors('all');
+      }
+    });
+    allSpan.addEventListener('mouseleave', () => {
+      if (window.updateTubuColors) {
+        window.updateTubuColors(activeTagId || 'all');
+      }
+    });
+
+
     keywords.forEach(item => {
       const span = document.createElement('span');
       //「その他」の時も dataset.id をセットし表示を整える
@@ -52,6 +86,7 @@ fetch('project.json')
         if (activeTagId === clickedId) {
           activeTagId = null;
           document.querySelectorAll('.filter-tags span').forEach(s => s.classList.remove('active'));
+          allSpan.classList.add('active');
           sessionStorage.removeItem('lastFilter');
           history.replaceState(null, '', 'index.html'); // URLをリセット
           //つぶつぶカラーを戻す
@@ -79,6 +114,16 @@ fetch('project.json')
           }
         }
       });
+      span.addEventListener('mouseenter', () => {
+        if (window.updateTubuColors) {
+          window.updateTubuColors(item.id === "その他" ? 'all' : item.id);
+        }
+      });
+      span.addEventListener('mouseleave', () => {
+        if (window.updateTubuColors) {
+          window.updateTubuColors(activeTagId || 'all');
+        }
+      });
     });
 
     //タグが作り終わった直後にURLチェックを実行
@@ -88,6 +133,10 @@ fetch('project.json')
 
 // 2. 描画・絞り込み実行関数
 function renderWorks(searchKey, displayName = "", description = "", professor = "") {
+  // 絞り込みする時・解除時に一番上に行かせる
+  window.scrollTo(0, 0);
+  sessionStorage.removeItem('scrollY');
+
   const workList = document.getElementById('work-list');
   const titleElem = document.querySelector('.web-title .title');
   const profElem = document.querySelector('.professor-name');
@@ -214,6 +263,26 @@ async function loadWorks() {
     }
 
     renderWorks("all");
+    const workList = document.getElementById('work-list');
+    if (workList) {
+      workList.addEventListener('mouseover', (e) => {
+        const workLink = e.target.closest('.work-item-link');
+        if (!workLink) return;
+        const href = workLink.getAttribute('href');
+        const enName = href.replace('work.html?p=', '');
+        const work = allWorks.find(w => w.en_name === enName);
+        if (work && window.updateTubuColors) {
+          window.updateTubuColors(work.project);
+        }
+      });
+      workList.addEventListener('mouseout', (e) => {
+        const workLink = e.target.closest('.work-item-link');
+        if (!workLink) return;
+        if (window.updateTubuColors) {
+          window.updateTubuColors(activeTagId || 'all');
+      }
+      });
+    }
   } catch (error) {
     console.error('work.json の読み込みに失敗しました:', error);
     const workList = document.getElementById('work-list');
@@ -318,5 +387,8 @@ window.addEventListener('pageshow', (e) => {
 });
 
 
-
+// トップページを離脱する時にhasVisitedをセット
+window.addEventListener('beforeunload', () => {
+  sessionStorage.setItem('hasVisited', '1');
+});
 

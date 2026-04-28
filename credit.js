@@ -9,6 +9,11 @@ async function loadCredit() {
       const genreBlock = document.createElement('section');
       genreBlock.className = 'genre-block';
 
+      //web図録ブロックと当日ページブロックの上に2重罫線
+      if (genreItem.genre === 'web図録' || genreItem.genre === '当日ページ') {
+      genreBlock.classList.add('genre-block-double-border'); 
+      }
+
       const genreName = document.createElement('div');
       genreName.className = 'genre-name';
       genreName.textContent = genreItem.genre;

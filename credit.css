@@ -76,6 +76,29 @@
 }
 
 
+.genre-block-double-border {
+  border-top: none;
+  padding-top: 0;
+}
+.genre-block-double-border::before {
+  content: "";
+  display: block;
+  border-top: 1px solid #7bbbef;
+  padding-top: 3.5px; /* 2本の罫線の間隔 */
+  border-bottom: 1px solid #7bbbef;
+  margin-bottom: 20px;
+}
+
+
+
+@media (hover: hover) {
+.wide-return a:hover{
+  text-decoration: underline;
+  color: rgb(237, 45, 154);
+  transition: 0.3s ease;
+}
+}
+
 
 
 
@@ -130,13 +153,24 @@
 
 /* 1180px〜: 3列・最大幅制限（ハッシュタグは左サイドバーに縦並び） */
 @media (min-width: 1180px) {
+
+    .credit-page-wrapper {
+    gap: 60px;
+    max-width: 1500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  
   .content-wrapper {
-    max-width: 1500px; /* 最大幅 */
+    max-width: 1400px; /* 最大幅 */
     width: 100%;
-    padding-right: calc(40px + 5%); /* サイドバーの幅40px+余白 */
+    padding-right: 5%;
     padding-left: 5%;
     box-sizing: border-box;
     margin: 0 auto;
+    flex: 1;
+    min-width: 0;
   }
 
 }

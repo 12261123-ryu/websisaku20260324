@@ -192,6 +192,12 @@
   color: rgb(237, 45, 154);
   transition: 0.3s ease;
 }
+
+.wide-return a:hover{
+  text-decoration: underline;
+  color: rgb(237, 45, 154);
+  transition: 0.3s ease;
+}
 }
 /* スマホ用 */
 @media (hover: none) {
@@ -246,6 +252,11 @@
     max-width: 300px;
   }
 
+  .content-wrapper.recommend-part{
+    padding-left: 5%;
+    padding-right: calc(5% + 40px);
+    margin: 0 auto;
+  }
 }
 
 
@@ -343,14 +354,36 @@
 
 /* indexcssでの3列指定をworkhtmlでは上書きさせる */
 @media (min-width: 1180px) {
+
+  .work-page-wrapper {
+    gap: 60px; /*作品表示部分とメニュー部分の間の余白距離*/
+    max-width: 1500px; /*作品表示〜メニューまで全てのカラム全体での最大幅*/
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .content-wrapper.recommend-part{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+  }
+
+
+  .content-wrapper.work-part {
+    padding-left: 3%;
+    padding-right: 3%;
+    }
+
   .work-part-grid {
     column-gap: 60px; /* 左右カラムの間の余白 */
   }
 
-  .content-wrapper.recommend-part{
-    padding-left: 10%;
-    padding-right: calc(40px + 10%);
-    max-width: 1600px;
+  .work-main-content {
+    flex: 1;
+    min-width: 0;
   }
+
+
+
 }
 
