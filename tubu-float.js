@@ -454,9 +454,6 @@ function createInitialFloaters() {
   const recipeKey = PROJECT_RECIPES[filter] ? filter : 'all';
   const recipe = PROJECT_RECIPES[recipeKey];
 
-  const navType = performance.getEntriesByType('navigation')[0]?.type;
-  //以下、前は一覧ページのみでやっていたが、他ページであってもウェブに初めて入る場合に対応
-  const isFirstVisit = navType === 'navigate' && !sessionStorage.getItem('hasVisited');
   for (let i = 0; i < baseCount; i += 1) {
     const imgName = recipe[i % recipe.length];
 
@@ -528,9 +525,11 @@ function createInitialFloaters() {
   });
 
   function init() {
-    createInitialFloaters();
-    watchMenuState();
-    document.addEventListener("pointerdown", handleDocumentPointerDown, {
+  const isFirstVisit = !sessionStorage.getItem('hasVisited');
+  sessionStorage.setItem('hasVisited', '1'); // すぐにセット
+  createInitialFloaters(isFirstVisit);
+  watchMenuState();
+  document.addEventListener("pointerdown", handleDocumentPointerDown, {
       passive: false, //元々trueだがメニュー画面でつぶタップすると警告が出るので、falseに変更中
     });
     requestAnimationFrame(tick);
