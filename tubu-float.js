@@ -106,7 +106,8 @@
 
   // 漂うテキスト要素
   const floatingTexts = [];
-  function createFloatingText(text, id) {
+
+  function createFloatingText(text, id, startX, startY) {
     const width = window.innerWidth;
     const height = window.innerHeight;
   
@@ -115,15 +116,15 @@
     el.id = id;
     el.textContent = text;
   
-    const x = randomBetween(IMG_SIZE * 3, width - 200);
-    const y = randomBetween(IMG_SIZE * 3, height - 50);
-    const rot = randomBetween(-20, 20); //テキスト生成時の傾き範囲
-    const speed = randomBetween(0.06, 0.16);
+    const x = startX ?? randomBetween(IMG_SIZE * 3, width - 200);
+    const y = startY ?? randomBetween(IMG_SIZE * 3, height - 50);
+    const rot = randomBetween(-10, 10); //テキスト生成時の傾き範囲
+    const speed = randomBetween(0.045, 0.12);
     const angle = randomBetween(0, Math.PI * 2);
 
     el.style.left = `${x}px`;
     el.style.top = `${y}px`;
-    el.style.transform = `rotate(${rot}deg)`;
+    el.style.transform = `translateX(-50%) rotate(${rot}deg)`;
 
     const data = {
       el,
@@ -158,10 +159,15 @@
     stage.classList.add("menu-open");
     // テキストを生成（まだない場合のみ）
     if (floatingTexts.length === 0) {
-      createFloatingText("（つぶつぶをさわってみてください。）", "floating-hint");
-      createFloatingText("リセット", "floating-reset");
-      createFloatingText(`つぶつぶの数　${floaters.length} / ${getMaxCount()}`, "floating-count");
-    
+      //漂うテキストの初期位置を設定
+      const cx = window.innerWidth / 2;
+      const topY = window.innerHeight * 0.65;
+      const lineH = window.innerHeight * 0.018; // line-height 1.8 × font-size 12px相当
+      
+      createFloatingText("（つぶつぶをさわってみてください。）", "floating-hint", cx, topY);
+      createFloatingText(`つぶつぶの数　${floaters.length} / ${getMaxCount()}`, "floating-count", cx, topY + lineH * 1.8);
+      createFloatingText("リセット", "floating-reset", cx, topY + lineH * 1.8 * 2);
+      
       const resetEl = document.getElementById('floating-reset');
       if (resetEl) {
       resetEl.addEventListener('click', () => {
@@ -369,14 +375,16 @@ function tick() {
 
       const textWidth = d.el.offsetWidth;
       const textHeight = d.el.offsetHeight;
+      
       //スマホ(600px未満)では罫線なしの設定に試し中(それ以上では罫線あり)
       const textMargin = isMenuOpen() && window.innerWidth >= 600 ? 40 : 0; // ←marginからtextMarginに変更
-      
-      if (d.x <= textMargin) { d.x = textMargin; d.vx = Math.abs(d.vx); }
-      if (d.x >= width - textWidth - textMargin) { d.x = width - textWidth - textMargin; d.vx = -Math.abs(d.vx); }
+      //中央揃えでずらしている分を調整する
+      const halfW = textWidth / 2;
+
+      if (d.x - halfW <= textMargin) { d.x = textMargin + halfW; d.vx = Math.abs(d.vx); }
+      if (d.x + halfW >= width - textMargin) { d.x = width - textMargin - halfW; d.vx = -Math.abs(d.vx); }
       if (d.y <= textMargin) { d.y = textMargin; d.vy = Math.abs(d.vy); }
       if (d.y >= height - textHeight - textMargin) { d.y = height - textHeight - textMargin; d.vy = -Math.abs(d.vy); }
-
 
       d.el.style.left = `${d.x}px`;
       d.el.style.top = `${d.y}px`;

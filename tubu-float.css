@@ -42,11 +42,12 @@
 .tubu-floating-text {
   position: absolute;
   font-family: "游明朝体","游明朝","Yu Mincho","YuMincho",serif;
-  font-size: 12px;
+  font-size: 13.5px;
   color: #888;
   white-space: nowrap;
   pointer-events: none;
   user-select: none;
+  transform-origin: center center;
 }
 #floating-reset {
   pointer-events: auto;
