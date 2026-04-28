@@ -299,10 +299,16 @@ function tick() {
     d.x += d.vx;
     d.y += d.vy;
 
-    // 画面内に入ったらenteringフラグを解除
+    //画面内に入ったらenteringフラグを解除
     if (d.entering) {
       if (d.x > 0 && d.x < width - IMG_SIZE && d.y > 0 && d.y < height - IMG_SIZE) {
         d.entering = false;
+
+        //画面内に入ったら通常の漂う速度に戻す
+        const normalSpeed = randomBetween(0.06, 0.16);
+        const angle = randomBetween(0, Math.PI * 2);
+        d.vx = Math.cos(angle) * normalSpeed;
+        d.vy = Math.sin(angle) * normalSpeed;
       }
       d.el.style.left = `${d.x}px`;
       d.el.style.top = `${d.y}px`;
@@ -316,11 +322,40 @@ function tick() {
     //if (d.y >= height - IMG_SIZE) { d.y = height - IMG_SIZE; d.vy = -Math.abs(d.vy); }
 
     //ウィンドウ内反射+メニュー開時は漂う範囲を罫線内に限定
-    const margin = isMenuOpen() ? 45 : 0; //メニュー開いている時は余白45px(左の数値)、閉じてる時0px
-    if (d.x <= margin) { d.x = margin; d.vx = Math.abs(d.vx); }
-    if (d.x >= width - IMG_SIZE - margin) { d.x = width - IMG_SIZE - margin; d.vx = -Math.abs(d.vx); }
-    if (d.y <= margin) { d.y = margin; d.vy = Math.abs(d.vy); }
-    if (d.y >= height - IMG_SIZE - margin) { d.y = height - IMG_SIZE - margin; d.vy = -Math.abs(d.vy); }
+    //→上記より、スマホ(600px未満)では罫線なしの設定に試し中(それ以上では罫線あり)
+    //const margin = isMenuOpen() && window.innerWidth >= 600 ? 40 : 0;
+    //if (d.x <= margin) { d.x = margin; d.vx = Math.abs(d.vx); }
+    //if (d.x >= width - IMG_SIZE - margin) { d.x = width - IMG_SIZE - margin; d.vx = -Math.abs(d.vx); }
+    //if (d.y <= margin) { d.y = margin; d.vy = Math.abs(d.vy); }
+    //if (d.y >= height - IMG_SIZE - margin) { d.y = height - IMG_SIZE - margin; d.vy = -Math.abs(d.vy); }
+    //以前の壁判定　今は下のものを使用
+
+
+    //枠外にあるものはそのままに(吸い寄せたりしない)、内側に入ってきたら外に出さない
+    const margin = isMenuOpen() && window.innerWidth >= 600 ? 40 : 0;
+    if (margin > 0) {
+      // 一度枠内に入ったかチェック
+      if (!d.insideBox) {
+        if (d.x > margin && d.x < width - IMG_SIZE - margin &&
+            d.y > margin && d.y < height - IMG_SIZE - margin) {
+          d.insideBox = true;
+        }
+      }
+      // 枠内に入ったことがある粒だけ壁判定
+      if (d.insideBox) {
+        if (d.x <= margin) { d.x = margin; d.vx = Math.abs(d.vx); }
+        if (d.x >= width - IMG_SIZE - margin) { d.x = width - IMG_SIZE - margin; d.vx = -Math.abs(d.vx); }
+        if (d.y <= margin) { d.y = margin; d.vy = Math.abs(d.vy); }
+        if (d.y >= height - IMG_SIZE - margin) { d.y = height - IMG_SIZE - margin; d.vy = -Math.abs(d.vy); }
+      }
+    } else {
+      // メニュー閉じたらフラグをリセット
+      d.insideBox = false;
+      if (d.x <= 0) { d.x = 0; d.vx = Math.abs(d.vx); }
+      if (d.x >= width - IMG_SIZE) { d.x = width - IMG_SIZE; d.vx = -Math.abs(d.vx); }
+      if (d.y <= 0) { d.y = 0; d.vy = Math.abs(d.vy); }
+      if (d.y >= height - IMG_SIZE) { d.y = height - IMG_SIZE; d.vy = -Math.abs(d.vy); }
+    }
 
 
     d.el.style.left = `${d.x}px`;
@@ -334,12 +369,14 @@ function tick() {
 
       const textWidth = d.el.offsetWidth;
       const textHeight = d.el.offsetHeight;
-      const margin = 40;
+      //スマホ(600px未満)では罫線なしの設定に試し中(それ以上では罫線あり)
+      const textMargin = isMenuOpen() && window.innerWidth >= 600 ? 40 : 0; // ←marginからtextMarginに変更
+      
+      if (d.x <= textMargin) { d.x = textMargin; d.vx = Math.abs(d.vx); }
+      if (d.x >= width - textWidth - textMargin) { d.x = width - textWidth - textMargin; d.vx = -Math.abs(d.vx); }
+      if (d.y <= textMargin) { d.y = textMargin; d.vy = Math.abs(d.vy); }
+      if (d.y >= height - textHeight - textMargin) { d.y = height - textHeight - textMargin; d.vy = -Math.abs(d.vy); }
 
-      if (d.x <= margin) { d.x = margin; d.vx = Math.abs(d.vx); }
-      if (d.x >= width - textWidth - margin) { d.x = width - textWidth - margin; d.vx = -Math.abs(d.vx); }
-      if (d.y <= margin) { d.y = margin; d.vy = Math.abs(d.vy); }
-      if (d.y >= height - textHeight - margin) { d.y = height - textHeight - margin; d.vy = -Math.abs(d.vy); }
 
       d.el.style.left = `${d.x}px`;
       d.el.style.top = `${d.y}px`;
@@ -418,7 +455,8 @@ function createInitialFloaters() {
   const recipe = PROJECT_RECIPES[recipeKey];
 
   const navType = performance.getEntriesByType('navigation')[0]?.type;
-  const isFirstVisit = navType === 'navigate' && (window.location.pathname === '/' || window.location.pathname.endsWith('index.html')) && !sessionStorage.getItem('hasVisited');
+  //以下、前は一覧ページのみでやっていたが、他ページであってもウェブに初めて入る場合に対応
+  const isFirstVisit = navType === 'navigate' && !sessionStorage.getItem('hasVisited');
   for (let i = 0; i < baseCount; i += 1) {
     const imgName = recipe[i % recipe.length];
 

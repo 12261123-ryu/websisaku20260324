@@ -387,8 +387,4 @@ window.addEventListener('pageshow', (e) => {
 });
 
 
-// トップページを離脱する時にhasVisitedをセット
-window.addEventListener('beforeunload', () => {
-  sessionStorage.setItem('hasVisited', '1');
-});
 

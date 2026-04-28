@@ -13,6 +13,8 @@
 }
 
 
+/*スマホではメニューの二重罫線をなくしてみている*/
+@media (min-width:600px){
 /* メニュー画面の二重罫線枠 */
 #tubu-stage.menu-open::before,
 #tubu-stage.menu-open::after {
@@ -22,21 +24,19 @@
   border: 1.2px solid #7bbbef;
   z-index: 721;
 }
-
 #tubu-stage.menu-open::before {
   top: 45px;
   left: 45px;
   right: 45px;
   bottom: 45px;
 }
-
 #tubu-stage.menu-open::after {
   top: 41.5px;
   left: 41.5px;
   right: 41.5px;
   bottom: 41.5px;
 }
-
+}
 
 
 .tubu-floating-text {
