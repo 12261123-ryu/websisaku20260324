@@ -444,7 +444,7 @@ function tick() {
 //  }
 //個別ページを閲覧するたびに初期数を1つずつ最大5まで増やすギミックを試す用
 // + ウェブに入った時、画面外からつぶが入ってくる
-function createInitialFloaters() {
+function createInitialFloaters(isFirstVisit) {
   const width = window.innerWidth;
   const height = window.innerHeight;
   const baseCount = getBaseCount();
