@@ -402,9 +402,12 @@
   }
 
   .content-wrapper.recommend-part{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 15%; /*15%にして、一覧3列での画像サイズとレコメンドでの画像サイズを近くした(完全に同じは難しいと思うので、おおまかに近く見える程度で一旦試し)*/
+    padding-right: 15%;
     margin: 0 auto;
+  }
+  .work-grid.for-recommend {
+    gap: 55px; /*レコメンドでの、グリッドの間隔*/
   }
 
 
