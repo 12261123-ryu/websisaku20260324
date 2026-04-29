@@ -202,7 +202,8 @@
       "images/images_2026/b07/b07_01.webp",
       "images/images_2026/b07/b07_02.webp",
       "images/images_2026/b07/b07_03.webp",
-      "images/images_2026/b07/b07_04.webp"
+      "images/images_2026/b07/b07_04.webp",
+      "images/images_2026/b07/b07_05.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -290,7 +291,9 @@
     "image_list": [
       "images/images_2026/b10/b10_01.webp",
       "images/images_2026/b10/b10_02.webp",
-      "images/images_2026/b10/b10_03.webp"
+      "images/images_2026/b10/b10_03.webp",
+      "images/images_2026/b10/b10_04.webp",
+      "images/images_2026/b10/b10_05.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -317,7 +320,11 @@
     ],
     "main_image": "images/images_2026/b11/b11_01.webp",
     "image_list": [
-      "images/images_2026/b11/b11_01.webp"
+      "images/images_2026/b11/b11_01.webp",
+      "images/images_2026/b11/b11_02.webp",
+      "images/images_2026/b11/b11_03.webp",
+      "images/images_2026/b11/b11_04.webp",
+      "images/images_2026/b11/b11_05.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -342,7 +349,7 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/b12/b12_01.webp",
+    "main_image": "images/images_2026/b12/b12_02.webp",
     "image_list": [
       "images/images_2026/b12/b12_01.webp",
       "images/images_2026/b12/b12_02.webp",
@@ -374,7 +381,9 @@
     "main_image": "images/images_2026/b13/b13_01.webp",
     "image_list": [
       "images/images_2026/b13/b13_01.webp",
-      "images/images_2026/b13/b13_02.webp"
+      "images/images_2026/b13/b13_02.webp",
+      "images/images_2026/b13/b13_03.jpg",
+      "images/images_2026/b13/b13_04.jpg"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -415,7 +424,7 @@
       "https://www.youtube.com/shorts/tmuGfQnHfXk"
     ],
     "link_type": "",
-    "video_to_last": true,
+    "video_to_last": false,
     "video_class": [],
     "link": ""
   },
@@ -718,8 +727,7 @@
       "images/images_2026/b24/b24_01.webp",
       "images/images_2026/b24/b24_02.webp",
       "images/images_2026/b24/b24_03.webp",
-      "images/images_2026/b24/b24_04.webp",
-      "images/images_2026/b24/b24_05.webp"
+      "images/images_2026/b24/b24_04.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -1175,7 +1183,7 @@
       "https://youtu.be/-OnQwlJV2Q8"
     ],
     "link_type": "",
-    "video_to_last": false,
+    "video_to_last": true,
     "video_class": [],
     "link": ""
   },
@@ -1201,7 +1209,8 @@
     "main_image": "images/images_2026/b39/b39_02.webp",
     "image_list": [
       "images/images_2026/b39/b39_01.webp",
-      "images/images_2026/b39/b39_02.webp"
+      "images/images_2026/b39/b39_02.webp",
+      "images/images_2026/b39/b39_03.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -1256,12 +1265,18 @@
       "紙",
       "水蒸気"
     ],
-    "main_image": "images/images_2026/b41/b41_02.webp",
+    "main_image": "images/images_2026/b41/b41_02.jpg",
     "image_list": [
-      "images/images_2026/b41/b41_01.webp",
-      "images/images_2026/b41/b41_02.webp",
-      "images/images_2026/b41/b41_03.webp",
-      "images/images_2026/b41/b41_04.webp"
+      "images/images_2026/b41/b41_01.jpg",
+      "images/images_2026/b41/b41_02.jpg",
+      "images/images_2026/b41/b41_03.jpg",
+      "images/images_2026/b41/b41_04.jpg",
+      "images/images_2026/b41/b41_05.jpg",
+      "images/images_2026/b41/b41_06.jpg",
+      "images/images_2026/b41/b41_07.jpg",
+      "images/images_2026/b41/b41_08.jpg",
+      "images/images_2026/b41/b41_09.jpg",
+      "images/images_2026/b41/b41_10.jpg"
     ],
     "video_list": [
       "https://youtu.be/ef67j6lX1Yc"
@@ -1295,7 +1310,11 @@
       "images/images_2026/b42/b42_01.webp",
       "images/images_2026/b42/b42_02.webp",
       "images/images_2026/b42/b42_03.webp",
-      "images/images_2026/b42/b42_04.webp"
+      "images/images_2026/b42/b42_04.webp",
+      "images/images_2026/b42/b42_05.webp",
+      "images/images_2026/b42/b42_06.webp",
+      "images/images_2026/b42/b42_07.webp",
+      "images/images_2026/b42/b42_08.webp"
     ],
     "video_list": [
       "https://youtu.be/4hkqjGFStHk"
@@ -1386,7 +1405,9 @@
     "main_image": "images/images_2026/b45/b45_01.webp",
     "image_list": [
       "images/images_2026/b45/b45_01.webp",
-      "images/images_2026/b45/b45_02.webp"
+      "images/images_2026/b45/b45_02.webp",
+      "images/images_2026/b45/b45_03.webp",
+      "images/images_2026/b45/b45_04.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -1963,7 +1984,7 @@
       "モニター",
       "木材"
     ],
-    "main_image": "images/images_2026/b64/b64_01.webp",
+    "main_image": "images/images_2026/b64/b64_02.webp",
     "image_list": [
       "images/images_2026/b64/b64_01.webp",
       "images/images_2026/b64/b64_02.webp"
@@ -2425,7 +2446,11 @@
     "image_list": [
       "images/images_2026/b79/b79_01.webp",
       "images/images_2026/b79/b79_02.webp",
-      "images/images_2026/b79/b79_03.webp"
+      "images/images_2026/b79/b79_03.webp",
+      "images/images_2026/b79/b79_04.webp",
+      "images/images_2026/b79/b79_05.webp",
+      "images/images_2026/b79/b79_06.webp",
+      "images/images_2026/b79/b79_07.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -2478,7 +2503,7 @@
     "materials": [
       "木材"
     ],
-    "main_image": "images/images_2026/b81/b81_01.webp",
+    "main_image": "images/images_2026/b81/b81_03.webp",
     "image_list": [
       "images/images_2026/b81/b81_01.webp",
       "images/images_2026/b81/b81_02.webp",
@@ -3122,7 +3147,8 @@
       "images/images_2026/m07/m07_02.webp",
       "images/images_2026/m07/m07_03.webp",
       "images/images_2026/m07/m07_04.webp",
-      "images/images_2026/m07/m07_05.webp"
+      "images/images_2026/m07/m07_05.webp",
+      "images/images_2026/m07/m07_06.webp"
     ],
     "video_list": [
       "https://vimeo.com/1165141751?fl=pl&fe=sh"
