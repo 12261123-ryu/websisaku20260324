@@ -346,6 +346,11 @@ function tick() {
             d.y > margin && d.y < height - IMG_SIZE - margin) {
           d.insideBox = true;
         }
+        //二重罫線とウィンドウ端の間にあるつぶがそのままウィンドウ外に消えないようにする
+        if (d.x <= 0) { d.x = 0; d.vx = Math.abs(d.vx); }
+        if (d.x >= width - IMG_SIZE) { d.x = width - IMG_SIZE; d.vx = -Math.abs(d.vx); }
+        if (d.y <= 0) { d.y = 0; d.vy = Math.abs(d.vy); }
+        if (d.y >= height - IMG_SIZE) { d.y = height - IMG_SIZE; d.vy = -Math.abs(d.vy); }
       }
       // 枠内に入ったことがある粒だけ壁判定
       if (d.insideBox) {
