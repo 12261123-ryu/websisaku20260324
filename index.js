@@ -211,8 +211,9 @@ else {
     // --- 実際に描画する（displayWorksをループさせる） ---
   displayWorks.forEach(work => {
     const thumbPath = `${work.main_image}`;
+    const href = `work.html?p=${work.en_name}`;
     const workHTML = `
-  <a href="work.html?p=${work.en_name}" class="work-item-link">
+  <a href="${href}" class="work-item-link">
     <article class="work-item">
       <div class="work-thumbnail">
         <img src="${thumbPath}" alt="${work.title}" loading="lazy" decoding="async">

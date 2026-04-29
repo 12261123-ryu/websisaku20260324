@@ -73,7 +73,7 @@ body.menu-open .main-window {
   /*padding-right: 40px; /* 右側のバーの幅分、内側に押し戻す */
   pointer-events: auto; /* 開いているときは操作可能にするため追加 */
   overflow-y: hidden;
-  font-family: "Times","Times New Roman","游明朝体","游明朝","Yu Mincho","YuMincho",serif;
+  /*font-family: "Times","Times New Roman","游明朝体","游明朝","Yu Mincho","YuMincho",serif;*/
 
   /*メニューを画面全体展開に試し変更4/18*/
   position: fixed;
@@ -99,7 +99,7 @@ body.menu-open .main-window {
 .vertical-text {
   writing-mode: vertical-rl;
   color: #7bbbef;
-  font-family: "Times","Times New Roman","游明朝体","游明朝","Yu Mincho","YuMincho",serif;
+  font-family: 'YakuHanJPs',"Times","Times New Roman","游明朝体","游明朝","Yu Mincho","YuMincho",serif;
   white-space: nowrap;   /* 改行を防ぐ */
 
   /* spanを「箱」として認識させ、中の文字を中央へ */
@@ -200,9 +200,11 @@ align-itemsは左右、justfy-contentが上下*/
 
   width: 40px;             /* バーの幅に合わせる */
   height: 40px;            /* ≡,×ともに40pxの中に収める */
-  
-  font-size: 25px;         /* 記号の大きさ */
-  line-height: 1;          /* 行間の影響を排除 */
+}
+#menu-icon-toggle img {
+  display: block;
+  width: 32px;
+  height: 32px;
 }
 
 
@@ -621,10 +623,10 @@ footer{
     gap: 10px;
     font-family: "Times","Times New Roman","游明朝体","游明朝","Yu Mincho","YuMincho",serif;
     font-size: 14px;
-    border-top: 1.5px solid #7bbbef;
-    padding-top: 20px;
+    border-bottom: 1.5px solid #7bbbef;
+    padding-bottom: 40px;
     width: 100%;
-    margin-top: 20px;/*メニューの罫線上の余白*/
+    margin-bottom: 0px;/*メニューの罫線上の余白*/
   }
 
   .wide-menu-title{
@@ -672,7 +674,7 @@ footer{
     display: block;
     font-family: "Times","Times New Roman","游明朝体","游明朝","Yu Mincho","YuMincho",serif;
     font-size: 14px;
-    margin-bottom: 15px;
+    margin-top: 22px;
   }
   .wide-return a {
     color: #4a4a4a;
@@ -689,12 +691,17 @@ footer{
     gap: 0.8rem;
   }
   .wide-menu {
-    margin-top: 10px;
-    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
     gap: 4.5px;
+    padding-bottom: 20px;
   }
   .gimmick-info-wide{
     margin: 14px 0 0 0;
   }
+  .wide-return {
+    margin-top: 0px;
+  }
+
 }
 
