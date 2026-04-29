@@ -137,12 +137,11 @@
     padding-right: calc(40px + 5%);
   }
 
-
   .web-title .title{
     font-size: 30px;
   }
   .web-title .titletext{
-    max-width: 480px;     /* 箱組みのために横幅制限 */
+    max-width: 520px;     /* 箱組みのために横幅制限 */
   }
 
   .genre-name {
@@ -154,7 +153,7 @@
 /* 1180px〜: 3列・最大幅制限（ハッシュタグは左サイドバーに縦並び） */
 @media (min-width: 1180px) {
 
-    .credit-page-wrapper {
+  .credit-page-wrapper {
     gap: 60px;
     max-width: 1500px;
     margin: 0 auto;

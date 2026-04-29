@@ -161,15 +161,15 @@ if (work.project === "M") {
     if (contactArea) contactArea.style.display = 'none';
   }
   
-  // ---個人ウェブを連絡先SNSに改行した下に表示(提出されたlinkが個人サイトウェブ(link_type=web)のとき)---
-  if (work.link && work.link_type === 'web') {
+  // contact_webがある場合は連絡先の下に追加
+  if (work.contact_web) {
     const webLinkElem = document.getElementById('work-contact-area');
     const webLinkContent = document.getElementById('work-contact');
     if (webLinkElem && webLinkContent) {
       webLinkElem.style.display = 'flex';
       const existingContent = webLinkContent.innerHTML;
       const separator = existingContent ? '<br>' : '';
-      webLinkContent.innerHTML += `${separator}<a href="${work.link}" target="_blank" rel="noopener noreferrer">個人ウェブサイト</a>`;
+      webLinkContent.innerHTML += `${separator}<a href="${work.contact_web}" target="_blank" rel="noopener noreferrer">個人ウェブサイト</a>`;
     }
   }
 

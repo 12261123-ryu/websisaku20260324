@@ -13,6 +13,7 @@
       "type": "Instagram",
       "id": "oti_yukino"
     },
+    "contact_web": "",
     "materials": [
       "布"
     ],
@@ -42,6 +43,7 @@
       "type": "Instagram",
       "id": "__vvo.ovv__"
     },
+    "contact_web": "",
     "materials": [
       "糸"
     ],
@@ -71,6 +73,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "レザー"
     ],
@@ -103,6 +106,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
@@ -131,6 +135,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂",
       "水",
@@ -162,6 +167,7 @@
       "type": "Instagram",
       "id": "kou.9160"
     },
+    "contact_web": "",
     "materials": [
       "石",
       "石膏",
@@ -194,6 +200,7 @@
       "type": "Instagram",
       "id": "satsuki.works"
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
@@ -202,8 +209,7 @@
       "images/images_2026/b07/b07_01.webp",
       "images/images_2026/b07/b07_02.webp",
       "images/images_2026/b07/b07_03.webp",
-      "images/images_2026/b07/b07_04.webp",
-      "images/images_2026/b07/b07_05.webp"
+      "images/images_2026/b07/b07_04.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -225,6 +231,7 @@
       "type": "Instagram",
       "id": "2057_wa"
     },
+    "contact_web": "",
     "materials": [
       "砂",
       "水"
@@ -256,6 +263,7 @@
       "type": "Instagram",
       "id": "kurema_tamura"
     },
+    "contact_web": "",
     "materials": [
       "布"
     ],
@@ -284,6 +292,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
@@ -291,9 +300,7 @@
     "image_list": [
       "images/images_2026/b10/b10_01.webp",
       "images/images_2026/b10/b10_02.webp",
-      "images/images_2026/b10/b10_03.webp",
-      "images/images_2026/b10/b10_04.webp",
-      "images/images_2026/b10/b10_05.webp"
+      "images/images_2026/b10/b10_03.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -315,16 +322,13 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
     "main_image": "images/images_2026/b11/b11_01.webp",
     "image_list": [
-      "images/images_2026/b11/b11_01.webp",
-      "images/images_2026/b11/b11_02.webp",
-      "images/images_2026/b11/b11_03.webp",
-      "images/images_2026/b11/b11_04.webp",
-      "images/images_2026/b11/b11_05.webp"
+      "images/images_2026/b11/b11_01.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -346,10 +350,11 @@
       "type": "Instagram",
       "id": "fujino_uni"
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/b12/b12_02.webp",
+    "main_image": "images/images_2026/b12/b12_01.webp",
     "image_list": [
       "images/images_2026/b12/b12_01.webp",
       "images/images_2026/b12/b12_02.webp",
@@ -375,15 +380,14 @@
       "type": "Instagram",
       "id": "ryutaro_m_y"
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
     "main_image": "images/images_2026/b13/b13_01.webp",
     "image_list": [
       "images/images_2026/b13/b13_01.webp",
-      "images/images_2026/b13/b13_02.webp",
-      "images/images_2026/b13/b13_03.jpg",
-      "images/images_2026/b13/b13_04.jpg"
+      "images/images_2026/b13/b13_02.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -405,6 +409,7 @@
       "type": "Instagram",
       "id": "koharu_miyata"
     },
+    "contact_web": "",
     "materials": [
       "金属",
       "樹脂",
@@ -424,7 +429,7 @@
       "https://www.youtube.com/shorts/tmuGfQnHfXk"
     ],
     "link_type": "",
-    "video_to_last": false,
+    "video_to_last": true,
     "video_class": [],
     "link": ""
   },
@@ -442,6 +447,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
@@ -472,6 +478,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂",
       "木材"
@@ -502,6 +509,7 @@
       "type": "Instagram",
       "id": "sarayoneee"
     },
+    "contact_web": "",
     "materials": [
       "紙（高知麻紙）",
       "膠",
@@ -534,6 +542,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "スピーカー",
@@ -564,6 +573,7 @@
       "type": "Instagram",
       "id": "satu75873"
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "磁性流体",
@@ -598,6 +608,7 @@
       "type": "Instagram",
       "id": "___momonoki03"
     },
+    "contact_web": "",
     "materials": [
       "樹脂"
     ],
@@ -626,6 +637,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター",
       "TPU"
@@ -657,6 +669,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "モーター"
@@ -688,6 +701,7 @@
       "type": "Instagram",
       "id": "shido_sam"
     },
+    "contact_web": "",
     "materials": [
       "竹",
       "紙（感熱紙）"
@@ -718,6 +732,7 @@
       "type": "Instagram",
       "id": "ho5._.0"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "写真表現"
@@ -727,7 +742,8 @@
       "images/images_2026/b24/b24_01.webp",
       "images/images_2026/b24/b24_02.webp",
       "images/images_2026/b24/b24_03.webp",
-      "images/images_2026/b24/b24_04.webp"
+      "images/images_2026/b24/b24_04.webp",
+      "images/images_2026/b24/b24_05.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -749,6 +765,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "糸（毛糸）"
     ],
@@ -778,6 +795,7 @@
       "type": "Instagram",
       "id": "arata__nakagawa"
     },
+    "contact_web": "",
     "materials": [
       "金属"
     ],
@@ -807,6 +825,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "布",
@@ -841,6 +860,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂",
       "小麦粘土"
@@ -873,6 +893,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "金属",
       "樹脂",
@@ -905,6 +926,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "木材",
@@ -938,6 +960,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "モニター"
     ],
@@ -968,6 +991,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "木材",
       "植物(三種：ドラセナ",
@@ -1002,6 +1026,7 @@
       "type": "Instagram",
       "id": "kafka_m16"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "木材",
@@ -1034,9 +1059,11 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "木材",
-      "ガラス"
+      "ガラス",
+      "鏡"
     ],
     "main_image": "images/images_2026/b34/b34_04.webp",
     "image_list": [
@@ -1065,6 +1092,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "砂",
@@ -1098,6 +1126,7 @@
       "type": "Instagram",
       "id": "niyurameso"
     },
+    "contact_web": "",
     "materials": [
       "布",
       "プロジェクター",
@@ -1130,6 +1159,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "モニター"
     ],
@@ -1165,6 +1195,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "水性ペン"
@@ -1201,6 +1232,7 @@
       "type": "Instagram",
       "id": "yue.cho"
     },
+    "contact_web": "",
     "materials": [
       "シャボン玉液",
       "糸",
@@ -1209,8 +1241,7 @@
     "main_image": "images/images_2026/b39/b39_02.webp",
     "image_list": [
       "images/images_2026/b39/b39_01.webp",
-      "images/images_2026/b39/b39_02.webp",
-      "images/images_2026/b39/b39_03.webp"
+      "images/images_2026/b39/b39_02.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -1232,6 +1263,7 @@
       "type": "Instagram",
       "id": "reikatsunakawa"
     },
+    "contact_web": "",
     "materials": [
       "モニター"
     ],
@@ -1261,22 +1293,17 @@
       "type": "Instagram",
       "id": "haruto_nozawa"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "水蒸気"
     ],
-    "main_image": "images/images_2026/b41/b41_02.jpg",
+    "main_image": "images/images_2026/b41/b41_02.webp",
     "image_list": [
-      "images/images_2026/b41/b41_01.jpg",
-      "images/images_2026/b41/b41_02.jpg",
-      "images/images_2026/b41/b41_03.jpg",
-      "images/images_2026/b41/b41_04.jpg",
-      "images/images_2026/b41/b41_05.jpg",
-      "images/images_2026/b41/b41_06.jpg",
-      "images/images_2026/b41/b41_07.jpg",
-      "images/images_2026/b41/b41_08.jpg",
-      "images/images_2026/b41/b41_09.jpg",
-      "images/images_2026/b41/b41_10.jpg"
+      "images/images_2026/b41/b41_01.webp",
+      "images/images_2026/b41/b41_02.webp",
+      "images/images_2026/b41/b41_03.webp",
+      "images/images_2026/b41/b41_04.webp"
     ],
     "video_list": [
       "https://youtu.be/ef67j6lX1Yc"
@@ -1300,6 +1327,7 @@
       "type": "Instagram",
       "id": "tukurita1"
     },
+    "contact_web": "",
     "materials": [
       "金属",
       "樹脂",
@@ -1310,11 +1338,7 @@
       "images/images_2026/b42/b42_01.webp",
       "images/images_2026/b42/b42_02.webp",
       "images/images_2026/b42/b42_03.webp",
-      "images/images_2026/b42/b42_04.webp",
-      "images/images_2026/b42/b42_05.webp",
-      "images/images_2026/b42/b42_06.webp",
-      "images/images_2026/b42/b42_07.webp",
-      "images/images_2026/b42/b42_08.webp"
+      "images/images_2026/b42/b42_04.webp"
     ],
     "video_list": [
       "https://youtu.be/4hkqjGFStHk"
@@ -1331,13 +1355,14 @@
     "hiragana_name": "ひろたゆうき",
     "en_name": "Hirota Yuki",
     "title": "目の置き場としてのプロジェクション",
-    "concept": "音声の文字起こしによるサポートは、動画やオンラインミーティングでは当たり前のものとなってきた。しかし、対面でのコミュニケーションにおいては、いまだに広い場面で音声のみに頼っている。\n相手の言葉を瞬時に聞き取り、応答することが前提とされる場が多い中で、そのやりとりに負担を感じることもある。そこで、文字起こしを介した間接的なコミュニケーションは、より多くの対面の場面に取り入れられてもよいのではないかと考えた。\nこの作品では、面接の場を想定し、受験者と面接官が机の上に表示された文字起こしを見ながら会話をするという場を提案した。",
+    "concept": "音声の文字起こしによるサポートは、動画やオンラインミーティングでは当たり前のものとなってきた。しかし、対面でのコミュニケーションにおいては、いまだに広い場面で音声のみに頼っている。\\n相手の言葉を瞬時に聞き取り、応答することが前提とされる場が多い中で、そのやりとりに負担を感じることもある。そこで、文字起こしを介した間接的なコミュニケーションは、より多くの対面の場面に取り入れられてもよいのではないかと考えた。\\nこの作品では、面接の場を想定し、受験者と面接官が机の上に表示された文字起こしを見ながら会話をするという場を提案した。",
     "project": "C",
     "Master_project": "",
     "contact": {
       "type": "Instagram",
       "id": "kouta6337"
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "プロジェクター"
@@ -1368,6 +1393,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "アクリル"
     ],
@@ -1397,6 +1423,7 @@
       "type": "Instagram",
       "id": "usako_work"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "布",
@@ -1405,9 +1432,7 @@
     "main_image": "images/images_2026/b45/b45_01.webp",
     "image_list": [
       "images/images_2026/b45/b45_01.webp",
-      "images/images_2026/b45/b45_02.webp",
-      "images/images_2026/b45/b45_03.webp",
-      "images/images_2026/b45/b45_04.webp"
+      "images/images_2026/b45/b45_02.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -1429,6 +1454,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "ガラス",
       "プロジェクター"
@@ -1460,6 +1486,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター",
       "テグス"
@@ -1470,7 +1497,7 @@
       "images/images_2026/b47/b47_02.webp"
     ],
     "video_list": [
-      "https://drive.google.com/file/d/1n-7aWl1SaAZoFLyNyoqoIzWZ-bo2g06h/view?usp=drive_link"
+      "https://youtu.be/5Vt2oh08WFs"
     ],
     "link_type": "",
     "video_to_last": false,
@@ -1491,6 +1518,7 @@
       "type": "Instagram",
       "id": "kanokouozumi_artwork"
     },
+    "contact_web": "",
     "materials": [
       "金属",
       "樹脂",
@@ -1527,6 +1555,7 @@
       "type": "Instagram",
       "id": "nnm_ym7"
     },
+    "contact_web": "",
     "materials": [
       "布"
     ],
@@ -1556,6 +1585,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂"
     ],
@@ -1585,6 +1615,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "カニカマ",
       "紙"
@@ -1615,6 +1646,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂",
       "アクリル"
@@ -1646,6 +1678,7 @@
       "type": "Instagram",
       "id": "_circle100_"
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
@@ -1676,6 +1709,7 @@
       "type": "Instagram",
       "id": "honoka_sasaki_011"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "人工毛"
@@ -1707,6 +1741,7 @@
       "type": "Instagram",
       "id": "_yutasato"
     },
+    "contact_web": "",
     "materials": [
       "発泡スチロール",
       "ジェッソ",
@@ -1738,6 +1773,7 @@
       "type": "Instagram",
       "id": "pizzabo1"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "布"
@@ -1768,6 +1804,7 @@
       "type": "Instagram",
       "id": "takahashi_ddd111"
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター",
       "スピーカー"
@@ -1800,6 +1837,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター"
     ],
@@ -1828,6 +1866,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "布",
@@ -1859,6 +1898,7 @@
       "type": "Instagram",
       "id": "good_sleep_zzz"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "糸"
@@ -1889,6 +1929,7 @@
       "type": "X",
       "id": "tyumi_work"
     },
+    "contact_web": "",
     "materials": [
       "布"
     ],
@@ -1918,6 +1959,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "ガラス",
       "ミョウバン"
@@ -1949,6 +1991,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "布",
       "糸"
@@ -1980,11 +2023,12 @@
       "type": "Instagram",
       "id": "ki_nu_ko_"
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "木材"
     ],
-    "main_image": "images/images_2026/b64/b64_02.webp",
+    "main_image": "images/images_2026/b64/b64_01.webp",
     "image_list": [
       "images/images_2026/b64/b64_01.webp",
       "images/images_2026/b64/b64_02.webp"
@@ -2009,6 +2053,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "布",
       "コーヒー"
@@ -2040,6 +2085,7 @@
       "type": "Instagram",
       "id": "mi_lliart8"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "アクリル絵の具"
@@ -2070,6 +2116,7 @@
       "type": "Instagram",
       "id": "about4000km"
     },
+    "contact_web": "",
     "materials": [
       "木材（榧）"
     ],
@@ -2099,6 +2146,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂",
       "モニター",
@@ -2129,6 +2177,7 @@
       "type": "Instagram",
       "id": "inu_gab_human"
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
@@ -2158,6 +2207,7 @@
       "type": "Instagram",
       "id": "sou_side_"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "金属",
@@ -2190,6 +2240,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "木材"
@@ -2223,6 +2274,7 @@
       "type": "Instagram",
       "id": "pinedubdrink"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "金属",
@@ -2259,6 +2311,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "布"
     ],
@@ -2289,6 +2342,7 @@
       "type": "Instagram",
       "id": "_shin_aoki_"
     },
+    "contact_web": "",
     "materials": [
       "スタイロフォーム",
       "コンクリート"
@@ -2319,6 +2373,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "樹脂"
@@ -2349,6 +2404,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "石粉粘土",
       "木材"
@@ -2378,6 +2434,7 @@
       "type": "Instagram",
       "id": "osatou6239"
     },
+    "contact_web": "",
     "materials": [
       "樹脂"
     ],
@@ -2409,6 +2466,7 @@
       "type": "Instagram",
       "id": "rei_624"
     },
+    "contact_web": "",
     "materials": [
       "金属"
     ],
@@ -2439,6 +2497,7 @@
       "type": "Instagram",
       "id": "p.mikimiki2003"
     },
+    "contact_web": "",
     "materials": [
       "石粉粘土"
     ],
@@ -2446,11 +2505,7 @@
     "image_list": [
       "images/images_2026/b79/b79_01.webp",
       "images/images_2026/b79/b79_02.webp",
-      "images/images_2026/b79/b79_03.webp",
-      "images/images_2026/b79/b79_04.webp",
-      "images/images_2026/b79/b79_05.webp",
-      "images/images_2026/b79/b79_06.webp",
-      "images/images_2026/b79/b79_07.webp"
+      "images/images_2026/b79/b79_03.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -2472,6 +2527,7 @@
       "type": "Instagram",
       "id": "mikaze0210"
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
@@ -2500,10 +2556,11 @@
       "type": "Instagram",
       "id": "ham.soyo.0628"
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
-    "main_image": "images/images_2026/b81/b81_03.webp",
+    "main_image": "images/images_2026/b81/b81_01.webp",
     "image_list": [
       "images/images_2026/b81/b81_01.webp",
       "images/images_2026/b81/b81_02.webp",
@@ -2529,6 +2586,7 @@
       "type": "Instagram",
       "id": "kukka_h87"
     },
+    "contact_web": "",
     "materials": [
       "木材",
       "石塑粘土"
@@ -2561,6 +2619,7 @@
       "type": "Instagram",
       "id": "m_co0o"
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
@@ -2590,6 +2649,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "樹脂",
@@ -2610,7 +2670,7 @@
   {
     "school_number": "b85",
     "sort_number": "085",
-    "name": "渡邉 里菜",
+    "name": "渡辺 里菜",
     "hiragana_name": "わたなべりな",
     "en_name": "Watanabe Rina",
     "title": "◯",
@@ -2621,6 +2681,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "布",
       "樹脂"
@@ -2652,6 +2713,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター"
     ],
@@ -2680,6 +2742,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター"
     ],
@@ -2708,6 +2771,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター",
       "カメラ"
@@ -2736,6 +2800,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "カメラ",
@@ -2768,6 +2833,7 @@
       "type": "Instagram",
       "id": "3___saiji"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "布",
@@ -2801,6 +2867,7 @@
       "type": "Instagram",
       "id": "narumi._.sasaki"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "木材"
@@ -2835,6 +2902,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "アルミフレーム",
@@ -2865,6 +2933,7 @@
       "type": "Instagram",
       "id": "y_g_m_m"
     },
+    "contact_web": "",
     "materials": [
       "木材",
       "コンクリート",
@@ -2898,6 +2967,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "木材"
@@ -2927,6 +2997,7 @@
       "type": "Instagram",
       "id": "tanlu_yao"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "色鉛筆"
@@ -2958,6 +3029,7 @@
       "type": "Instagram",
       "id": "yellow__house"
     },
+    "contact_web": "https://huangshiyu.studio.site/works/graduationshow",
     "materials": [
       "ミクストメディア"
     ],
@@ -2965,11 +3037,13 @@
     "image_list": [
       "images/images_2026/m02/m02_01.webp"
     ],
-    "video_list": [],
+    "video_list": [
+      "https://vimeo.com/1172659624"
+    ],
+    "link_type": "",
     "video_to_last": false,
     "video_class": [],
-    "link": "https://huangshiyu.studio.site/works/graduationshow",
-    "link_type": "web"
+    "link": ""
   },
   {
     "school_number": "m03",
@@ -2985,6 +3059,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "糸"
@@ -3016,6 +3091,7 @@
       "type": "Instagram",
       "id": "chaucer.xie"
     },
+    "contact_web": "https://chaucerxie.art/work",
     "materials": [
       "ミクストメディア"
     ],
@@ -3028,8 +3104,8 @@
     "video_list": [],
     "video_to_last": false,
     "video_class": [],
-    "link": "https://chaucerxie.art/work",
-    "link_type": "web"
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "m05",
@@ -3102,6 +3178,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "木材",
@@ -3135,6 +3212,7 @@
       "type": "Instagram",
       "id": "sumi_pionpion"
     },
+    "contact_web": "",
     "materials": [
       "石膏",
       "寒天",
@@ -3147,8 +3225,7 @@
       "images/images_2026/m07/m07_02.webp",
       "images/images_2026/m07/m07_03.webp",
       "images/images_2026/m07/m07_04.webp",
-      "images/images_2026/m07/m07_05.webp",
-      "images/images_2026/m07/m07_06.webp"
+      "images/images_2026/m07/m07_05.webp"
     ],
     "video_list": [
       "https://vimeo.com/1165141751?fl=pl&fe=sh"
@@ -3174,6 +3251,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "金属"
     ],
@@ -3202,6 +3280,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],

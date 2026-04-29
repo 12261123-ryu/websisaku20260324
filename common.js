@@ -44,7 +44,7 @@ fixedLabels.addEventListener('click', (e) => {
     if (isDesktop) {
       // 600px以上：.bar-low以外ならバーのどこを押しても開く
       sideBar.classList.add('is-open');
-      menuIcon.src = 'images/icon_menuClose.webp';
+      menuIcon.src = 'images/icon_menuClose.svg';
       document.body.classList.add('menu-open');
 
       const overlay = document.createElement('div');
@@ -55,7 +55,7 @@ fixedLabels.addEventListener('click', (e) => {
       // スマホ：アイコンか 真ん中の文字(.bar-mid) を直接押した時だけ開く
       if (e.target.closest('#menu-icon-toggle') || e.target.closest('.bar-mid')) {
         sideBar.classList.add('is-open');
-        menuIcon.src = 'images/icon_menuClose.webp';
+        menuIcon.src = 'images/icon_menuClose.svg';
         document.body.classList.add('menu-open');
       
         const overlay = document.createElement('div');
@@ -68,7 +68,7 @@ fixedLabels.addEventListener('click', (e) => {
     // 【開いてる時：メニューを閉じる判定】
     // スマホもデスクトップも共通：.bar-low以外のバーの部分ならどこでも閉じる
     sideBar.classList.remove('is-open');
-    menuIcon.src = 'images/icon_menuOpen.webp';
+    menuIcon.src = 'images/icon_menuOpen.svg';
     document.body.classList.remove('menu-open');
     sideBar.style.display = ''; // インラインstyleをリセット→CSSのdisplay:noneに戻る
 
@@ -86,7 +86,7 @@ if (gimmickBtn) {
   gimmickBtn.addEventListener('click', (e) => {
     e.preventDefault();
     sideBar.classList.add('is-open');
-    menuIcon.src = 'images/icon_menuClose.webp';
+    menuIcon.src = 'images/icon_menuClose.svg';
     document.body.classList.add('menu-open');
     // 1180px以上ではCSSでside-barがdisplay:noneのため、インラインstyleで強制表示（インラインスタイルはCSSより優先される）
     sideBar.style.display = 'flex';
