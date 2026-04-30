@@ -492,11 +492,16 @@
       "樹脂",
       "木材"
     ],
-    "main_image": "images/images_2026/b16/b16_01.webp",
+    "main_image": "images/images_2026/b16/b16_03.webp",
     "image_list": [
       "images/images_2026/b16/b16_01.webp",
       "images/images_2026/b16/b16_02.webp",
-      "images/images_2026/b16/b16_03.webp"
+      "images/images_2026/b16/b16_03.webp",
+      "images/images_2026/b16/b16_04.webp",
+      "images/images_2026/b16/b16_05.webp",
+      "images/images_2026/b16/b16_06.webp",
+      "images/images_2026/b16/b16_07.webp",
+      "images/images_2026/b16/b16_08.webp"
     ],
     "video_list": [],
     "video_to_last": false,
