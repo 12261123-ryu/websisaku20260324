@@ -1032,7 +1032,7 @@
     "Master_project": "",
     "contact": {
       "type": "Instagram",
-      "id": "kafka_m16"
+      "id": "kfkm16"
     },
     "contact_web": "",
     "materials": [
@@ -3317,8 +3317,10 @@
       "images/images_2026/m09/m09_03.webp",
       "images/images_2026/m09/m09_04.webp"
     ],
-    "video_list": [],
-    "video_to_last": false,
+    "video_list": [
+      "https://youtu.be/HqYvTwSFT_s"
+    ],
+    "video_to_last": true,
     "video_class": [],
     "link": "",
     "link_type": ""
