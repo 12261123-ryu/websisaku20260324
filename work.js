@@ -364,15 +364,16 @@ function renderRecommendations(currentWork, allWorks, knownMaterials) {
     selectedNames.add(picked.en_name);
   }
 
-  // --- 3. 素材(materials)から1名 ---
+  // --- 3. 素材(materials)から1名 --- 木材(木の種類名)とか、（）書きで指定してるものも大枠でレコメンド対応
   if (currentWork.materials && currentWork.materials.length > 0) {
-    const myMat = currentWork.materials[Math.floor(Math.random() * currentWork.materials.length)].trim();
+    const myMatRaw = currentWork.materials[Math.floor(Math.random() * currentWork.materials.length)].trim();
+    const myMat = myMatRaw.replace(/（.*）|\(.*\)/, '').trim(); // 括弧を除く
     const isKnown = knownMaterials.includes(myMat);
 
     const sameMatCandidates = allWorks.filter(w => {
       if (selectedNames.has(w.en_name)) return false;
       return w.materials.some(m => {
-        const targetMat = m.trim();
+        const targetMat = m.trim().replace(/（.*）|\(.*\)/, '').trim(); // 括弧を除く
         return isKnown ? targetMat === myMat : !knownMaterials.includes(targetMat);
       });
     });

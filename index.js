@@ -193,7 +193,10 @@ else {
     // 絞り込み時は抽出してソート
     displayWorks = allWorks.filter(work => {
       if (searchKey === "others" || searchKey === "その他") {
-        return work.materials && work.materials.some(m => !knownMaterials.includes(m.trim()));
+        return work.materials && work.materials.some(m => {
+          const baseM = m.trim().replace(/（.*）|\(.*\)/, '').trim();
+          return !knownMaterials.includes(baseM);
+        });
       }
 
       //紙や木材だけど、種類を()で書いている人も引っかかるようにする
