@@ -87,6 +87,7 @@ body.menu-open .main-window {
   background-color: transparent;
   box-shadow: none;
   border-left: none;
+  background-color: #fff;
 }
 .side-bar.is-open .fixed-labels::before {
   display: none;
@@ -135,8 +136,6 @@ body.menu-open .main-window {
   box-sizing: border-box;
   pointer-events: none;
   padding: env(safe-area-inset-top) 0  calc(10px + env(safe-area-inset-bottom)) 0;
-
-  background-color: #fff; /* 閉じている時の白い帯 */
 }
 .fixed-labels::after{ /*擬似要素で左辺の線を二重描画・外側の線*/
   content: "";
