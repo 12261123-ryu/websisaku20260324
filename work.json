@@ -17,7 +17,7 @@
     "materials": [
       "布"
     ],
-    "main_image": "images/images_2026/b01/b01_02.webp",
+    "main_image": "images/images_2026/thumbnails/b01_02_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b01/b01_01.webp",
       "images/images_2026/b01/b01_02.webp",
@@ -77,7 +77,7 @@
     "materials": [
       "レザー"
     ],
-    "main_image": "images/images_2026/b03/b03_01.webp",
+    "main_image": "images/images_2026/thumbnails/b03_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b03/b03_01.webp",
       "images/images_2026/b03/b03_02.webp",
@@ -110,7 +110,7 @@
     "materials": [
       "木材"
     ],
-    "main_image": "images/images_2026/b04/b04_01.webp",
+    "main_image": "images/images_2026/thumbnails/b04_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b04/b04_01.webp",
       "images/images_2026/b04/b04_02.webp"
@@ -141,7 +141,7 @@
       "水",
       "蠕動ポンプ"
     ],
-    "main_image": "images/images_2026/b05/b05_01.webp",
+    "main_image": "images/images_2026/thumbnails/b05_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b05/b05_01.webp",
       "images/images_2026/b05/b05_02.webp",
@@ -237,7 +237,7 @@
       "砂",
       "水"
     ],
-    "main_image": "images/images_2026/b08/b08_02.webp",
+    "main_image": "images/images_2026/thumbnails/b08_02_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b08/b08_01.webp",
       "images/images_2026/b08/b08_02.webp"
@@ -268,7 +268,7 @@
     "materials": [
       "布"
     ],
-    "main_image": "images/images_2026/b09/b09_01.webp",
+    "main_image": "images/images_2026/thumbnails/b09_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b09/b09_01.webp",
       "images/images_2026/b09/b09_02.webp"
@@ -297,7 +297,7 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/b10/b10_01.webp",
+    "main_image": "images/images_2026/thumbnails/b10_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b10/b10_01.webp",
       "images/images_2026/b10/b10_02.webp",
@@ -329,7 +329,7 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/b11/b11_01.webp",
+    "main_image": "images/images_2026/thumbnails/b11_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b11/b11_01.webp",
       "images/images_2026/b11/b11_02.webp",
@@ -391,7 +391,7 @@
     "materials": [
       "木材"
     ],
-    "main_image": "images/images_2026/b13/b13_01.webp",
+    "main_image": "images/images_2026/thumbnails/b13_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b13/b13_01.webp",
       "images/images_2026/b13/b13_02.webp",
@@ -492,7 +492,7 @@
       "樹脂",
       "木材"
     ],
-    "main_image": "images/images_2026/b16/b16_03.webp",
+    "main_image": "images/images_2026/thumbnails/b16_03_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b16/b16_01.webp",
       "images/images_2026/b16/b16_02.webp",
@@ -562,7 +562,7 @@
       "スピーカー",
       "絵の具"
     ],
-    "main_image": "images/images_2026/b18/b18_01.webp",
+    "main_image": "images/images_2026/thumbnails/b18_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b18/b18_01.webp",
       "images/images_2026/b18/b18_02.webp"
@@ -593,7 +593,7 @@
       "磁性流体",
       "アクリルケース"
     ],
-    "main_image": "images/images_2026/b19/b19_01.webp",
+    "main_image": "images/images_2026/thumbnails/b19_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b19/b19_01.webp",
       "images/images_2026/b19/b19_02.webp",
@@ -626,7 +626,7 @@
     "materials": [
       "樹脂"
     ],
-    "main_image": "images/images_2026/b20/b20_01.webp",
+    "main_image": "images/images_2026/thumbnails/b20_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b20/b20_01.webp",
       "images/images_2026/b20/b20_02.webp"
@@ -656,7 +656,7 @@
       "プロジェクター",
       "TPU"
     ],
-    "main_image": "images/images_2026/b21/b21_01.webp",
+    "main_image": "images/images_2026/thumbnails/b21_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b21/b21_01.webp",
       "images/images_2026/b21/b21_02.webp",
@@ -688,7 +688,7 @@
       "紙",
       "モーター"
     ],
-    "main_image": "images/images_2026/b22/b22_01.webp",
+    "main_image": "images/images_2026/thumbnails/b22_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b22/b22_01.webp",
       "images/images_2026/b22/b22_02.webp"
@@ -720,7 +720,7 @@
       "竹",
       "紙（感熱紙）"
     ],
-    "main_image": "images/images_2026/b23/b23_01.webp",
+    "main_image": "images/images_2026/thumbnails/b23_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b23/b23_01.webp",
       "images/images_2026/b23/b23_02.webp",
@@ -782,7 +782,7 @@
     "materials": [
       "糸（毛糸）"
     ],
-    "main_image": "images/images_2026/b25/b25_01.webp",
+    "main_image": "images/images_2026/thumbnails/b25_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b25/b25_01.webp",
       "images/images_2026/b25/b25_02.webp",
@@ -910,7 +910,7 @@
       "木材",
       "電子工作"
     ],
-    "main_image": "images/images_2026/b30/b30_01.webp",
+    "main_image": "images/images_2026/thumbnails/b30_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b30/b30_01.webp",
       "images/images_2026/b30/b30_02.webp",
@@ -942,7 +942,7 @@
     "materials": [
       "モニター"
     ],
-    "main_image": "images/images_2026/b31/b31_04.webp",
+    "main_image": "images/images_2026/thumbnails/b31_04_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b31/b31_01.webp",
       "images/images_2026/b31/b31_02.webp",
@@ -1010,7 +1010,7 @@
       "木材",
       "ウレタンフォーム"
     ],
-    "main_image": "images/images_2026/b33/b33_01.webp",
+    "main_image": "images/images_2026/thumbnails/b33_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b33/b33_01.webp",
       "images/images_2026/b33/b33_02.webp",
@@ -1077,7 +1077,7 @@
       "アクリル",
       "プリズム"
     ],
-    "main_image": "images/images_2026/b35/b35_01.webp",
+    "main_image": "images/images_2026/thumbnails/b35_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b35/b35_01.webp",
       "images/images_2026/b35/b35_02.webp",
@@ -1111,7 +1111,7 @@
       "スタイロフォーム",
       "スチレンボード"
     ],
-    "main_image": "images/images_2026/b36/b36_01.webp",
+    "main_image": "images/images_2026/thumbnails/b36_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b36/b36_01.webp",
       "images/images_2026/b36/b36_02.webp",
@@ -1178,7 +1178,7 @@
       "紙",
       "水性ペン"
     ],
-    "main_image": "images/images_2026/b38/b38_07.webp",
+    "main_image": "images/images_2026/thumbnails/b38_07_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b38/b38_01.webp",
       "images/images_2026/b38/b38_02.webp",
@@ -1277,7 +1277,7 @@
       "紙",
       "水蒸気"
     ],
-    "main_image": "images/images_2026/b41/b41_01.jpg",
+    "main_image": "images/images_2026/thumbnails/b41_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b41/b41_01.jpg",
       "images/images_2026/b41/b41_02.jpg",
@@ -1356,7 +1356,7 @@
       "モニター",
       "プロジェクター"
     ],
-    "main_image": "images/images_2026/b43/b43_01.webp",
+    "main_image": "images/images_2026/thumbnails/b43_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b43/b43_01.webp",
       "images/images_2026/b43/b43_02.webp",
@@ -1450,7 +1450,7 @@
       "ガラス",
       "プロジェクター"
     ],
-    "main_image": "images/images_2026/b46/b46_02.webp",
+    "main_image": "images/images_2026/thumbnails/b46_02_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b46/b46_01.webp",
       "images/images_2026/b46/b46_02.webp"
@@ -1482,7 +1482,7 @@
       "プロジェクター",
       "テグス"
     ],
-    "main_image": "images/images_2026/b47/b47_01.webp",
+    "main_image": "images/images_2026/thumbnails/b47_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b47/b47_01.webp",
       "images/images_2026/b47/b47_02.webp"
@@ -1517,7 +1517,7 @@
       "フォトトランジスタ",
       "赤外線LED"
     ],
-    "main_image": "images/images_2026/b48/b48_01.webp",
+    "main_image": "images/images_2026/thumbnails/b48_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b48/b48_01.webp",
       "images/images_2026/b48/b48_02.webp",
@@ -1611,7 +1611,7 @@
       "カニカマ",
       "紙"
     ],
-    "main_image": "images/images_2026/b51/b51_01.webp",
+    "main_image": "images/images_2026/thumbnails/b51_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b51/b51_01.webp",
       "images/images_2026/b51/b51_02.webp",
@@ -1642,7 +1642,7 @@
       "樹脂",
       "アクリル"
     ],
-    "main_image": "images/images_2026/b52/b52_01.webp",
+    "main_image": "images/images_2026/thumbnails/b52_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b52/b52_01.webp",
       "images/images_2026/b52/b52_02.webp",
@@ -1705,7 +1705,7 @@
       "紙",
       "人工毛"
     ],
-    "main_image": "images/images_2026/b54/b54_01.webp",
+    "main_image": "images/images_2026/thumbnails/b54_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b54/b54_01.webp",
       "images/images_2026/b54/b54_02.webp",
@@ -1738,7 +1738,7 @@
       "ジェッソ",
       "モデリングペースト"
     ],
-    "main_image": "images/images_2026/b55/b55_02.webp",
+    "main_image": "images/images_2026/thumbnails/b55_02_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b55/b55_01.webp",
       "images/images_2026/b55/b55_02.webp",
@@ -1769,7 +1769,7 @@
       "紙",
       "布"
     ],
-    "main_image": "images/images_2026/b56/b56_01.webp",
+    "main_image": "images/images_2026/thumbnails/b56_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b56/b56_01.webp",
       "images/images_2026/b56/b56_02.webp",
@@ -1832,7 +1832,7 @@
     "materials": [
       "プロジェクター"
     ],
-    "main_image": "images/images_2026/b58/b58_01.webp",
+    "main_image": "images/images_2026/thumbnails/b58_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b58/b58_01.webp",
       "images/images_2026/b58/b58_02.webp"
@@ -1894,7 +1894,7 @@
       "紙",
       "糸"
     ],
-    "main_image": "images/images_2026/b60/b60_03.webp",
+    "main_image": "images/images_2026/thumbnails/b60_03_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b60/b60_01.webp",
       "images/images_2026/b60/b60_02.webp",
@@ -1955,7 +1955,7 @@
       "ガラス",
       "ミョウバン"
     ],
-    "main_image": "images/images_2026/b62/b62_01.webp",
+    "main_image": "images/images_2026/thumbnails/b62_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b62/b62_01.webp",
       "images/images_2026/b62/b62_02.webp",
@@ -1987,7 +1987,7 @@
       "布",
       "糸"
     ],
-    "main_image": "images/images_2026/b63/b63_01.webp",
+    "main_image": "images/images_2026/thumbnails/b63_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b63/b63_01.webp",
       "images/images_2026/b63/b63_02.webp"
@@ -2019,7 +2019,7 @@
       "モニター",
       "木材"
     ],
-    "main_image": "images/images_2026/b64/b64_02.webp",
+    "main_image": "images/images_2026/thumbnails/b64_02_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b64/b64_01.webp",
       "images/images_2026/b64/b64_02.webp"
@@ -2049,7 +2049,7 @@
       "布",
       "コーヒー"
     ],
-    "main_image": "images/images_2026/b65/b65_01.webp",
+    "main_image": "images/images_2026/thumbnails/b65_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b65/b65_01.webp",
       "images/images_2026/b65/b65_02.webp",
@@ -2081,7 +2081,7 @@
       "紙",
       "アクリル絵の具"
     ],
-    "main_image": "images/images_2026/b66/b66_02.webp",
+    "main_image": "images/images_2026/thumbnails/b66_02_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b66/b66_01.webp",
       "images/images_2026/b66/b66_02.webp",
@@ -2111,7 +2111,7 @@
     "materials": [
       "木材（榧）"
     ],
-    "main_image": "images/images_2026/b67/b67_01.webp",
+    "main_image": "images/images_2026/thumbnails/b67_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b67/b67_01.webp",
       "images/images_2026/b67/b67_02.webp",
@@ -2143,7 +2143,7 @@
       "モニター",
       "木材"
     ],
-    "main_image": "images/images_2026/b68/b68_01.webp",
+    "main_image": "images/images_2026/thumbnails/b68_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b68/b68_01.webp",
       "images/images_2026/b68/b68_02.webp"
@@ -2172,7 +2172,7 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/b69/b69_01.webp",
+    "main_image": "images/images_2026/thumbnails/b69_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b69/b69_01.webp",
       "images/images_2026/b69/b69_02.webp",
@@ -2461,7 +2461,7 @@
     "materials": [
       "金属"
     ],
-    "main_image": "images/images_2026/b78/b78_01.webp",
+    "main_image": "images/images_2026/thumbnails/b78_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b78/b78_01.webp",
       "images/images_2026/b78/b78_02.webp",
@@ -2526,7 +2526,7 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/b80/b80_01.webp",
+    "main_image": "images/images_2026/thumbnails/b80_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b80/b80_01.webp",
       "images/images_2026/b80/b80_02.webp"
@@ -2586,7 +2586,7 @@
       "木材",
       "石塑粘土"
     ],
-    "main_image": "images/images_2026/b82/b82_01.webp",
+    "main_image": "images/images_2026/thumbnails/b82_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b82/b82_01.webp",
       "images/images_2026/b82/b82_02.webp",
@@ -2618,7 +2618,7 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/b83/b83_01.webp",
+    "main_image": "images/images_2026/thumbnails/b83_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b83/b83_01.webp",
       "images/images_2026/b83/b83_02.webp",
@@ -2650,7 +2650,7 @@
       "樹脂",
       "スタイロフォーム"
     ],
-    "main_image": "images/images_2026/b84/b84_01.webp",
+    "main_image": "images/images_2026/thumbnails/b84_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b84/b84_01.webp",
       "images/images_2026/b84/b84_02.webp",
@@ -2681,7 +2681,7 @@
       "布",
       "樹脂"
     ],
-    "main_image": "images/images_2026/b85/b85_01.webp",
+    "main_image": "images/images_2026/thumbnails/b85_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b85/b85_01.webp",
       "images/images_2026/b85/b85_02.webp",
@@ -2712,7 +2712,7 @@
     "materials": [
       "プロジェクター"
     ],
-    "main_image": "images/images_2026/b86/b86_01.webp",
+    "main_image": "images/images_2026/thumbnails/b86_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b86/b86_01.webp",
       "images/images_2026/b86/b86_02.webp"
@@ -2741,7 +2741,7 @@
     "materials": [
       "プロジェクター"
     ],
-    "main_image": "images/images_2026/b87/b87_01.webp",
+    "main_image": "images/images_2026/thumbnails/b87_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b87/b87_01.webp",
       "images/images_2026/b87/b87_02.webp"
@@ -2771,7 +2771,7 @@
       "プロジェクター",
       "カメラ"
     ],
-    "main_image": "images/images_2026/b88/b88_01.webp",
+    "main_image": "images/images_2026/thumbnails/b88_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b88/b88_01.webp"
     ],
@@ -2867,7 +2867,7 @@
       "紙",
       "木材"
     ],
-    "main_image": "images/images_2026/b91/b91_01.webp",
+    "main_image": "images/images_2026/thumbnails/b91_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b91/b91_01.webp",
       {
@@ -2967,7 +2967,7 @@
       "紙",
       "木材"
     ],
-    "main_image": "images/images_2026/b94/b94_01.webp",
+    "main_image": "images/images_2026/thumbnails/b94_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/b94/b94_01.webp",
       "images/images_2026/b94/b94_02.webp"
@@ -2997,7 +2997,7 @@
       "紙",
       "色鉛筆"
     ],
-    "main_image": "images/images_2026/m01/m01_02.webp",
+    "main_image": "images/images_2026/thumbnails/m01_02_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/m01/m01_01.webp",
       "images/images_2026/m01/m01_02.webp",
@@ -3028,7 +3028,7 @@
     "materials": [
       "ミクストメディア"
     ],
-    "main_image": "images/images_2026/m02/m02_01.webp",
+    "main_image": "images/images_2026/thumbnails/m02_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/m02/m02_01.webp"
     ],
@@ -3059,7 +3059,7 @@
       "紙",
       "糸"
     ],
-    "main_image": "images/images_2026/m03/m03_01.webp",
+    "main_image": "images/images_2026/thumbnails/m03_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/m03/m03_01.webp",
       "images/images_2026/m03/m03_02.webp",
@@ -3090,7 +3090,7 @@
     "materials": [
       "ミクストメディア"
     ],
-    "main_image": "images/images_2026/m04/m04_01.webp",
+    "main_image": "images/images_2026/thumbnails/m04_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/m04/m04_01.webp",
       "images/images_2026/m04/m04_02.webp",
@@ -3214,7 +3214,7 @@
       "飴",
       "紙"
     ],
-    "main_image": "images/images_2026/m07/m07_01.webp",
+    "main_image": "images/images_2026/thumbnails/m07_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/m07/m07_01.webp",
       "images/images_2026/m07/m07_02.webp",
@@ -3251,7 +3251,7 @@
     "materials": [
       "金属"
     ],
-    "main_image": "images/images_2026/m08/m08_01.webp",
+    "main_image": "images/images_2026/thumbnails/m08_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/m08/m08_01.webp",
       "images/images_2026/m08/m08_02.webp"
@@ -3280,7 +3280,7 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/m09/m09_01.webp",
+    "main_image": "images/images_2026/thumbnails/m09_01_thumbnail_sizedown.webp",
     "image_list": [
       "images/images_2026/m09/m09_01.webp",
       "images/images_2026/m09/m09_02.webp",

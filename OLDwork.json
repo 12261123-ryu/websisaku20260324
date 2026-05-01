@@ -13,6 +13,7 @@
       "type": "Instagram",
       "id": "oti_yukino"
     },
+    "contact_web": "",
     "materials": [
       "布"
     ],
@@ -42,6 +43,7 @@
       "type": "Instagram",
       "id": "__vvo.ovv__"
     },
+    "contact_web": "",
     "materials": [
       "糸"
     ],
@@ -71,6 +73,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "レザー"
     ],
@@ -103,6 +106,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
@@ -131,6 +135,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂",
       "水",
@@ -162,6 +167,7 @@
       "type": "Instagram",
       "id": "kou.9160"
     },
+    "contact_web": "",
     "materials": [
       "石",
       "石膏",
@@ -194,6 +200,7 @@
       "type": "Instagram",
       "id": "satsuki.works"
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
@@ -225,6 +232,7 @@
       "type": "Instagram",
       "id": "2057_wa"
     },
+    "contact_web": "",
     "materials": [
       "砂",
       "水"
@@ -256,6 +264,7 @@
       "type": "Instagram",
       "id": "kurema_tamura"
     },
+    "contact_web": "",
     "materials": [
       "布"
     ],
@@ -284,6 +293,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
@@ -315,6 +325,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
@@ -346,6 +357,7 @@
       "type": "Instagram",
       "id": "fujino_uni"
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
@@ -375,6 +387,7 @@
       "type": "Instagram",
       "id": "ryutaro_m_y"
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
@@ -405,6 +418,7 @@
       "type": "Instagram",
       "id": "koharu_miyata"
     },
+    "contact_web": "",
     "materials": [
       "金属",
       "樹脂",
@@ -442,6 +456,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
@@ -472,15 +487,21 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂",
       "木材"
     ],
-    "main_image": "images/images_2026/b16/b16_01.webp",
+    "main_image": "images/images_2026/b16/b16_03.webp",
     "image_list": [
       "images/images_2026/b16/b16_01.webp",
       "images/images_2026/b16/b16_02.webp",
-      "images/images_2026/b16/b16_03.webp"
+      "images/images_2026/b16/b16_03.webp",
+      "images/images_2026/b16/b16_04.webp",
+      "images/images_2026/b16/b16_05.webp",
+      "images/images_2026/b16/b16_06.webp",
+      "images/images_2026/b16/b16_07.webp",
+      "images/images_2026/b16/b16_08.webp"
     ],
     "video_list": [],
     "video_to_last": false,
@@ -502,6 +523,7 @@
       "type": "Instagram",
       "id": "sarayoneee"
     },
+    "contact_web": "",
     "materials": [
       "紙（高知麻紙）",
       "膠",
@@ -534,6 +556,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "スピーカー",
@@ -564,6 +587,7 @@
       "type": "Instagram",
       "id": "satu75873"
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "磁性流体",
@@ -598,6 +622,7 @@
       "type": "Instagram",
       "id": "___momonoki03"
     },
+    "contact_web": "",
     "materials": [
       "樹脂"
     ],
@@ -626,6 +651,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター",
       "TPU"
@@ -657,6 +683,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "モーター"
@@ -688,6 +715,7 @@
       "type": "Instagram",
       "id": "shido_sam"
     },
+    "contact_web": "",
     "materials": [
       "竹",
       "紙（感熱紙）"
@@ -718,6 +746,7 @@
       "type": "Instagram",
       "id": "ho5._.0"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "写真表現"
@@ -749,6 +778,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "糸（毛糸）"
     ],
@@ -778,6 +808,7 @@
       "type": "Instagram",
       "id": "arata__nakagawa"
     },
+    "contact_web": "",
     "materials": [
       "金属"
     ],
@@ -794,42 +825,8 @@
     "link_type": ""
   },
   {
-    "school_number": "b27",
-    "sort_number": "027",
-    "name": "中津 葵乃",
-    "hiragana_name": "なかつきな",
-    "en_name": "Nakatsu Kina",
-    "title": "触覚のグラデーション",
-    "concept": "「感触」とは素材が持つさまざまな要素で構成されている。凹凸、摩擦、温度、かさつき、柔らかさ、弾力、見た目、イメージ、触った時の音。これらを並列の形で比較するため、全て異なる素材を用いて黒の立方体という形で揃えた。加えて、隣り合うもの同士をグラデーションのように境界線が曖昧に感じられる配置にすることで、より繊細に感触の解像度を高められないかと試みた。",
-    "project": "B",
-    "Master_project": "",
-    "contact": {
-      "type": "",
-      "id": ""
-    },
-    "materials": [
-      "紙",
-      "布",
-      "金属",
-      "砂",
-      "シリコン"
-    ],
-    "main_image": "images/images_2026/b27/b27_02.webp",
-    "image_list": [
-      "images/images_2026/b27/b27_01.webp",
-      "images/images_2026/b27/b27_02.webp",
-      "images/images_2026/b27/b27_03.webp",
-      "images/images_2026/b27/b27_04.webp"
-    ],
-    "video_list": [],
-    "video_to_last": false,
-    "video_class": [],
-    "link": "",
-    "link_type": ""
-  },
-  {
     "school_number": "b28",
-    "sort_number": "028",
+    "sort_number": "027",
     "name": "平間 菜々美",
     "hiragana_name": "ひらまななみ",
     "en_name": "Hirama Nanami",
@@ -841,6 +838,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂",
       "小麦粘土"
@@ -861,7 +859,7 @@
   },
   {
     "school_number": "b29",
-    "sort_number": "029",
+    "sort_number": "028",
     "name": "眞塩 柚子",
     "hiragana_name": "ましおゆず",
     "en_name": "Mashio Yuzu",
@@ -873,6 +871,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "金属",
       "樹脂",
@@ -893,7 +892,7 @@
   },
   {
     "school_number": "b30",
-    "sort_number": "030",
+    "sort_number": "029",
     "name": "菅 蒼摩",
     "hiragana_name": "かんそうま",
     "en_name": "Kan Soma",
@@ -905,6 +904,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "木材",
@@ -926,7 +926,7 @@
   },
   {
     "school_number": "b31",
-    "sort_number": "031",
+    "sort_number": "030",
     "name": "笹岡 柚真",
     "hiragana_name": "ささおかゆま",
     "en_name": "Sasaoka Yuma",
@@ -938,6 +938,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "モニター"
     ],
@@ -956,7 +957,7 @@
   },
   {
     "school_number": "b32",
-    "sort_number": "032",
+    "sort_number": "031",
     "name": "武正 暦",
     "hiragana_name": "たけまさこよみ",
     "en_name": "Takemasa Koyomi",
@@ -968,6 +969,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "木材",
       "植物(三種：ドラセナ",
@@ -990,7 +992,7 @@
   },
   {
     "school_number": "b33",
-    "sort_number": "033",
+    "sort_number": "032",
     "name": "的場 竜之介",
     "hiragana_name": "まとばりゅうのすけ",
     "en_name": "Matoba Ryunosuke",
@@ -1000,8 +1002,9 @@
     "Master_project": "",
     "contact": {
       "type": "Instagram",
-      "id": "kafka_m16"
+      "id": "kfkm16"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "木材",
@@ -1022,7 +1025,7 @@
   },
   {
     "school_number": "b34",
-    "sort_number": "034",
+    "sort_number": "033",
     "name": "伊藤 太洋",
     "hiragana_name": "いとうたいよう",
     "en_name": "Ito Taiyo",
@@ -1034,9 +1037,11 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "木材",
-      "ガラス"
+      "ガラス",
+      "鏡"
     ],
     "main_image": "images/images_2026/b34/b34_04.webp",
     "image_list": [
@@ -1053,7 +1058,7 @@
   },
   {
     "school_number": "b35",
-    "sort_number": "035",
+    "sort_number": "034",
     "name": "清川 友里加",
     "hiragana_name": "きよかわゆりか",
     "en_name": "Kiyokawa Yurika",
@@ -1065,6 +1070,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "砂",
@@ -1086,7 +1092,7 @@
   },
   {
     "school_number": "b36",
-    "sort_number": "036",
+    "sort_number": "035",
     "name": "小谷 大河",
     "hiragana_name": "こたにたいが",
     "en_name": "Kotani Taiga",
@@ -1098,6 +1104,7 @@
       "type": "Instagram",
       "id": "niyurameso"
     },
+    "contact_web": "",
     "materials": [
       "布",
       "プロジェクター",
@@ -1118,7 +1125,7 @@
   },
   {
     "school_number": "b37",
-    "sort_number": "037",
+    "sort_number": "036",
     "name": "鈴木 雄大",
     "hiragana_name": "すずきゆうだい",
     "en_name": "Suzuki Takahiro",
@@ -1130,6 +1137,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "モニター"
     ],
@@ -1153,7 +1161,7 @@
   },
   {
     "school_number": "b38",
-    "sort_number": "038",
+    "sort_number": "037",
     "name": "建部 泰斗",
     "hiragana_name": "たてべたいと",
     "en_name": "Tatebe Taito",
@@ -1165,6 +1173,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "水性ペン"
@@ -1189,7 +1198,7 @@
   },
   {
     "school_number": "b39",
-    "sort_number": "039",
+    "sort_number": "038",
     "name": "チョウ ユエ",
     "hiragana_name": "ちょうゆえ",
     "en_name": "Zhang Rui",
@@ -1201,6 +1210,7 @@
       "type": "Instagram",
       "id": "yue.cho"
     },
+    "contact_web": "",
     "materials": [
       "シャボン玉液",
       "糸",
@@ -1220,7 +1230,7 @@
   },
   {
     "school_number": "b40",
-    "sort_number": "040",
+    "sort_number": "039",
     "name": "綱川 怜佳",
     "hiragana_name": "つなかわれいか",
     "en_name": "Reika Tsunakawa",
@@ -1232,6 +1242,7 @@
       "type": "Instagram",
       "id": "reikatsunakawa"
     },
+    "contact_web": "",
     "materials": [
       "モニター"
     ],
@@ -1249,7 +1260,7 @@
   },
   {
     "school_number": "b41",
-    "sort_number": "041",
+    "sort_number": "040",
     "name": "野澤 遥歩",
     "hiragana_name": "のざわはると",
     "en_name": "Nozawa Haruto",
@@ -1261,6 +1272,7 @@
       "type": "Instagram",
       "id": "haruto_nozawa"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "水蒸気"
@@ -1288,7 +1300,7 @@
   },
   {
     "school_number": "b42",
-    "sort_number": "042",
+    "sort_number": "041",
     "name": "檜山 愛華",
     "hiragana_name": "ひやまあいか",
     "en_name": "Hiyama Aika",
@@ -1300,6 +1312,7 @@
       "type": "Instagram",
       "id": "tukurita1"
     },
+    "contact_web": "",
     "materials": [
       "金属",
       "樹脂",
@@ -1326,7 +1339,7 @@
   },
   {
     "school_number": "b43",
-    "sort_number": "043",
+    "sort_number": "042",
     "name": "広田 侑希",
     "hiragana_name": "ひろたゆうき",
     "en_name": "Hirota Yuki",
@@ -1338,6 +1351,7 @@
       "type": "Instagram",
       "id": "kouta6337"
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "プロジェクター"
@@ -1356,7 +1370,7 @@
   },
   {
     "school_number": "b44",
-    "sort_number": "044",
+    "sort_number": "043",
     "name": "丸橋 啓吾",
     "hiragana_name": "まるはしけいご",
     "en_name": "Maruhashi Keigo",
@@ -1368,6 +1382,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "アクリル"
     ],
@@ -1385,7 +1400,7 @@
   },
   {
     "school_number": "b45",
-    "sort_number": "045",
+    "sort_number": "044",
     "name": "宮澤 さくら",
     "hiragana_name": "みやざわさくら",
     "en_name": "Miyazawa Sakura",
@@ -1397,6 +1412,7 @@
       "type": "Instagram",
       "id": "usako_work"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "布",
@@ -1417,7 +1433,7 @@
   },
   {
     "school_number": "b46",
-    "sort_number": "046",
+    "sort_number": "045",
     "name": "林 イーシェン",
     "hiragana_name": "りんいーしぇん",
     "en_name": "Ishen Rin",
@@ -1429,6 +1445,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "ガラス",
       "プロジェクター"
@@ -1448,7 +1465,7 @@
   },
   {
     "school_number": "b47",
-    "sort_number": "047",
+    "sort_number": "046",
     "name": "石橋 美夏里",
     "hiragana_name": "いしばしみかり",
     "en_name": "Ishibashi Mikari",
@@ -1460,6 +1477,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター",
       "テグス"
@@ -1470,7 +1488,7 @@
       "images/images_2026/b47/b47_02.webp"
     ],
     "video_list": [
-      "https://drive.google.com/file/d/1n-7aWl1SaAZoFLyNyoqoIzWZ-bo2g06h/view?usp=drive_link"
+      "https://youtu.be/5Vt2oh08WFs"
     ],
     "link_type": "",
     "video_to_last": false,
@@ -1479,7 +1497,7 @@
   },
   {
     "school_number": "b48",
-    "sort_number": "048",
+    "sort_number": "047",
     "name": "魚住 佳乃子",
     "hiragana_name": "うおずみかのこ",
     "en_name": "Uozumi Kanoko",
@@ -1491,6 +1509,7 @@
       "type": "Instagram",
       "id": "kanokouozumi_artwork"
     },
+    "contact_web": "",
     "materials": [
       "金属",
       "樹脂",
@@ -1515,7 +1534,7 @@
   },
   {
     "school_number": "b49",
-    "sort_number": "049",
+    "sort_number": "048",
     "name": "大山 菜々美",
     "hiragana_name": "おおやまななみ",
     "en_name": "Oyama Nanami",
@@ -1527,6 +1546,7 @@
       "type": "Instagram",
       "id": "nnm_ym7"
     },
+    "contact_web": "",
     "materials": [
       "布"
     ],
@@ -1544,7 +1564,7 @@
   },
   {
     "school_number": "b50",
-    "sort_number": "050",
+    "sort_number": "049",
     "name": "岡田 真帆",
     "hiragana_name": "おかだまほ",
     "en_name": "Okada Maho",
@@ -1556,6 +1576,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂"
     ],
@@ -1573,7 +1594,7 @@
   },
   {
     "school_number": "b51",
-    "sort_number": "051",
+    "sort_number": "050",
     "name": "柿澤 希美",
     "hiragana_name": "かきざわのぞみ",
     "en_name": "Kakizawa Nozomi",
@@ -1585,6 +1606,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "カニカマ",
       "紙"
@@ -1603,7 +1625,7 @@
   },
   {
     "school_number": "b52",
-    "sort_number": "052",
+    "sort_number": "051",
     "name": "方山 実結",
     "hiragana_name": "かたやまみゆ",
     "en_name": "Katayama Miyu",
@@ -1615,6 +1637,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂",
       "アクリル"
@@ -1634,7 +1657,7 @@
   },
   {
     "school_number": "b53",
-    "sort_number": "053",
+    "sort_number": "052",
     "name": "河野 円香",
     "hiragana_name": "こうのまどか",
     "en_name": "Kouno Madoka",
@@ -1646,6 +1669,7 @@
       "type": "Instagram",
       "id": "_circle100_"
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
@@ -1664,7 +1688,7 @@
   },
   {
     "school_number": "b54",
-    "sort_number": "054",
+    "sort_number": "053",
     "name": "佐々木 穂香",
     "hiragana_name": "ささきほのか",
     "en_name": "Sasaki Honoka",
@@ -1676,6 +1700,7 @@
       "type": "Instagram",
       "id": "honoka_sasaki_011"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "人工毛"
@@ -1695,7 +1720,7 @@
   },
   {
     "school_number": "b55",
-    "sort_number": "055",
+    "sort_number": "054",
     "name": "佐藤 優太",
     "hiragana_name": "さとうゆうた",
     "en_name": "Sato Yuta",
@@ -1707,6 +1732,7 @@
       "type": "Instagram",
       "id": "_yutasato"
     },
+    "contact_web": "",
     "materials": [
       "発泡スチロール",
       "ジェッソ",
@@ -1726,7 +1752,7 @@
   },
   {
     "school_number": "b56",
-    "sort_number": "056",
+    "sort_number": "055",
     "name": "實方 さくら",
     "hiragana_name": "さねかたさくら",
     "en_name": "Sanekata Sakura",
@@ -1738,6 +1764,7 @@
       "type": "Instagram",
       "id": "pizzabo1"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "布"
@@ -1756,7 +1783,7 @@
   },
   {
     "school_number": "b57",
-    "sort_number": "057",
+    "sort_number": "056",
     "name": "高橋 亮有",
     "hiragana_name": "たかはしりょうゆう",
     "en_name": "Takahashi Ryoyu",
@@ -1768,6 +1795,7 @@
       "type": "Instagram",
       "id": "takahashi_ddd111"
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター",
       "スピーカー"
@@ -1788,7 +1816,7 @@
   },
   {
     "school_number": "b58",
-    "sort_number": "058",
+    "sort_number": "057",
     "name": "髙畠 菜月",
     "hiragana_name": "たかはたなつき",
     "en_name": "Takahata Natsuki",
@@ -1800,6 +1828,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター"
     ],
@@ -1816,7 +1845,7 @@
   },
   {
     "school_number": "b59",
-    "sort_number": "059",
+    "sort_number": "058",
     "name": "武田 夏葉",
     "hiragana_name": "たけだなつは",
     "en_name": "Takeda Natsuha",
@@ -1828,6 +1857,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "布",
@@ -1847,7 +1877,7 @@
   },
   {
     "school_number": "b60",
-    "sort_number": "060",
+    "sort_number": "059",
     "name": "玉井 さくら",
     "hiragana_name": "たまいさくら",
     "en_name": "Tamai Sakura",
@@ -1859,6 +1889,7 @@
       "type": "Instagram",
       "id": "good_sleep_zzz"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "糸"
@@ -1877,7 +1908,7 @@
   },
   {
     "school_number": "b61",
-    "sort_number": "061",
+    "sort_number": "060",
     "name": "玉井 裕己",
     "hiragana_name": "たまいゆみ",
     "en_name": "Tamai Yumi",
@@ -1889,6 +1920,7 @@
       "type": "X",
       "id": "tyumi_work"
     },
+    "contact_web": "",
     "materials": [
       "布"
     ],
@@ -1906,7 +1938,7 @@
   },
   {
     "school_number": "b62",
-    "sort_number": "062",
+    "sort_number": "061",
     "name": "千原 萌",
     "hiragana_name": "ちはらもえ",
     "en_name": "Chihara Moe",
@@ -1918,6 +1950,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "ガラス",
       "ミョウバン"
@@ -1937,7 +1970,7 @@
   },
   {
     "school_number": "b63",
-    "sort_number": "063",
+    "sort_number": "062",
     "name": "町田 ちひろ",
     "hiragana_name": "まちだちひろ",
     "en_name": "Machida Chihiro",
@@ -1949,6 +1982,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "布",
       "糸"
@@ -1968,7 +2002,7 @@
   },
   {
     "school_number": "b64",
-    "sort_number": "064",
+    "sort_number": "063",
     "name": "松村 衣子",
     "hiragana_name": "まつむらきぬこ",
     "en_name": "Matsumura Kinuko",
@@ -1980,6 +2014,7 @@
       "type": "Instagram",
       "id": "ki_nu_ko_"
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "木材"
@@ -1997,7 +2032,7 @@
   },
   {
     "school_number": "b65",
-    "sort_number": "065",
+    "sort_number": "064",
     "name": "皆川 結菜",
     "hiragana_name": "みながわゆうな",
     "en_name": "Minagawa Yuna",
@@ -2009,6 +2044,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "布",
       "コーヒー"
@@ -2028,7 +2064,7 @@
   },
   {
     "school_number": "b66",
-    "sort_number": "066",
+    "sort_number": "065",
     "name": "村川 未莉",
     "hiragana_name": "むらかわみり",
     "en_name": "Murakawa Miri",
@@ -2040,6 +2076,7 @@
       "type": "Instagram",
       "id": "mi_lliart8"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "アクリル絵の具"
@@ -2058,7 +2095,7 @@
   },
   {
     "school_number": "b67",
-    "sort_number": "067",
+    "sort_number": "066",
     "name": "矢島 千里",
     "hiragana_name": "やじませんり",
     "en_name": "Yajima Senri",
@@ -2070,6 +2107,7 @@
       "type": "Instagram",
       "id": "about4000km"
     },
+    "contact_web": "",
     "materials": [
       "木材（榧）"
     ],
@@ -2087,7 +2125,7 @@
   },
   {
     "school_number": "b68",
-    "sort_number": "068",
+    "sort_number": "067",
     "name": "栁澤 杏月",
     "hiragana_name": "やなぎさわあんず",
     "en_name": "Yanagisawa Anzu",
@@ -2099,6 +2137,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "樹脂",
       "モニター",
@@ -2117,7 +2156,7 @@
   },
   {
     "school_number": "b69",
-    "sort_number": "069",
+    "sort_number": "068",
     "name": "山口 桃佳",
     "hiragana_name": "やまぐちももか",
     "en_name": "Yamaguchi Momoka",
@@ -2129,6 +2168,7 @@
       "type": "Instagram",
       "id": "inu_gab_human"
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
@@ -2146,7 +2186,7 @@
   },
   {
     "school_number": "b70",
-    "sort_number": "070",
+    "sort_number": "069",
     "name": "横山 颯",
     "hiragana_name": "よこやまそう",
     "en_name": "Yokoyama Sou",
@@ -2158,6 +2198,7 @@
       "type": "Instagram",
       "id": "sou_side_"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "金属",
@@ -2178,7 +2219,7 @@
   },
   {
     "school_number": "b71",
-    "sort_number": "071",
+    "sort_number": "070",
     "name": "吉澤 夢",
     "hiragana_name": "よしざわゆめ",
     "en_name": "Yoshizawa Yume",
@@ -2190,6 +2231,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "木材"
@@ -2211,7 +2253,7 @@
   },
   {
     "school_number": "b72",
-    "sort_number": "072",
+    "sort_number": "071",
     "name": "シン ジョンミン",
     "hiragana_name": "しんじょんみん",
     "en_name": "Shin Jeongmin",
@@ -2223,6 +2265,7 @@
       "type": "Instagram",
       "id": "pinedubdrink"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "金属",
@@ -2247,7 +2290,7 @@
   },
   {
     "school_number": "b73",
-    "sort_number": "073",
+    "sort_number": "072",
     "name": "谷森 絢菜",
     "hiragana_name": "たにもりあやな",
     "en_name": "Tanimori Ayana",
@@ -2259,6 +2302,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "布"
     ],
@@ -2277,7 +2321,7 @@
   },
   {
     "school_number": "b74",
-    "sort_number": "074",
+    "sort_number": "073",
     "name": "青木 心",
     "hiragana_name": "あおきしん",
     "en_name": "Aoki Shin",
@@ -2289,6 +2333,7 @@
       "type": "Instagram",
       "id": "_shin_aoki_"
     },
+    "contact_web": "",
     "materials": [
       "スタイロフォーム",
       "コンクリート"
@@ -2307,7 +2352,7 @@
   },
   {
     "school_number": "b75",
-    "sort_number": "075",
+    "sort_number": "074",
     "name": "石原 風花",
     "hiragana_name": "いしはらふうか",
     "en_name": "Ishihara Fuka",
@@ -2319,6 +2364,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "樹脂"
@@ -2337,7 +2383,7 @@
   },
   {
     "school_number": "b76",
-    "sort_number": "076",
+    "sort_number": "075",
     "name": "川端 冴輔",
     "hiragana_name": "かわばたさすけ",
     "en_name": "Kawabata Sasuke",
@@ -2349,6 +2395,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "石粉粘土",
       "木材"
@@ -2366,7 +2413,7 @@
   },
   {
     "school_number": "b77",
-    "sort_number": "077",
+    "sort_number": "076",
     "name": "佐藤 里菜",
     "hiragana_name": "さとうりな",
     "en_name": "Sato Rina",
@@ -2378,6 +2425,7 @@
       "type": "Instagram",
       "id": "osatou6239"
     },
+    "contact_web": "",
     "materials": [
       "樹脂"
     ],
@@ -2397,7 +2445,7 @@
   },
   {
     "school_number": "b78",
-    "sort_number": "078",
+    "sort_number": "077",
     "name": "佐藤 怜",
     "hiragana_name": "さとうれい",
     "en_name": "Sato Rei",
@@ -2409,6 +2457,7 @@
       "type": "Instagram",
       "id": "rei_624"
     },
+    "contact_web": "",
     "materials": [
       "金属"
     ],
@@ -2427,7 +2476,7 @@
   },
   {
     "school_number": "b79",
-    "sort_number": "079",
+    "sort_number": "078",
     "name": "徳重 樹",
     "hiragana_name": "とくしげみき",
     "en_name": "Tokushige Miki",
@@ -2439,6 +2488,7 @@
       "type": "Instagram",
       "id": "p.mikimiki2003"
     },
+    "contact_web": "",
     "materials": [
       "石粉粘土"
     ],
@@ -2460,7 +2510,7 @@
   },
   {
     "school_number": "b80",
-    "sort_number": "080",
+    "sort_number": "079",
     "name": "萩 海風",
     "hiragana_name": "はぎみかぜ",
     "en_name": "Hagi Mikaze",
@@ -2472,6 +2522,7 @@
       "type": "Instagram",
       "id": "mikaze0210"
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
@@ -2488,7 +2539,7 @@
   },
   {
     "school_number": "b81",
-    "sort_number": "081",
+    "sort_number": "080",
     "name": "濱 そよか",
     "hiragana_name": "はまそよか",
     "en_name": "Hama Soyoka",
@@ -2500,6 +2551,7 @@
       "type": "Instagram",
       "id": "ham.soyo.0628"
     },
+    "contact_web": "",
     "materials": [
       "木材"
     ],
@@ -2517,7 +2569,7 @@
   },
   {
     "school_number": "b82",
-    "sort_number": "082",
+    "sort_number": "081",
     "name": "真﨑 花",
     "hiragana_name": "まさきはな",
     "en_name": "Masaki Hana",
@@ -2529,6 +2581,7 @@
       "type": "Instagram",
       "id": "kukka_h87"
     },
+    "contact_web": "",
     "materials": [
       "木材",
       "石塑粘土"
@@ -2549,7 +2602,7 @@
   },
   {
     "school_number": "b83",
-    "sort_number": "083",
+    "sort_number": "082",
     "name": "松井 瑶子",
     "hiragana_name": "まついたまこ",
     "en_name": "Matsui Tamako",
@@ -2561,6 +2614,7 @@
       "type": "Instagram",
       "id": "m_co0o"
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
@@ -2578,7 +2632,7 @@
   },
   {
     "school_number": "b84",
-    "sort_number": "084",
+    "sort_number": "083",
     "name": "吉住 亜也伽",
     "hiragana_name": "よしずみあやか",
     "en_name": "Yoshizumi Ayaka",
@@ -2590,6 +2644,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "樹脂",
@@ -2609,8 +2664,8 @@
   },
   {
     "school_number": "b85",
-    "sort_number": "085",
-    "name": "渡邉 里菜",
+    "sort_number": "084",
+    "name": "渡辺 里菜",
     "hiragana_name": "わたなべりな",
     "en_name": "Watanabe Rina",
     "title": "◯",
@@ -2621,6 +2676,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "布",
       "樹脂"
@@ -2640,7 +2696,7 @@
   },
   {
     "school_number": "b86",
-    "sort_number": "086",
+    "sort_number": "085",
     "name": "キム ガヒョン",
     "hiragana_name": "きむがひょん",
     "en_name": "Kim Gahyun",
@@ -2652,6 +2708,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター"
     ],
@@ -2668,7 +2725,7 @@
   },
   {
     "school_number": "b87",
-    "sort_number": "087",
+    "sort_number": "086",
     "name": "チャ ミン",
     "hiragana_name": "ちゃみん",
     "en_name": "Cha Min",
@@ -2680,6 +2737,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター"
     ],
@@ -2696,7 +2754,7 @@
   },
   {
     "school_number": "b88",
-    "sort_number": "088",
+    "sort_number": "087",
     "name": "張替 咲良",
     "hiragana_name": "はりがえさくら",
     "en_name": "Harigae Sakura",
@@ -2708,6 +2766,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "プロジェクター",
       "カメラ"
@@ -2724,7 +2783,7 @@
   },
   {
     "school_number": "b89",
-    "sort_number": "089",
+    "sort_number": "088",
     "name": "伊藤 陽平",
     "hiragana_name": "いとうようへい",
     "en_name": "Ito Yohei",
@@ -2736,6 +2795,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "モニター",
       "カメラ",
@@ -2756,7 +2816,7 @@
   },
   {
     "school_number": "b90",
-    "sort_number": "090",
+    "sort_number": "089",
     "name": "齋田 健太",
     "hiragana_name": "さいだけんた",
     "en_name": "Saida Kenta",
@@ -2768,13 +2828,14 @@
       "type": "Instagram",
       "id": "3___saiji"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "布",
       "金属",
       "樹脂"
     ],
-    "main_image": "images/images_2026/b90/b90_01.webp",
+    "main_image": "images/images_2026/b90/b90_02.webp",
     "image_list": [
       "images/images_2026/b90/b90_01.webp",
       "images/images_2026/b90/b90_02.webp",
@@ -2789,7 +2850,7 @@
   },
   {
     "school_number": "b91",
-    "sort_number": "091",
+    "sort_number": "090",
     "name": "佐々木 成美",
     "hiragana_name": "ささきなるみ",
     "en_name": "Sasaki Narumi",
@@ -2801,6 +2862,7 @@
       "type": "Instagram",
       "id": "narumi._.sasaki"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "木材"
@@ -2823,7 +2885,7 @@
   },
   {
     "school_number": "b92",
-    "sort_number": "092",
+    "sort_number": "091",
     "name": "福本 紗菜",
     "hiragana_name": "ふくもとさな",
     "en_name": "Fukumoto Sana",
@@ -2835,6 +2897,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "アルミフレーム",
@@ -2853,7 +2916,7 @@
   },
   {
     "school_number": "b93",
-    "sort_number": "093",
+    "sort_number": "092",
     "name": "八木 美海",
     "hiragana_name": "やぎみみ",
     "en_name": "Yagi Mimi",
@@ -2865,6 +2928,7 @@
       "type": "Instagram",
       "id": "y_g_m_m"
     },
+    "contact_web": "",
     "materials": [
       "木材",
       "コンクリート",
@@ -2886,7 +2950,7 @@
   },
   {
     "school_number": "b94",
-    "sort_number": "094",
+    "sort_number": "093",
     "name": "山口 葵",
     "hiragana_name": "やまぐちあおい",
     "en_name": "Yamaguchi Aoi",
@@ -2898,6 +2962,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "木材"
@@ -2915,7 +2980,7 @@
   },
   {
     "school_number": "m01",
-    "sort_number": "095",
+    "sort_number": "094",
     "name": "姚 琛璐",
     "hiragana_name": "ようちんろ",
     "en_name": "Yao Chenlu",
@@ -2927,11 +2992,12 @@
       "type": "Instagram",
       "id": "tanlu_yao"
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "色鉛筆"
     ],
-    "main_image": "images/images_2026/m01/m01_01.webp",
+    "main_image": "images/images_2026/m01/m01_02.webp",
     "image_list": [
       "images/images_2026/m01/m01_01.webp",
       "images/images_2026/m01/m01_02.webp",
@@ -2946,7 +3012,7 @@
   },
   {
     "school_number": "m02",
-    "sort_number": "096",
+    "sort_number": "095",
     "name": "黄 時雨",
     "hiragana_name": "こうしぐれ",
     "en_name": "Huang Shiyu",
@@ -2958,6 +3024,7 @@
       "type": "Instagram",
       "id": "yellow__house"
     },
+    "contact_web": "https://huangshiyu.studio.site/works/graduationshow",
     "materials": [
       "ミクストメディア"
     ],
@@ -2965,15 +3032,17 @@
     "image_list": [
       "images/images_2026/m02/m02_01.webp"
     ],
-    "video_list": [],
+    "video_list": [
+      "https://vimeo.com/1172659624"
+    ],
+    "link_type": "",
     "video_to_last": false,
     "video_class": [],
-    "link": "https://huangshiyu.studio.site/works/graduationshow",
-    "link_type": "web"
+    "link": ""
   },
   {
     "school_number": "m03",
-    "sort_number": "097",
+    "sort_number": "096",
     "name": "髙橋 海松",
     "hiragana_name": "たかはしみる",
     "en_name": "Takahashi Miru",
@@ -2985,6 +3054,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "糸"
@@ -3004,7 +3074,7 @@
   },
   {
     "school_number": "m04",
-    "sort_number": "098",
+    "sort_number": "097",
     "name": "チャ チャ",
     "hiragana_name": "ちゃちゃ",
     "en_name": "Chaucer Xie",
@@ -3016,6 +3086,7 @@
       "type": "Instagram",
       "id": "chaucer.xie"
     },
+    "contact_web": "https://chaucerxie.art/work",
     "materials": [
       "ミクストメディア"
     ],
@@ -3028,8 +3099,8 @@
     "video_list": [],
     "video_to_last": false,
     "video_class": [],
-    "link": "https://chaucerxie.art/work",
-    "link_type": "web"
+    "link": "",
+    "link_type": ""
   },
   {
     "school_number": "m05",
@@ -3090,7 +3161,7 @@
   },
   {
     "school_number": "m06",
-    "sort_number": "100",
+    "sort_number": "099",
     "name": "シュ シフ",
     "hiragana_name": "しゅしふ",
     "en_name": "Zhu Sifu",
@@ -3102,6 +3173,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙",
       "木材",
@@ -3123,7 +3195,7 @@
   },
   {
     "school_number": "m07",
-    "sort_number": "101",
+    "sort_number": "100",
     "name": "藤井 菫",
     "hiragana_name": "ふじいすみれ",
     "en_name": "Fujii Sumire",
@@ -3135,6 +3207,7 @@
       "type": "Instagram",
       "id": "sumi_pionpion"
     },
+    "contact_web": "",
     "materials": [
       "石膏",
       "寒天",
@@ -3162,7 +3235,7 @@
   },
   {
     "school_number": "m08",
-    "sort_number": "102",
+    "sort_number": "101",
     "name": "ユ ゼファン",
     "hiragana_name": "ゆぜふぁん",
     "en_name": "Yu Zhefan",
@@ -3174,6 +3247,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "金属"
     ],
@@ -3190,7 +3264,7 @@
   },
   {
     "school_number": "m09",
-    "sort_number": "103",
+    "sort_number": "102",
     "name": "余 津津",
     "hiragana_name": "ゆじんじん",
     "en_name": "Yu Jinjin",
@@ -3202,6 +3276,7 @@
       "type": "",
       "id": ""
     },
+    "contact_web": "",
     "materials": [
       "紙"
     ],
@@ -3212,8 +3287,10 @@
       "images/images_2026/m09/m09_03.webp",
       "images/images_2026/m09/m09_04.webp"
     ],
-    "video_list": [],
-    "video_to_last": false,
+    "video_list": [
+      "https://youtu.be/HqYvTwSFT_s"
+    ],
+    "video_to_last": true,
     "video_class": [],
     "link": "",
     "link_type": ""
