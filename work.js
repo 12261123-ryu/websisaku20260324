@@ -21,6 +21,14 @@ async function loadWorkDetail() {
     //戻るリンクを書き換える(絞り込み状態を保存する)
     if (work) {
       document.title = `${work.title} / 統合デザイン学科卒業・修了制作展2026 / web図録`;
+      
+      // meta description追加
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) {
+        metaDesc.setAttribute('content', `多摩美術大学統合デザイン学科卒業・修了制作展2026のweb図録、${work.name}による作品「${work.title}」のページです。`);
+      }
+  
+      
       renderWorkPage(work, knownMaterials);
       renderRecommendations(work, works, knownMaterials);
 
