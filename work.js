@@ -63,7 +63,7 @@ async function loadWorkDetail() {
       // 作品が見つからない場合
       const mainWindow = document.querySelector('.main-window');
       if (mainWindow) {
-        mainWindow.innerHTML = '<p style="padding: 40px; color: #888;">作品が見つかりませんでした。<a href="index.html">一覧に戻る</a></p>';
+        mainWindow.innerHTML = '<p style="padding: 40px; color: #888;">作品が見つかりませんでした。<div class="return-to-Top"><a href="index.html">←一覧に戻る</a></div>';
       }
     }
   } catch (error) {
