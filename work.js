@@ -83,8 +83,8 @@ function renderWorkPage(work, knownMaterials = []) {
     return;
   }
 
-  //4/17:main_imageをサムネイルのみに使用し、個別ページでの画像順をナンバリングに従う版に一旦変更中
-  const mainDisplayImage = (work.image_list && work.image_list.length > 0) ? work.image_list[0] : work.main_image;
+  //4/17:thumbnailをサムネイルのみに使用し、個別ページでの画像順をナンバリングに従う版に一旦変更中
+  const mainDisplayImage = (work.image_list && work.image_list.length > 0) ? work.image_list[0] : work.thumbnail;
   document.getElementById('main-visual').innerHTML = `<img src="${mainDisplayImage}" style="width:100%; height:auto;" decoding="async" alt="" onerror="this.style.background='#f9f9f9'; this.removeAttribute('src'); this.style.display='block'; this.style.width='100%';">`;  document.getElementById('work-title').innerText = work.title;
 
   document.getElementById('work-designer').innerText = work.name;
@@ -329,7 +329,7 @@ function renderRecommendations(currentWork, allWorks, knownMaterials) {
         <div class="work-item">
           <a href="work.html?p=${work.en_name}" class="work-item-link">
             <div class="work-thumbnail">
-              <img src="${work.main_image}" alt="${work.title}" loading="lazy" decoding="async">
+              <img src="${work.thumbnail}" alt="${work.title}" loading="lazy" decoding="async">
             </div>
             <div class="work-info">
               <span class="work-title">${work.title}</span>
@@ -412,7 +412,7 @@ function renderRecommendations(currentWork, allWorks, knownMaterials) {
   //レコメンドの固定。sessionStorageに保存
     const saveData = recommended.map(w => ({
       en_name: w.en_name,
-      main_image: w.main_image,
+      thumbnail: w.thumbnail,
       title: w.title,
       name: w.name
     }));
@@ -427,7 +427,7 @@ function renderRecommendations(currentWork, allWorks, knownMaterials) {
       <div class="work-item">
         <a href="work.html?p=${work.en_name}" class="work-item-link">
           <div class="work-thumbnail">
-            <img src="${work.main_image}" alt="${work.title}" loading="lazy" decoding="async">
+            <img src="${work.thumbnail}" alt="${work.title}" loading="lazy" decoding="async">
           </div>
           <div class="work-info">
             <span class="work-title">${work.title}</span>
@@ -477,7 +477,7 @@ function renderExceptionWorkPage(work, knownMaterials = []) {
   <div class="content-wrapper work-part">
     <div class="work-part-grid">
       <div class="full-main-image">
-        <img src="${work.overview_image || work.main_image}" style="width:100%; height:auto;" alt="">
+        <img src="${work.overview_image || work.thumbnail}" style="width:100%; height:auto;" alt="">
       </div>
       <section class="work-info-block">
         <div id="work-title">${work.title}</div>
