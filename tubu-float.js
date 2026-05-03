@@ -74,13 +74,12 @@
     });
 
     //play withアイコンをゼミごとに切り替え
-    const gimmickIcon = document.querySelector('.gimmick-icon');
-    if (gimmickIcon) {
-      const iconName = ['A','B','C','D','F','M','Y'].includes(key)
+    const iconName = ['A','B','C','D','F','M','Y'].includes(key)
         ? `icon_playwith_${key}.webp`
         : `icon_playwith.webp`; // allやその他はデフォルト
-      gimmickIcon.src = `images/tubu/${iconName}`;
-    }
+      document.querySelectorAll('.gimmick-icon').forEach(icon => {
+        icon.src = `images/tubu/${iconName}`;
+      });
 
   };
 

@@ -53,7 +53,7 @@ fixedLabels.addEventListener('click', (e) => {
       document.body.appendChild(overlay);
     } else {
       // スマホ：アイコンか 真ん中の文字(.bar-mid) を直接押した時だけ開く
-      if (e.target.closest('#menu-icon-toggle') || e.target.closest('.bar-mid')) {
+  if (e.target.closest('#menu-icon-toggle') || e.target.closest('.bar-mid') || e.target.closest('.bar-playwith')) {
         sideBar.classList.add('is-open');
         menuIcon.src = 'images/icon_menuClose.svg';
         document.body.classList.add('menu-open');
@@ -96,6 +96,7 @@ if (gimmickBtn) {
     document.body.appendChild(overlay);
   });
 }
+
 // メニューを開いている時にウィンドウサイズが変わっても表示を維持
 window.addEventListener('resize', () => {
   if (sideBar.classList.contains('is-open')) {
