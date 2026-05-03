@@ -41,7 +41,7 @@
 
 .tubu-floating-text {
   position: absolute;
-  font-family: "游明朝体","游明朝","Yu Mincho","YuMincho",serif;
+  font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",serif;
   font-size: 13.5px;
   color: #888;
   white-space: nowrap;
