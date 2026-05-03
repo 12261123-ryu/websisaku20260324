@@ -6,6 +6,11 @@
   height: auto;
 }
 
+.full-main-image {
+  background-color: #f9f9f9;
+}
+
+
 /* 文字情報ブロックだけ左右に余白 */
 .work-info-block {
   padding: 0 15px;
@@ -125,13 +130,6 @@
 .video-item.vertical iframe {
   aspect-ratio: 9 / 16;
   max-width: 360px;
-}
-
-/* 画像の微調整（既存のものを整理） */
-.sub-image-item img {
-  width: 100%;
-  display: block;
-  height: auto;
 }
 
 
