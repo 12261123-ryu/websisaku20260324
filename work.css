@@ -275,8 +275,8 @@
   }
 
   .content-wrapper.recommend-part{
-    padding-left: 5%;
-    padding-right: calc(5% + 40px);
+    padding-left: 7%;
+    padding-right: calc(7% + 40px);
     margin: 0 auto;
   }
 }

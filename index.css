@@ -279,3 +279,12 @@
   }
 
 }
+
+/*作品数の少ないタグを非表示*/
+@media (min-width: 1180px) and (max-height: 799px) {
+  .filter-tags span[data-id="糸"],
+  .filter-tags span[data-id="ガラス"],
+  .filter-tags span[data-id="スタイロフォーム"] {
+    display: none;
+  }
+}

@@ -748,3 +748,14 @@ footer{
 
 }
 
+
+@media (min-width: 1180px) and (max-height: 799px) {
+  .navi-and-menu-wrapper {
+    margin-top: 20px;
+    gap: 0.4rem;
+  }
+
+  .gimmick-info-wide{
+    margin: 5px 0 0 0;
+  }
+}
