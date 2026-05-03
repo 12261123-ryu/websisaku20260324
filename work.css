@@ -17,12 +17,12 @@
 }
 
 #work-title{
-    font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",serif;
+    font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",'Noto Serif JP',serif;
     font-size: 25px;
     color: #4a4a4a;
 }
 .sub-work-title{
-    font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",serif;
+    font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",'Noto Serif JP',serif;
     font-size: 25px;
     color: #4a4a4a;
 }

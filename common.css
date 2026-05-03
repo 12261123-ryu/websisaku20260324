@@ -1,5 +1,12 @@
 
 
+@font-face {
+  font-family: 'Noto Serif JP';
+  src: local('Noto Serif JP');
+  unicode-range: U+3041-3096, U+30A1-30FC, U+4E00-9FFF, U+3000-303F, U+FF00-FFEF;
+}
+
+
 html {
   overflow-x: hidden;
   -ms-overflow-style: none;
@@ -100,7 +107,7 @@ body.menu-open .main-window {
 .vertical-text {
   writing-mode: vertical-rl;
   color: #7bbbef;
-  font-family: 'YakuHanJPs',"Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",serif;
+  font-family: 'YakuHanJPs',"Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",'Noto Serif JP',serif;
   white-space: nowrap;   /* 改行を防ぐ */
 
   /* spanを「箱」として認識させ、中の文字を中央へ */
@@ -248,7 +255,7 @@ align-itemsは左右、justfy-contentが上下*/
   align-items: flex-start; /* 塊の中では左揃え */
   width: fit-content;      /* 中身の幅に合わせる */
   line-height: 40px;
-  font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",serif;
+  font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",'Noto Serif JP',serif;
   white-space: nowrap;
 }
 .menu-links a {
@@ -286,7 +293,7 @@ align-itemsは左右、justfy-contentが上下*/
   margin-bottom: 15dvh;
   white-space: nowrap;
   color: #4a4a4a; /* color: #4b4b4b;#0787ff; */
-  font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho",' Mincho',"Hiragino Mincho ProN","ヒラギノ明朝 ProN",serif;
+  font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho",' Mincho',"Hiragino Mincho ProN","ヒラギノ明朝 ProN",'Noto Serif JP',serif;
 }
 .title-jp{
   text-align: left;       /* ブロック内は左揃え */
@@ -305,7 +312,7 @@ align-itemsは左右、justfy-contentが上下*/
   color: #888;
   width: 100%;
   white-space: nowrap;
-  font-family: "YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",serif;
+  font-family: "YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",'Noto Serif JP',serif;
   pointer-events: none;
 }
 
@@ -549,7 +556,7 @@ align-itemsは左右、justfy-contentが上下*/
 
 footer{
   padding: 0 30px 25px 30px;  
-  font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",serif;
+  font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",'Noto Serif JP',serif;
   color: #4a4a4a;
 }
 .footer-text-aboutonly{
@@ -670,7 +677,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",serif;
+    font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",'Noto Serif JP',serif;
     font-size: 14px;
     width: 100%;
     margin-bottom: 0px;/*メニューの罫線上の余白*/
@@ -678,7 +685,7 @@ footer{
 
   .wide-menu-title{
     color: #7bbbef;
-    font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",serif;
+    font-family: "Times","Times New Roman","YuMincho-Medium","游明朝体","游明朝","Yu Mincho","YuMincho","Hiragino Mincho ProN","ヒラギノ明朝 ProN",'Noto Serif JP',serif;
     font-size: 15px;
     margin-bottom: 5px;
   }
