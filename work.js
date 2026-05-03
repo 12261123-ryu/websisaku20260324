@@ -85,7 +85,13 @@ function renderWorkPage(work, knownMaterials = []) {
 
   //4/17:thumbnailをサムネイルのみに使用し、個別ページでの画像順をナンバリングに従う版に一旦変更中
   const mainDisplayImage = (work.image_list && work.image_list.length > 0) ? work.image_list[0] : work.thumbnail;
-  document.getElementById('main-visual').innerHTML = `<img src="${mainDisplayImage}" style="width:100%; height:auto;" decoding="async" alt="" onerror="this.style.background='#f9f9f9'; this.removeAttribute('src'); this.style.display='block'; this.style.width='100%';">`;  document.getElementById('work-title').innerText = work.title;
+  
+  const imgW = work.firstImageWidth || '';
+  const imgH = work.firstImageHeight || '';
+  const sizeAttrs = imgW && imgH ? `width="${imgW}" height="${imgH}"` : '';
+  document.getElementById('main-visual').innerHTML = `<img src="${mainDisplayImage}" style="width:100%; height:auto;" ${sizeAttrs} decoding="async" alt="" onerror="this.style.background='#f9f9f9'; this.removeAttribute('src'); this.style.display='block'; this.style.width='100%';">`;
+
+  document.getElementById('work-title').innerText = work.title;
 
   document.getElementById('work-designer').innerText = work.name;
   document.getElementById('work-concept').innerText = work.concept;

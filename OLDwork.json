@@ -4,7 +4,7 @@
     "sort_number": "001",
     "name": "伊藤 幸乃",
     "hiragana_name": "いとうゆきの",
-    "en_name": "Ito Yukino",
+    "en_name": "Ito-Yukino",
     "title": "影響されるかたち",
     "concept": "丸と曲線という最小限の要素で構成されたカバン。体に触れ、持たれ、動きを伴うことで輪郭は変形し続けます。本作は完成された固定的な形ではなく、環境に触れることで変化するかたちを目指しました。丸を体に沿わせ曲線が揺らぐカバンは、使い方によって様々な表情が見えてきます。使い方に決まりのないその様子と魅力的な形を写真に収めました。",
     "project": "A",
@@ -17,7 +17,9 @@
     "materials": [
       "布"
     ],
-    "main_image": "images/images_2026/thumbnails/b01_02_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b01_02_sizedown_thumbnail.webp",
+    "1stImage_width": 1213,
+    "1stImage_height": 773,
     "image_list": [
       "images/images_2026/b01/b01_01.webp",
       "images/images_2026/b01/b01_02.webp",
@@ -34,7 +36,7 @@
     "sort_number": "002",
     "name": "黄 佳妍",
     "hiragana_name": "ふぁんがよん",
-    "en_name": "Hwang Gayeon",
+    "en_name": "Hwang-Gayeon",
     "title": "糸編み座",
     "concept": "手芸をテーマにした3Dオブゼクト。手芸で作られたものはなぜ平面に止まるか、編み物と言う方式を再解析したベンチソファー。 手芸がデザインになるとは何か、編み物の特徴を最も生かす方法を考察し、制作した。編み方は主に硬いという性質をまだ持つかぎ針編みを前提に進行。人が直接関わり、作品を体験できる形で工夫を伝える。",
     "project": "A",
@@ -47,7 +49,9 @@
     "materials": [
       "糸"
     ],
-    "main_image": "images/images_2026/b02/b02_01.webp",
+    "thumbnail": "images/images_2026/b02/b02_01.webp",
+    "1stImage_width": 1268,
+    "1stImage_height": 773,
     "image_list": [
       "images/images_2026/b02/b02_01.webp",
       "images/images_2026/b02/b02_02.webp",
@@ -64,7 +68,7 @@
     "sort_number": "003",
     "name": "永澤 桃太",
     "hiragana_name": "ながさわとうた",
-    "en_name": "Nagasawa Tota",
+    "en_name": "Nagasawa-Tota",
     "title": "Replacing with leather",
     "concept": "私たちの生活は、多くのモノで溢れています。それらはすべて誰かがデザインしたプロダクトでありながら、そのほとんどは注目されずに消費され、捨てられてしまいます。本作品では、そんな「身近な製品」がもつ魅力に気づいてもらうことを目標に、日常的に目にするアイテムをレザーでリプロダクトしました。レザーは高級素材のひとつであり、強い存在感を放ちます。普段は意識しない製品の魅力に、気づくきっかけをつくる試みです。",
     "project": "A",
@@ -77,7 +81,9 @@
     "materials": [
       "レザー"
     ],
-    "main_image": "images/images_2026/thumbnails/b03_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b03_01_sizedown_thumbnail.webp",
+    "1stImage_width": 3087,
+    "1stImage_height": 1213,
     "image_list": [
       "images/images_2026/b03/b03_01.webp",
       "images/images_2026/b03/b03_02.webp",
@@ -97,7 +103,7 @@
     "sort_number": "004",
     "name": "野口 安海也",
     "hiragana_name": "のぐちあみや",
-    "en_name": "Noguchi Amiya",
+    "en_name": "Noguchi-Amiya",
     "title": "木彫りの球",
     "concept": "何かを手で削り出す行為は、機械の精密さでは再現できない独特の質感と形状を生み出します。 削る工程の中で生まれる傷や歪み、安定しないノミの軌道から生まれる「不完全さ」にこそ、私は人間味や自然な暖かみを感じます。 鑑賞者の皆さんにもこの作品を通じて、そういった手づくりの魅力を少しでも感じ取って頂けると幸いです。",
     "project": "A",
@@ -110,7 +116,9 @@
     "materials": [
       "木材"
     ],
-    "main_image": "images/images_2026/thumbnails/b04_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b04_01_sizedown_thumbnail.webp",
+    "1stImage_width": 2098,
+    "1stImage_height": 2095,
     "image_list": [
       "images/images_2026/b04/b04_01.webp",
       "images/images_2026/b04/b04_02.webp"
@@ -126,7 +134,7 @@
     "sort_number": "005",
     "name": "大洲 碧流",
     "hiragana_name": "おおずあいる",
-    "en_name": "Ozu Airu",
+    "en_name": "Ozu-Airu",
     "title": "環",
     "concept": "ビーカーの水をポンプで一定量吸い上げ、使い捨てフォークの上に一滴ずつ落とす。水滴は稜線に沿って重力で移動し、先端から落下する。一滴が落ちるたびに、次の一滴分が吸い上げられ、落ちた水はビーカーへ戻って循環する。水滴をのせたフォークは、雨露に濡れた葉のように見える。反復する動きを見つめていると、フォーク＝道具という見え方から少しずつ離れ、自然物と人工物の境界が揺らいでいく。",
     "project": "A",
@@ -141,7 +149,9 @@
       "水",
       "蠕動ポンプ"
     ],
-    "main_image": "images/images_2026/thumbnails/b05_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b05_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1656,
+    "1stImage_height": 2095,
     "image_list": [
       "images/images_2026/b05/b05_01.webp",
       "images/images_2026/b05/b05_02.webp",
@@ -158,7 +168,7 @@
     "sort_number": "006",
     "name": "耿 海博",
     "hiragana_name": "こうかいはく",
-    "en_name": "Geng Haibo",
+    "en_name": "Geng-Haibo",
     "title": "自然、人工、重力",
     "concept": "モノは中からの力、外からの力が同時に作用しながらその形を維持している。空間もまた同じく、静かに見えるが激しく揺らいでいる。人工的に作られたこの空間も、自然の力で満たされている。丸石の両端を平に切り、積み上げ、袋に石膏を満たし、麻袋を平に置く。この空間も野原も海辺も何が違うのだろうか。",
     "project": "A",
@@ -173,7 +183,9 @@
       "石膏",
       "麻袋"
     ],
-    "main_image": "images/images_2026/b06/b06_01.webp",
+    "thumbnail": "images/images_2026/b06/b06_01.webp",
+    "1stImage_width": 772,
+    "1stImage_height": 2096,
     "image_list": [
       "images/images_2026/b06/b06_01.webp",
       "images/images_2026/b06/b06_02.webp",
@@ -191,7 +203,7 @@
     "sort_number": "007",
     "name": "坂倉 彩月",
     "hiragana_name": "さかくらさつき",
-    "en_name": "Sakakura Satsuki",
+    "en_name": "Sakakura-Satsuki",
     "title": "そこに似合う彫刻",
     "concept": "食器棚に重ねられたお椀。コップに挿された歯ブラシ。生活の中で生まれる、そうした何気ない姿に魅力を感じてきた。その魅力を崩さず、置かれた場所や空間がわずかに温かくなるようなものを、形にできないかと考えた。生活を振り返ると、記憶の断片にあるものたちは、ぼんやりと、曖昧に揺らいでいる。手の感触を通して形を探り、磨くほどに輪郭の緩んだ形は、その場に柔らかく溶け込んでいく。",
     "project": "A",
@@ -204,7 +216,9 @@
     "materials": [
       "木材"
     ],
-    "main_image": "images/images_2026/b07/b07_01.webp",
+    "thumbnail": "images/images_2026/b07/b07_01.webp",
+    "1stImage_width": 460,
+    "1stImage_height": 306,
     "image_list": [
       "images/images_2026/b07/b07_01.webp",
       "images/images_2026/b07/b07_02.webp",
@@ -223,7 +237,7 @@
     "sort_number": "008",
     "name": "芹澤 周",
     "hiragana_name": "せりざわしゅう",
-    "en_name": "Serizawa Shu",
+    "en_name": "Serizawa-Shu",
     "title": "砂と水",
     "concept": "撥水加工を施した砂の上を、弾かれた水滴は球となり転がる。溜まり、引っかかりながらも、下へと逞しく流れる。その動きに健気さを覚え、そして生命感を強く感じた。ごく普通な自然物の関係性に少し手を加えることで生まれた、見慣れない動きや、新しいうつろいが生まれているのを、ただ見て受け入れるということに価値を感じ制作した。",
     "project": "A",
@@ -237,7 +251,9 @@
       "砂",
       "水"
     ],
-    "main_image": "images/images_2026/thumbnails/b08_02_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b08_02_sizedown_thumbnail.webp",
+    "1stImage_width": 2591,
+    "1stImage_height": 2095,
     "image_list": [
       "images/images_2026/b08/b08_01.webp",
       "images/images_2026/b08/b08_02.webp"
@@ -255,7 +271,7 @@
     "sort_number": "009",
     "name": "田村 紅茉",
     "hiragana_name": "たむらくれま",
-    "en_name": "Tamura Kurema",
+    "en_name": "Tamura-Kurema",
     "title": "あわい",
     "concept": "ピンと張った布に身体やものを押し当て、現れた像を布越しに撮影した。「あわい」とは、二つの事象が接するところを指す言葉である。「触れないが、知っている。」という、概念と実体のあわいを、1枚の布を介して可視化することを試みた。写真を眺めながらも意識はこの場から離れ、記憶や感情の世界へと静かに接続されていく。",
     "project": "A",
@@ -268,7 +284,9 @@
     "materials": [
       "布"
     ],
-    "main_image": "images/images_2026/thumbnails/b09_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b09_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1654,
+    "1stImage_height": 1655,
     "image_list": [
       "images/images_2026/b09/b09_01.webp",
       "images/images_2026/b09/b09_02.webp"
@@ -284,7 +302,7 @@
     "sort_number": "010",
     "name": "寺嶋 希海",
     "hiragana_name": "てらしまのぞみ",
-    "en_name": "Terashima Nozomi",
+    "en_name": "Terashima-Nozomi",
     "title": "空のかたち",
     "concept": "青い紙をちぎると、そこに飛行機雲が現れた。形を持たない雲と、紙をちぎるという操作の出来ない行為に繋がりを感じた。そして、紙の外形に角度を付け一辺から二辺を切る。そこには窓から空を眺めるような影響を与える。青い紙をちぎる。切る。紙に対する関与の違いから二つの意味が生まれ、それらが一体となった空のかたち。",
     "project": "A",
@@ -297,7 +315,9 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/thumbnails/b10_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b10_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1654,
+    "1stImage_height": 1214,
     "image_list": [
       "images/images_2026/b10/b10_01.webp",
       "images/images_2026/b10/b10_02.webp",
@@ -316,7 +336,7 @@
     "sort_number": "011",
     "name": "冨岡 星来",
     "hiragana_name": "とみおかせいら",
-    "en_name": "Tomioka Seira",
+    "en_name": "Tomioka-Seira",
     "title": "私の見ているもの",
     "concept": "私のありふれた日常の中には、大切なものが潜んでいる。それらのものを前にした時、私は自分の眼でものの断片を切り取り、見ている。たとえあなたが同じ対象物を眺めていたとしても、あなたが見るものと私が見るものはきっと違う。なぜなら人が何かと関わった時、そこには関係性や経験、情が生まれ、その積み重ねによって見え方は変わってゆくから。この作品は、私が見ている日常の愛しい断片たちを形に残した等身大の記録である。",
     "project": "A",
@@ -329,7 +349,9 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/thumbnails/b11_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b11_01_sizedown_thumbnail.webp",
+    "1stImage_width": 2858,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b11/b11_01.webp",
       "images/images_2026/b11/b11_02.webp",
@@ -348,7 +370,7 @@
     "sort_number": "012",
     "name": "藤野 早香",
     "hiragana_name": "ふじのさやか",
-    "en_name": "Fujino Sayaka",
+    "en_name": "Fujino-Sayaka",
     "title": "繊細さの斥力",
     "concept": "繊細なものを見ると、その美しさに惹かれながらも、触れるのをためらう瞬間がある。この反応から、繊細なものの周囲には「斥力の場」が生じているのではないかと考えた。自らを守るため、近づくものを押し返すような力の働く空間である。本作では、今にも吹き飛びそうな危うさの中で、作品の魅力としての「引力」とその脆さが放つ「斥力」を両立させた。繊細さと惹かれるものとの間に、相反する力が交差する境界が浮かび上がる。",
     "project": "A",
@@ -361,7 +383,9 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/b12/b12_02.webp",
+    "thumbnail": "images/images_2026/b12/b12_02.webp",
+    "1stImage_width": 651,
+    "1stImage_height": 434,
     "image_list": [
       "images/images_2026/b12/b12_01.webp",
       "images/images_2026/b12/b12_02.webp",
@@ -378,7 +402,7 @@
     "sort_number": "013",
     "name": "山本 琉太郎",
     "hiragana_name": "やまもとりゅうたろう",
-    "en_name": "Yamamoto Ryutaro",
+    "en_name": "Yamamoto-Ryutaro",
     "title": "つながり",
     "concept": "角材を使って彫刻を作った。角材はこの空間におけるルールであり「つながり」である。需要に合わせて製材された規格が、私と世界もつなげている。積み木で遊ぶ子供のような遊び心で、あなたと私もつながっている。四角で構成されたオブジェが、何かに見えるかもしれない。私が角材をこう組み合わせた、その気持ちがわかるかもしれない。そこにあるのは角材による「つながり」なのだと私は思う。",
     "project": "A",
@@ -391,7 +415,9 @@
     "materials": [
       "木材"
     ],
-    "main_image": "images/images_2026/thumbnails/b13_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b13_01_sizedown_thumbnail.webp",
+    "1stImage_width": 3087,
+    "1stImage_height": 2095,
     "image_list": [
       "images/images_2026/b13/b13_01.webp",
       "images/images_2026/b13/b13_02.webp",
@@ -409,7 +435,7 @@
     "sort_number": "014",
     "name": "宮田 小春",
     "hiragana_name": "みやたこはる",
-    "en_name": "Miyata Koharu",
+    "en_name": "Miyata-Koharu",
     "title": "Being",
     "concept": "現象はくり返す。揺らぎ、浮遊、収縮、均衡。エネルギーの振る舞いに、存在を感じる。昨年祖父が亡くなった。身体に触れて、初めて死を知った。亡くなる前後での変化は血液の流れの有無で、私は流れに生命を感じていたと気づいた。このことをきっかけに、流れをエネルギーの動きと捉え、エネルギーを現象化することで、あらゆる存在が現れてくるのではないかと考えた。",
     "project": "A",
@@ -424,7 +450,9 @@
       "樹脂",
       "ガラス"
     ],
-    "main_image": "images/images_2026/b14/b14_01.webp",
+    "thumbnail": "images/images_2026/b14/b14_01.webp",
+    "1stImage_width": 827,
+    "1stImage_height": 551,
     "image_list": [
       "images/images_2026/b14/b14_01.webp",
       "images/images_2026/b14/b14_02.webp",
@@ -447,7 +475,7 @@
     "sort_number": "015",
     "name": "横山 大輔",
     "hiragana_name": "よこやまだいすけ",
-    "en_name": "Yokoyama Daisuke",
+    "en_name": "Yokoyama-Daisuke",
     "title": "意図と無作為の境界",
     "concept": "制作において「意図に始まり、無作為に生まれる\"意図を超えた結果\"を期待する。」という制作姿勢を取り、これを意図と無作為の境界と名付けました。手法を考えそこで生まれる結果を期待する実験・研究制作です。この作品は、実験を繰り返す中で偶然見つけた無限に増殖・縮小可能な入れ子構造(フラクタル)の図案を用いて制作した障子、立体作品です。",
     "project": "A",
@@ -460,7 +488,9 @@
     "materials": [
       "木材"
     ],
-    "main_image": "images/images_2026/b15/b15_01.webp",
+    "thumbnail": "images/images_2026/b15/b15_01.webp",
+    "1stImage_width": 1026,
+    "1stImage_height": 684,
     "image_list": [
       "images/images_2026/b15/b15_01.webp",
       "images/images_2026/b15/b15_02.webp",
@@ -478,7 +508,7 @@
     "sort_number": "016",
     "name": "横山 優奈",
     "hiragana_name": "よこやまゆうな",
-    "en_name": "Yokoyama Yuna",
+    "en_name": "Yokoyama-Yuna",
     "title": "新しいかたち",
     "concept": "わたしは新しいかたちを考える。これは、新しい関係性のための道具たち。角度がふつうと少し違う。傾いているところに手が向かう。斜辺をひとつ与えると、正面がなくなり身体の向きが勝手に変わる。2人がけベンチに腰掛け、手を置き、斜辺にそって内側を向いてしまう。わたしは分かる。そこには新しい関係性がうまれている。わたしは新しいかたちを考える。この角度や、それに似合う高さや幅がきっと大事なんだと思う。",
     "project": "A",
@@ -492,7 +522,9 @@
       "樹脂",
       "木材"
     ],
-    "main_image": "images/images_2026/thumbnails/b16_03_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b16_03_sizedown_thumbnail.webp",
+    "1stImage_width": 1189,
+    "1stImage_height": 557,
     "image_list": [
       "images/images_2026/b16/b16_01.webp",
       "images/images_2026/b16/b16_02.webp",
@@ -514,7 +546,7 @@
     "sort_number": "017",
     "name": "米山 彩良",
     "hiragana_name": "よねやまさら",
-    "en_name": "Yoneyama Sara",
+    "en_name": "Yoneyama-Sara",
     "title": "地球のかけら",
     "concept": "立体として存在していた素材を砕き、製粉した粉を用いて絵を描いた。形を失っても素材そのものは変わらず、依然として平面の中にかけらとして残り続ける。物質が形態を変えながら移行していく過程に着目し、立体と平面、二次元と三次元の境界を曖昧にすることで、そのあいだに横たわる隔たりを、静かに揺さぶる試みである。",
     "project": "A",
@@ -530,7 +562,9 @@
       "墨汁",
       "その他素材"
     ],
-    "main_image": "images/images_2026/b17/b17_01.webp",
+    "thumbnail": "images/images_2026/b17/b17_01.webp",
+    "1stImage_width": 869,
+    "1stImage_height": 580,
     "image_list": [
       "images/images_2026/b17/b17_01.webp",
       "images/images_2026/b17/b17_02.webp",
@@ -547,7 +581,7 @@
     "sort_number": "018",
     "name": "チャ ヨン",
     "hiragana_name": "ちゃよん",
-    "en_name": "Cha Yeon",
+    "en_name": "Cha-Yeon",
     "title": "Shape of Sound",
     "concept": "これはスピーカーを使い音楽を視覚的に表現した作品です。スピーカーから出てくる波長を使い、紙の上にあるモノの動きを表しています。この作品では普段聞いている音楽を使って音楽が持っている楽しさの幅を広げています。また、絵の下に音楽のタイトルも書いてありますので音楽を想像しながら作品を見てください。全体的に見るとそれぞれの音楽(絵)の個性と違いが見えるので全体的に鑑賞してから一つ一つ見てください。",
     "project": "B",
@@ -562,7 +596,9 @@
       "スピーカー",
       "絵の具"
     ],
-    "main_image": "images/images_2026/thumbnails/b18_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b18_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1906,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b18/b18_01.webp",
       "images/images_2026/b18/b18_02.webp"
@@ -578,7 +614,7 @@
     "sort_number": "019",
     "name": "伊藤 颯樹",
     "hiragana_name": "いとうさつき",
-    "en_name": "Ito Satsuki",
+    "en_name": "Ito-Satsuki",
     "title": "液体の歪みと均し",
     "concept": "この作品は、デジタルでしか見られなかった現象を、光と液体の振る舞いとして、目の前で起こし続ける試みです。光の格子を液面に映し、液体を動かすことで、映像が生成され続ける状態をつくりました。歪んだ液面は光の形を引き留め、ゆっくりと均され、修復されていきます。映像は再生されるものではありません。光と液体が振る舞い続けることで、リアルタイムに立ち上がり続けています。",
     "project": "B",
@@ -593,7 +629,9 @@
       "磁性流体",
       "アクリルケース"
     ],
-    "main_image": "images/images_2026/thumbnails/b19_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b19_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1906,
+    "1stImage_height": 1131,
     "image_list": [
       "images/images_2026/b19/b19_01.webp",
       "images/images_2026/b19/b19_02.webp",
@@ -613,7 +651,7 @@
     "sort_number": "020",
     "name": "上野 桃佳",
     "hiragana_name": "うえのももか",
-    "en_name": "Ueno Momoca",
+    "en_name": "Ueno-Momoca",
     "title": "お米の彫刻",
     "concept": "“ご飯を最後の一粒まで大切に食べて欲しい”という思いから、炊いたお米に焦点を当てた本作品を制作しました。私たちが普段何気なく目にしているお米は、一見すると白い塊のようですが、実際には大きさや形の異なるたくさんの粒が集まったものです。そんな当たり前のようであまり気に留められていない部分へ、この作品を通して改めて目を向けてもらい、“一粒”への意識に変化を与えたいという想いを込めました。",
     "project": "B",
@@ -626,7 +664,9 @@
     "materials": [
       "樹脂"
     ],
-    "main_image": "images/images_2026/thumbnails/b20_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b20_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1400,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b20/b20_01.webp",
       "images/images_2026/b20/b20_02.webp"
@@ -642,7 +682,7 @@
     "sort_number": "021",
     "name": "大野 白龍",
     "hiragana_name": "おおのしりゅう",
-    "en_name": "Shiryu Ono",
+    "en_name": "Shiryu-Ono",
     "title": "掌上の虚像",
     "concept": "視覚と触覚の同期により、遠隔対象への物理的干渉を可視化する知覚デバイス。本来触れられない「地球」を、視覚と触覚の連動によって掌の中に再現。 硬い惑星が指先の力で柔らかく歪んでいく感覚は、物理法則を無視したデジタルにしかできない不思議な体験を提示する。",
     "project": "B",
@@ -656,7 +696,9 @@
       "プロジェクター",
       "TPU"
     ],
-    "main_image": "images/images_2026/thumbnails/b21_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b21_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b21/b21_01.webp",
       "images/images_2026/b21/b21_02.webp",
@@ -674,7 +716,7 @@
     "sort_number": "022",
     "name": "小磯 花恵",
     "hiragana_name": "こいそはなえ",
-    "en_name": "Koiso Hanae",
+    "en_name": "Koiso-Hanae",
     "title": "集合",
     "concept": "ムクドリの群れには、思わず見続けてしまう魅力がある。全体には規則的なリズムがありながら、細部は毎回異なり、予測できない揺らぎが生まれる。鉄球の群れもまた、集まり方を変えながら移動し、形を立ち上げてはほどけ、別の形へ移ろっていく。反復と差異が織りなす変化を通して、自然の動きがもつ心地よさを人工物の中に立ち上げる。眺め続けるうちに、自身の呼吸もその集合の動きに寄り添っていく。",
     "project": "B",
@@ -688,7 +730,9 @@
       "紙",
       "モーター"
     ],
-    "main_image": "images/images_2026/thumbnails/b22_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b22_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b22/b22_01.webp",
       "images/images_2026/b22/b22_02.webp"
@@ -706,7 +750,7 @@
     "sort_number": "023",
     "name": "堺 至道",
     "hiragana_name": "さかいしどう",
-    "en_name": "Sakai Shido",
+    "en_name": "Sakai-Shido",
     "title": "熾痕",
     "concept": "感熱紙に、熱した竹炭を当てて制作を行った。 熱は自然の力であり、同時に人が完全に制御することのできない現象である。 燃焼された竹炭は内部に熱を内包し、不均一なかたちでそれを放出する。 触れた瞬間、熱は感熱紙を不可逆的に変化させ、その過程は二度と同じ結果を生まない。 ここに生まれた黒は、熱が伝わり、滞留し、移動し、失われた後に残った痕跡である。",
     "project": "B",
@@ -720,7 +764,9 @@
       "竹",
       "紙（感熱紙）"
     ],
-    "main_image": "images/images_2026/thumbnails/b23_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b23_01_sizedown_thumbnail.webp",
+    "1stImage_width": 2144,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b23/b23_01.webp",
       "images/images_2026/b23/b23_02.webp",
@@ -737,7 +783,7 @@
     "sort_number": "024",
     "name": "鈴木 麗加",
     "hiragana_name": "すずきりか",
-    "en_name": "Suzuki Rika",
+    "en_name": "Suzuki-Rika",
     "title": "身 体 形",
     "concept": "人の身体でしかできない新しい形の探究。「人」を被写体として、アングルや距離、光の濃淡などを操作することで生まれる、一目では捉えきれない物体としてのカタチの面白さを探っていった。視点を変えることで現れてくるその形は、見慣れたものの意味を解き、モノとして輪郭を変え、不思議なカタチへと変わっていく。私たちが普段見ているカタチを再認識する試みである。",
     "project": "B",
@@ -751,7 +797,9 @@
       "紙",
       "写真表現"
     ],
-    "main_image": "images/images_2026/b24/b24_01.webp",
+    "thumbnail": "images/images_2026/b24/b24_01.webp",
+    "1stImage_width": 460,
+    "1stImage_height": 690,
     "image_list": [
       "images/images_2026/b24/b24_01.webp",
       "images/images_2026/b24/b24_02.webp",
@@ -769,7 +817,7 @@
     "sort_number": "025",
     "name": "戸倉 若菜",
     "hiragana_name": "とくらわかな",
-    "en_name": "Tokura Wakana",
+    "en_name": "Tokura-Wakana",
     "title": "感情の吐露",
     "concept": "編むという行為を通して感情に向き合う試みをしました。自分の中にあるどんなにネガティヴで醜い感情も自分だけの大切なものです。だからこそそれをありのまま温かく受け入れたいと思い、一目一目編むことで吐き出しました。この作品を通して私が私と向き合った時間の長さや、毛糸に乗せて吐き出された感情の繊細さが伝わればいいなと思います。",
     "project": "B",
@@ -782,7 +830,9 @@
     "materials": [
       "糸（毛糸）"
     ],
-    "main_image": "images/images_2026/thumbnails/b25_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b25_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1673,
+    "1stImage_height": 1059,
     "image_list": [
       "images/images_2026/b25/b25_01.webp",
       "images/images_2026/b25/b25_02.webp",
@@ -799,7 +849,7 @@
     "sort_number": "026",
     "name": "中川 新",
     "hiragana_name": "なかがわあらた",
-    "en_name": "Nakagawa Arata",
+    "en_name": "Nakagawa-Arata",
     "title": "鏡界",
     "concept": "1本のステンレス線を折り曲げ、鏡面上で構成した。ステンレス線が描く軌跡は、鏡面という境界を越えて虚像へと繋がっていく。実体が虚像と溶け合うとき、両者の境界は曖昧になり、重力から解放されたような形が浮かび上がる。反射という現象が、相反する二つの世界を調和させ、融合させる。私はそこに認識の揺らぎによって生まれる均衡の世界を表現した。",
     "project": "B",
@@ -812,7 +862,9 @@
     "materials": [
       "金属"
     ],
-    "main_image": "images/images_2026/b26/b26_01.webp",
+    "thumbnail": "images/images_2026/b26/b26_01.webp",
+    "1stImage_width": 1162,
+    "1stImage_height": 656,
     "image_list": [
       "images/images_2026/b26/b26_01.webp",
       "images/images_2026/b26/b26_02.webp",
@@ -829,7 +881,7 @@
     "sort_number": "027",
     "name": "平間 菜々美",
     "hiragana_name": "ひらまななみ",
-    "en_name": "Hirama Nanami",
+    "en_name": "Hirama-Nanami",
     "title": "キャラクター標本",
     "concept": "小麦粘土で制作したオリジナルキャラクターを潰すことによって、キャラクターの新しい魅力を生み出す作品です。潰す前は無表情だった個体も、潰すことで意図せず形や色が混ざり合い、さまざまな表情を作り出します。潰れる前はどんな形だったのか、どんな表情をしていたのか。ぜひ、お気に入りの一匹を探してみてください。",
     "project": "B",
@@ -843,7 +895,9 @@
       "樹脂",
       "小麦粘土"
     ],
-    "main_image": "images/images_2026/b28/b28_02.webp",
+    "thumbnail": "images/images_2026/b28/b28_02.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 656,
     "image_list": [
       "images/images_2026/b28/b28_01.webp",
       "images/images_2026/b28/b28_02.webp",
@@ -862,7 +916,7 @@
     "sort_number": "028",
     "name": "眞塩 柚子",
     "hiragana_name": "ましおゆず",
-    "en_name": "Mashio Yuzu",
+    "en_name": "Mashio-Yuzu",
     "title": "もとのすがた",
     "concept": "普段手にするもの、口にするもの、身にまとうもの。それらは日常の中に当たり前に存在し、ただその形で、その色で、その名前で佇んでいる。 すぐ近くにあるものほど、わたしたちは知ることを怠り、その価値を忘れてしまう。特別ではないが、日常に溶け込むものを形作る「もとのすがた」に出会うことで、その存在とあらためて向き合い、その意味を静かに問い直すことができるのではないだろうか。",
     "project": "B",
@@ -878,7 +932,9 @@
       "ガラス",
       "木材"
     ],
-    "main_image": "images/images_2026/b29/b29_02.webp",
+    "thumbnail": "images/images_2026/b29/b29_02.webp",
+    "1stImage_width": 1399,
+    "1stImage_height": 1131,
     "image_list": [
       "images/images_2026/b29/b29_01.webp",
       "images/images_2026/b29/b29_02.webp",
@@ -895,7 +951,7 @@
     "sort_number": "029",
     "name": "菅 蒼摩",
     "hiragana_name": "かんそうま",
-    "en_name": "Kan Soma",
+    "en_name": "Kan-Soma",
     "title": "言語を触る",
     "concept": "言語の中の発音の区切るリズムと、主に子音・母音に基づく数種類の発声方法とそのタイミングを抽出し、それに合わせて動く作品を触ることで言語を触覚に変換した体験作品。言語が持つ特徴が、知識としてではなく感覚的に知覚されることを試みた。また、日本語・英語・中国語・ロシア語と性質の異なる4つの言語を比べることで、触覚を通じてそれぞれの特徴の違いが感じ取れることを目指している。",
     "project": "C",
@@ -910,7 +966,9 @@
       "木材",
       "電子工作"
     ],
-    "main_image": "images/images_2026/thumbnails/b30_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b30_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1400,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b30/b30_01.webp",
       "images/images_2026/b30/b30_02.webp",
@@ -929,7 +987,7 @@
     "sort_number": "030",
     "name": "笹岡 柚真",
     "hiragana_name": "ささおかゆま",
-    "en_name": "Sasaoka Yuma",
+    "en_name": "Sasaoka-Yuma",
     "title": "できるの設計",
     "concept": "私たちは、何かを「できる」ようになるために何度も練習し経験を積み重ねる。身体の構造や重力・地面による影響などのたくさんのルールがある上で、ある身体の使い方を「できる」ようになる。そのため、異なる動作の中でも同じ目的の部分に対しては同じ「できる」が使われる。以前に習得した「できる」を流用することで「できる」ための練習の省略ができないかを試みた。",
     "project": "C",
@@ -942,7 +1000,9 @@
     "materials": [
       "モニター"
     ],
-    "main_image": "images/images_2026/thumbnails/b31_04_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b31_04_sizedown_thumbnail.webp",
+    "1stImage_width": 556,
+    "1stImage_height": 1190,
     "image_list": [
       "images/images_2026/b31/b31_01.webp",
       "images/images_2026/b31/b31_02.webp",
@@ -960,7 +1020,7 @@
     "sort_number": "031",
     "name": "武正 暦",
     "hiragana_name": "たけまさこよみ",
-    "en_name": "Takemasa Koyomi",
+    "en_name": "Takemasa-Koyomi",
     "title": "みどりに触れる",
     "concept": "私にとって植物とは、ただ見て愛でる対象ではなく、触れ、感じ、体験することで、その存在が「潤い」として心に満ちていくものです。本作では、植物が生きる上で欠かせない「水」を共通のモチーフとし、三種の植物それぞれに触れ方の指示を設け、佇まいから受け取った感覚を水の音として重ねています。触れた瞬間に生まれる小さなレスポンスを通して、鑑賞者が植物の気配や潤いを感じ取るきっかけとなることを願い制作しました。",
     "project": "C",
@@ -977,7 +1037,9 @@
       "ハオルチア）",
       "電子工作部品"
     ],
-    "main_image": "images/images_2026/b32/b32_04.webp",
+    "thumbnail": "images/images_2026/b32/b32_04.webp",
+    "1stImage_width": 1400,
+    "1stImage_height": 715,
     "image_list": [
       "images/images_2026/b32/b32_01.webp",
       "images/images_2026/b32/b32_02.webp",
@@ -995,7 +1057,7 @@
     "sort_number": "032",
     "name": "的場 竜之介",
     "hiragana_name": "まとばりゅうのすけ",
-    "en_name": "Matoba Ryunosuke",
+    "en_name": "Matoba-Ryunosuke",
     "title": "REPULSE",
     "concept": "人間は歩行や立位・座位をはじめ、あらゆる姿勢で重力に対し、反発／抵抗し続けているー　私たちは生まれた瞬間から地球に重力によって引っ張られ続けていますが、その引っ張りに抗うことで、さまざまな身体のあり方で存在を刻み付け、生きています。 普段はその感覚にあまり意識を向けていませんが、この体験を通して、「地球と私たち」の応答関係に気づくことができるのではないかと考え、制作しました。",
     "project": "C",
@@ -1010,7 +1072,9 @@
       "木材",
       "ウレタンフォーム"
     ],
-    "main_image": "images/images_2026/thumbnails/b33_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b33_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b33/b33_01.webp",
       "images/images_2026/b33/b33_02.webp",
@@ -1028,7 +1092,7 @@
     "sort_number": "033",
     "name": "伊藤 太洋",
     "hiragana_name": "いとうたいよう",
-    "en_name": "Ito Taiyo",
+    "en_name": "Ito-Taiyo",
     "title": "鏡による空間の広がり",
     "concept": "鏡を45度に大量に配置して、物量的に反射させると、鏡の間に発生する複数のレイヤーを一つの面に重ねられる現象を発見した。物理的に奥行きを持つ構造ではあるが最終的には平面として出力される。この現象を用いて、前後のレイヤーに変化をつけることで空間が予想よりも広がっているように見せることを目指した。また鏡の特性である光の減衰も利用することで、より広がりを強調している。",
     "project": "C",
@@ -1043,7 +1107,9 @@
       "ガラス",
       "鏡"
     ],
-    "main_image": "images/images_2026/b34/b34_04.webp",
+    "thumbnail": "images/images_2026/b34/b34_04.webp",
+    "1stImage_width": 1905,
+    "1stImage_height": 1133,
     "image_list": [
       "images/images_2026/b34/b34_01.webp",
       "images/images_2026/b34/b34_02.webp",
@@ -1061,7 +1127,7 @@
     "sort_number": "034",
     "name": "清川 友里加",
     "hiragana_name": "きよかわゆりか",
-    "en_name": "Kiyokawa Yurika",
+    "en_name": "Kiyokawa-Yurika",
     "title": "目に届く光を操作する",
     "concept": "今回私は「重ねることによる奥行き」や、光が物質を透過・屈折して目に届くまでの過程に着目し、新たな表現を追求しました。具体的には「ぼかし」「偏光」「プリズム」の3要素を用い、モニターを通した見え方の変化を実験。素材を独自に組み合わせることで、光の性質を再構築し、視覚的な新表現の可能性を研究しています。",
     "project": "C",
@@ -1073,11 +1139,12 @@
     "contact_web": "",
     "materials": [
       "モニター",
-      "砂",
       "アクリル",
       "プリズム"
     ],
-    "main_image": "images/images_2026/thumbnails/b35_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b35_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1400,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b35/b35_01.webp",
       "images/images_2026/b35/b35_02.webp",
@@ -1095,7 +1162,7 @@
     "sort_number": "035",
     "name": "小谷 大河",
     "hiragana_name": "こたにたいが",
-    "en_name": "Kotani Taiga",
+    "en_name": "Kotani-Taiga",
     "title": "輪っしょい",
     "concept": "「ハレ」という概念は「ケ」と対比され、特別な行事のある区切りを指す言葉として用いられる。この区切り方を理解しようと、「ハレの日」を作ることをテーマとした。「ハレの日」には我々を日常から一度離し、非日常を経験させ新たな日常へと促す役割がある。非日常な状態を作るべく、大勢が・一斉に・苦労（発散）する、というハレの要素を、鑑賞体験と組み合わせた。複数人で円盤神輿を持ち上げると、裏側に映像が投影される。",
     "project": "C",
@@ -1111,7 +1178,9 @@
       "スタイロフォーム",
       "スチレンボード"
     ],
-    "main_image": "images/images_2026/thumbnails/b36_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b36_01_sizedown_thumbnail.webp",
+    "1stImage_width": 894,
+    "1stImage_height": 1131,
     "image_list": [
       "images/images_2026/b36/b36_01.webp",
       "images/images_2026/b36/b36_02.webp",
@@ -1128,7 +1197,7 @@
     "sort_number": "036",
     "name": "鈴木 雄大",
     "hiragana_name": "すずきゆうだい",
-    "en_name": "Suzuki Takahiro",
+    "en_name": "Suzuki-Takahiro",
     "title": "視線の偏り",
     "concept": "私たちの視線は、目的や経験に左右されながら動く。しかし、横切る鳥や点滅するライトのように、意図とは無関係に目を奪うものもある。そうした瞬間、世界にはもともと「目立ちやすさ」の強弱があり、そこに吸い寄せられたように私は感じる。本作では、この「目立ちやすさ」を映像の視覚情報から数値化し、それに忠実に反応する仮想の「目」をプログラムした。さらに、その「目」がどこに向くかを、映像の再構成として提示する。",
     "project": "C",
@@ -1141,7 +1210,9 @@
     "materials": [
       "モニター"
     ],
-    "main_image": "images/images_2026/b37/b37_01.webp",
+    "thumbnail": "images/images_2026/b37/b37_01.webp",
+    "1stImage_width": 894,
+    "1stImage_height": 656,
     "image_list": [
       "images/images_2026/b37/b37_01.webp",
       "images/images_2026/b37/b37_02.webp",
@@ -1164,7 +1235,7 @@
     "sort_number": "037",
     "name": "建部 泰斗",
     "hiragana_name": "たてべたいと",
-    "en_name": "Tatebe Taito",
+    "en_name": "Tatebe-Taito",
     "title": "身体だけが描けること",
     "concept": "30mのロール紙に、一切下書きを行わずにペンで絵を描いた。 デジタルツールが発展していく現代において、あえてペンと紙で描くことにこだわる意義を模索する中、私はプリンターで再現できないものを描くことで、直接手で描くことの独自性を証明しようと考えた。 大判プリンター用のロール紙は全長30mあり、縦幅30mもの印刷データを作成することは不可能であるから、この絵は身体だけが描けることである。",
     "project": "C",
@@ -1178,7 +1249,9 @@
       "紙",
       "水性ペン"
     ],
-    "main_image": "images/images_2026/thumbnails/b38_07_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b38_07_sizedown_thumbnail.webp",
+    "1stImage_width": 966,
+    "1stImage_height": 2643,
     "image_list": [
       "images/images_2026/b38/b38_01.webp",
       "images/images_2026/b38/b38_02.webp",
@@ -1201,7 +1274,7 @@
     "sort_number": "038",
     "name": "チョウ ユエ",
     "hiragana_name": "ちょうゆえ",
-    "en_name": "Zhang Rui",
+    "en_name": "Zhang-Rui",
     "title": "シャボン玉の庭",
     "concept": "二つのシャボン玉が糸の上で出会い、やがてひとつに溶け合う――儚くも不思議なその瞬間に着目し、その現象がもつ美しくも驚きを伴う力をかたちにしようとしました。この作品では、シャボン玉を一つずつ吹き出し、細い糸の上にそっと乗って糸に沿って移動しながら、最終的に二つのシャボン玉が一つに融合するという現象が生じるシステムを設計しました。",
     "project": "C",
@@ -1216,7 +1289,9 @@
       "糸",
       "モーター"
     ],
-    "main_image": "images/images_2026/b39/b39_01.webp",
+    "thumbnail": "images/images_2026/b39/b39_01.webp",
+    "1stImage_width": 1165,
+    "1stImage_height": 656,
     "image_list": [
       "images/images_2026/b39/b39_01.webp",
       "images/images_2026/b39/b39_02.webp",
@@ -1233,7 +1308,7 @@
     "sort_number": "039",
     "name": "綱川 怜佳",
     "hiragana_name": "つなかわれいか",
-    "en_name": "Reika Tsunakawa",
+    "en_name": "Reika-Tsunakawa",
     "title": "Solitude",
     "concept": "飲み物を口に運ぶあいだ、コップやお椀の中は、飲んでいる人ただひとりだけの空間になる。ひとりの目にしか触れない、個室とも言える。“Solitude”は他の人がいない寂しさだけでなく、その自由さを歓迎する意味も表すことができる。本作は1人での鑑賞を想定している。あえて映像を歪ませると、立体的に見える視点が１箇所だけになる。角度による錯視をつくることで、鑑賞できる視点は1つになる。",
     "project": "C",
@@ -1246,7 +1321,9 @@
     "materials": [
       "モニター"
     ],
-    "main_image": "images/images_2026/b40/b40_03.webp",
+    "thumbnail": "images/images_2026/b40/b40_03.webp",
+    "1stImage_width": 894,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b40/b40_01.webp",
       "images/images_2026/b40/b40_02.webp",
@@ -1263,7 +1340,7 @@
     "sort_number": "040",
     "name": "野澤 遥歩",
     "hiragana_name": "のざわはると",
-    "en_name": "Nozawa Haruto",
+    "en_name": "Nozawa-Haruto",
     "title": "トレペのタクテ",
     "concept": "トレーシングペーパーは湿度にさらされるとよれて変形してしまうことから「トレペは湿度に弱い」と言われます。では逆に、トレペはその変化を望んでいたとしたら、どうでしょうか。湿って反り返る性質を理解し、その動きに寄り添うとき、制御不能だった「よれ」は豊かな「振る舞い」に変わります。構造と動きが溶け合った彼らの振る舞いを、観測映像と標本とともに見守りましょう。",
     "project": "C",
@@ -1277,7 +1354,9 @@
       "紙",
       "水蒸気"
     ],
-    "main_image": "images/images_2026/thumbnails/b41_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b41_01_sizedown_thumbnail.webp",
+    "1stImage_width": 5760,
+    "1stImage_height": 3840,
     "image_list": [
       "images/images_2026/b41/b41_01.jpg",
       "images/images_2026/b41/b41_02.jpg",
@@ -1303,7 +1382,7 @@
     "sort_number": "041",
     "name": "檜山 愛華",
     "hiragana_name": "ひやまあいか",
-    "en_name": "Hiyama Aika",
+    "en_name": "Hiyama-Aika",
     "title": "ここにあるよろこび",
     "concept": "私は「もの」に触れるたび、「私は今ここに存在している」と再認識しています。 「わたし」が「もの」に触れると、抵抗や音、かたちの変化といった反応が返ってくる。それに対し「わたし」の中には反射的な「よろこび」が現れます。 それは、実在する「もの」と「わたし」（あるいは「あなた」）が、ここに「ある」からこそ生まれる感覚だといえます。 この「もの」に触れたとき、「あなた」には何が起こるのでしょうか。",
     "project": "C",
@@ -1318,7 +1397,9 @@
       "樹脂",
       "木材"
     ],
-    "main_image": "images/images_2026/b42/b42_01.webp",
+    "thumbnail": "images/images_2026/b42/b42_01.webp",
+    "1stImage_width": 1058,
+    "1stImage_height": 705,
     "image_list": [
       "images/images_2026/b42/b42_01.webp",
       "images/images_2026/b42/b42_02.webp",
@@ -1342,7 +1423,7 @@
     "sort_number": "042",
     "name": "広田 侑希",
     "hiragana_name": "ひろたゆうき",
-    "en_name": "Hirota Yuki",
+    "en_name": "Hirota-Yuki",
     "title": "目の置き場としてのプロジェクション",
     "concept": "音声の文字起こしによるサポートは、動画やオンラインミーティングでは当たり前のものとなってきた。しかし、対面でのコミュニケーションにおいては、いまだに広い場面で音声のみに頼っている。\n相手の言葉を瞬時に聞き取り、応答することが前提とされる場が多い中で、そのやりとりに負担を感じることもある。そこで、文字起こしを介した間接的なコミュニケーションは、より多くの対面の場面に取り入れられてもよいのではないかと考えた。\nこの作品では、面接の場を想定し、受験者と面接官が机の上に表示された文字起こしを見ながら会話をするという場を提案した。",
     "project": "C",
@@ -1356,7 +1437,9 @@
       "モニター",
       "プロジェクター"
     ],
-    "main_image": "images/images_2026/thumbnails/b43_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b43_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1906,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b43/b43_01.webp",
       "images/images_2026/b43/b43_02.webp",
@@ -1373,7 +1456,7 @@
     "sort_number": "043",
     "name": "丸橋 啓吾",
     "hiragana_name": "まるはしけいご",
-    "en_name": "Maruhashi Keigo",
+    "en_name": "Maruhashi-Keigo",
     "title": "かたちのありよう",
     "concept": "平面をはじめとする表現において、構成が複雑なほど、表層にある要素しか見ていないことへ何か愁わしさを感じた。普段扱っているかたちに奥行きを加える。要素が交差する部分は、浮き上がることで独立したかたちを生み、新たな情報のありかたを露見させる。それは、ペンが一度通った道が黒から変わらなくても、どんなかたちも画面のなかで、豊かで楽しく密やかに生きているものだと示すことができる。",
     "project": "C",
@@ -1386,7 +1469,9 @@
     "materials": [
       "アクリル"
     ],
-    "main_image": "images/images_2026/b44/b44_02.webp",
+    "thumbnail": "images/images_2026/b44/b44_02.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 1134,
     "image_list": [
       "images/images_2026/b44/b44_01.webp",
       "images/images_2026/b44/b44_02.webp",
@@ -1403,7 +1488,7 @@
     "sort_number": "044",
     "name": "宮澤 さくら",
     "hiragana_name": "みやざわさくら",
-    "en_name": "Miyazawa Sakura",
+    "en_name": "Miyazawa-Sakura",
     "title": "100枚のTシャツ　100人の生活",
     "concept": "個性とはなにか。 ファッションにおいて「何を着ているか」だけでなく、「どう使われているか」にもその人の個性が現れる。白色の無地の半袖Tシャツという多くの人が持っているアイテムを100人分集約させることで、どんな服を選択し、どう使われているかの痕跡の違いを浮き彫りにした。100人それぞれの生活から滲み出る個性を味わってほしい。",
     "project": "C",
@@ -1418,7 +1503,9 @@
       "布",
       "金属"
     ],
-    "main_image": "images/images_2026/b45/b45_01.webp",
+    "thumbnail": "images/images_2026/b45/b45_01.webp",
+    "1stImage_width": 1399,
+    "1stImage_height": 656,
     "image_list": [
       "images/images_2026/b45/b45_01.webp",
       "images/images_2026/b45/b45_02.webp",
@@ -1436,7 +1523,7 @@
     "sort_number": "045",
     "name": "林 イーシェン",
     "hiragana_name": "りんいーしぇん",
-    "en_name": "Ishen Rin",
+    "en_name": "Ishen-Rin",
     "title": "花火",
     "concept": "本来は透明であるプリズムの不規則な破片にプロジェクターの白い光を当てることで、ランダムな反射が生まれ、豊かな光の表情が立ち現れます。花火が持つ純粋な本質――光の爆発、色彩の変化、そして軌跡の踊りを再現しています。本作品では、儚く散っていく花火の一瞬をループアニメーションとして構成し、繰り返し鑑賞することのできる永遠の状態へと定着させました。",
     "project": "C",
@@ -1450,7 +1537,9 @@
       "ガラス",
       "プロジェクター"
     ],
-    "main_image": "images/images_2026/thumbnails/b46_02_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b46_02_sizedown_thumbnail.webp",
+    "1stImage_width": 2223,
+    "1stImage_height": 1509,
     "image_list": [
       "images/images_2026/b46/b46_01.webp",
       "images/images_2026/b46/b46_02.webp"
@@ -1468,7 +1557,7 @@
     "sort_number": "046",
     "name": "石橋 美夏里",
     "hiragana_name": "いしばしみかり",
-    "en_name": "Ishibashi Mikari",
+    "en_name": "Ishibashi-Mikari",
     "title": "行き交う光と層",
     "concept": "テグスの層に向けてプロジェクターで映像を投影し、素材の性質とシンプルな映像が織りなす光の浮遊感と美しさを追求した。テグスの巻き癖をあえて矯正せずそのまま利用することで曲線が光を歪ませ、そこに予測不能なリズムや複雑性が生まれる。重なり合うテグスの層が光を反射・拡散させることでシンプルな映像が魅力的な表現へと変化する。",
     "project": "D",
@@ -1482,7 +1571,9 @@
       "プロジェクター",
       "テグス"
     ],
-    "main_image": "images/images_2026/thumbnails/b47_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b47_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1132,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b47/b47_01.webp",
       "images/images_2026/b47/b47_02.webp"
@@ -1500,7 +1591,7 @@
     "sort_number": "047",
     "name": "魚住 佳乃子",
     "hiragana_name": "うおずみかのこ",
-    "en_name": "Uozumi Kanoko",
+    "en_name": "Uozumi-Kanoko",
     "title": "レシートは記憶を調音するのか？",
     "concept": "友人との時間が愛おしくて、いつも写真を撮っていた。たまたま撮り忘れてしまった日、見つけた１枚のコンビニのレシートは、わたし達の記憶を甦らせる存在だと気づいた。レシートの印刷データを、どこか懐かしさを覚えるアナログのオルゴール音で可聴化してみたらどうなるか。レシートの文字は日常の無機的な記録で、やがて薄れ消えかけ、読み取る音も変化していく。儚い記憶を反芻するようなインスタレーションを試みた。",
     "project": "D",
@@ -1517,7 +1608,9 @@
       "フォトトランジスタ",
       "赤外線LED"
     ],
-    "main_image": "images/images_2026/thumbnails/b48_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b48_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1398,
+    "1stImage_height": 1131,
     "image_list": [
       "images/images_2026/b48/b48_01.webp",
       "images/images_2026/b48/b48_02.webp",
@@ -1537,7 +1630,7 @@
     "sort_number": "048",
     "name": "大山 菜々美",
     "hiragana_name": "おおやまななみ",
-    "en_name": "Oyama Nanami",
+    "en_name": "Oyama-Nanami",
     "title": "たゆたう",
     "concept": "「脱力感」をテーマに、心地よさをもたらす存在を目指して制作した作品です。浮遊している人や飛んでいる人の姿を要素を抑えたシンプルな形で表現しました。テーマに寄り添うように、ゆるやかに漂う線や透ける布のやわらかな質感を大切にしています。自由に漂う姿が、鑑賞する時間そのものを穏やかなひとときにできたら嬉しいです。",
     "project": "D",
@@ -1550,7 +1643,9 @@
     "materials": [
       "布"
     ],
-    "main_image": "images/images_2026/b49/b49_02.webp",
+    "thumbnail": "images/images_2026/b49/b49_02.webp",
+    "1stImage_width": 1400,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b49/b49_01.webp",
       "images/images_2026/b49/b49_02.webp",
@@ -1567,7 +1662,7 @@
     "sort_number": "049",
     "name": "岡田 真帆",
     "hiragana_name": "おかだまほ",
-    "en_name": "Okada Maho",
+    "en_name": "Okada-Maho",
     "title": "Today",
     "concept": "あなただけの「今日」のカタチを集める日記。今日という一日の輪郭を、言葉を使わずに描く非言語記録ツール。感覚間協応に基づいたアクリルブロックを円形のフレームに配置することで、文字に変換する時にこぼれ落ちてしまう微細な感情の変化をブロックの色彩と形状によって補足する目的です。「書く」のではなく「形を置く」ことで完了する新しい日記の提案。",
     "project": "D",
@@ -1580,7 +1675,9 @@
     "materials": [
       "樹脂"
     ],
-    "main_image": "images/images_2026/b50/b50_03.webp",
+    "thumbnail": "images/images_2026/b50/b50_03.webp",
+    "1stImage_width": 1671,
+    "1stImage_height": 1129,
     "image_list": [
       "images/images_2026/b50/b50_01.webp",
       "images/images_2026/b50/b50_02.webp",
@@ -1597,7 +1694,7 @@
     "sort_number": "050",
     "name": "柿澤 希美",
     "hiragana_name": "かきざわのぞみ",
-    "en_name": "Kakizawa Nozomi",
+    "en_name": "Kakizawa-Nozomi",
     "title": "カニカマの野望",
     "concept": "カニカマは、蟹の代替え食品として生まれた存在である。蟹を名乗り、蟹の味を目指して作られてきた。私は、その「なりきれなさ」に目を向けたい。たとえ本物の蟹でなくとも、彼が持つ素材感は唯一無二であり、確かに価値のある存在だ。それをもってすれば、蟹に限らず、海老だって、鯛だって、東京タワーだって描けるのだから。",
     "project": "D",
@@ -1611,7 +1708,9 @@
       "カニカマ",
       "紙"
     ],
-    "main_image": "images/images_2026/thumbnails/b51_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b51_01_sizedown_thumbnail.webp",
+    "1stImage_width": 874,
+    "1stImage_height": 874,
     "image_list": [
       "images/images_2026/b51/b51_01.webp",
       "images/images_2026/b51/b51_02.webp",
@@ -1628,7 +1727,7 @@
     "sort_number": "051",
     "name": "方山 実結",
     "hiragana_name": "かたやまみゆ",
-    "en_name": "Katayama Miyu",
+    "en_name": "Katayama-Miyu",
     "title": "CHROMA",
     "concept": "「熱帯雨林の宝石」と呼ばれる毒ガエル。自らの鮮やかな色彩で身を守るように、美しさは他者を惹きつけるためだけのものではなく、時に自己を守る力となる。本作は、化粧を「他者を魅せるため」ではなく、「自己の強さ」と捉え、「美しさ」「魅力」と「危険」「嫌悪感」が共存する色彩を纏うことで、自分の個性や力を肯定し、強さを手にする体験を提示する。化粧品を通して、誰かに勇気と強さを与えたいという想いを込めた。",
     "project": "D",
@@ -1642,7 +1741,9 @@
       "樹脂",
       "アクリル"
     ],
-    "main_image": "images/images_2026/thumbnails/b52_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b52_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b52/b52_01.webp",
       "images/images_2026/b52/b52_02.webp",
@@ -1660,7 +1761,7 @@
     "sort_number": "052",
     "name": "河野 円香",
     "hiragana_name": "こうのまどか",
-    "en_name": "Kouno Madoka",
+    "en_name": "Kouno-Madoka",
     "title": "Building Story",
     "concept": "様々な形のコマが重なり合い、一つの漫画が立ち上がる。その様子は、積み木を組み替えながら遊ぶ行為とよく似ている。本作では、漫画のコマを積み木として扱い、回転させたり組み合わせたりしながら物語を組み立てることができる。意味のない配置や支離滅裂な順序であっても、人はそこに自然と関係性や流れを見出してしまう。積み上げる行為を通して、物語が生まれる瞬間を体験してほしい。",
     "project": "D",
@@ -1673,7 +1774,9 @@
     "materials": [
       "木材"
     ],
-    "main_image": "images/images_2026/b53/b53_01.webp",
+    "thumbnail": "images/images_2026/b53/b53_01.webp",
+    "1stImage_width": 596,
+    "1stImage_height": 874,
     "image_list": [
       "images/images_2026/b53/b53_01.webp",
       "images/images_2026/b53/b53_02.webp",
@@ -1691,7 +1794,7 @@
     "sort_number": "053",
     "name": "佐々木 穂香",
     "hiragana_name": "ささきほのか",
-    "en_name": "Sasaki Honoka",
+    "en_name": "Sasaki-Honoka",
     "title": "Between",
     "concept": "私達の日常の中で見慣れた物に、人間のムダ毛を想起させる毛を生やした。毛は生き物に生えるものであり、物に生えている状態は異常である。その異常な状態によって、鑑賞者の中で物と生き物の境界が揺らぐ。その「間（あいだ）」に違和感や嫌悪感が生じ、「不快」になる。この感情を引き出すことこそが、本作品の目的である。",
     "project": "D",
@@ -1705,7 +1808,9 @@
       "紙",
       "人工毛"
     ],
-    "main_image": "images/images_2026/thumbnails/b54_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b54_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b54/b54_01.webp",
       "images/images_2026/b54/b54_02.webp",
@@ -1723,7 +1828,7 @@
     "sort_number": "054",
     "name": "佐藤 優太",
     "hiragana_name": "さとうゆうた",
-    "en_name": "Sato Yuta",
+    "en_name": "Sato-Yuta",
     "title": "生成",
     "concept": "あらゆるものは流れ続けている。散逸構造という理論に出会い、万物は流れているからこそ存在し得るのだと知った。穴の空いた立体を流体で満たし続け、その流れによって球体の形を維持し続けることで、この概念を表現できるのではないかと考えた。糸を伝う絶え間ない水の流入と流出により、球体が満たされ、存在し続ける。",
     "project": "D",
@@ -1738,7 +1843,9 @@
       "ジェッソ",
       "モデリングペースト"
     ],
-    "main_image": "images/images_2026/thumbnails/b55_02_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b55_02_sizedown_thumbnail.webp",
+    "1stImage_width": 894,
+    "1stImage_height": 1131,
     "image_list": [
       "images/images_2026/b55/b55_01.webp",
       "images/images_2026/b55/b55_02.webp",
@@ -1755,7 +1862,7 @@
     "sort_number": "055",
     "name": "實方 さくら",
     "hiragana_name": "さねかたさくら",
-    "en_name": "Sanekata Sakura",
+    "en_name": "Sanekata-Sakura",
     "title": "服の地層",
     "concept": "私たちが服を身に纏うとき、その瞬間に抱いた感情や季節の空気を含んだ布の感触は、身体の記憶として静かに残り続ける。それらはやがて、その人固有の時間や経験となり、目に見えないほこりのように堆積していく。本作品では、役目を終えた衣服と紙の繊維を混ぜ合わせて層状に漉き込み、立体に起こすことで、記憶や時間が具体的な体積として痕跡を残しながら存在することを示そうと試みた。",
     "project": "D",
@@ -1769,7 +1876,9 @@
       "紙",
       "布"
     ],
-    "main_image": "images/images_2026/thumbnails/b56_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b56_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1906,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b56/b56_01.webp",
       "images/images_2026/b56/b56_02.webp",
@@ -1786,7 +1895,7 @@
     "sort_number": "056",
     "name": "高橋 亮有",
     "hiragana_name": "たかはしりょうゆう",
-    "en_name": "Takahashi Ryoyu",
+    "en_name": "Takahashi-Ryoyu",
     "title": "崇高の構造 Structure of the Sublime",
     "concept": "なぜ私たちは「畏れを感じるもの」から目が離せないのか。 儀式歌唱とは、自然界の振動を声で模倣し、脳内に圧倒的な存在感を合成する「最古の大自然シミュレーター」だったのではないか。 本作は、世界各地の歌唱解析から自然由来の音響パターンを抽出。哲学者たちが「崇高（Sublime）」と呼んだ、畏怖と没入が同居する音響体験を自分の声でのみで再現する。",
     "project": "D",
@@ -1800,7 +1909,9 @@
       "プロジェクター",
       "スピーカー"
     ],
-    "main_image": "images/images_2026/b57/b57_01.webp",
+    "thumbnail": "images/images_2026/b57/b57_01.webp",
+    "1stImage_width": 653,
+    "1stImage_height": 654,
     "image_list": [
       "images/images_2026/b57/b57_01.webp",
       "images/images_2026/b57/b57_02.webp",
@@ -1819,7 +1930,7 @@
     "sort_number": "057",
     "name": "髙畠 菜月",
     "hiragana_name": "たかはたなつき",
-    "en_name": "Takahata Natsuki",
+    "en_name": "Takahata-Natsuki",
     "title": "◯",
     "concept": "丸をテーマに制作した手描きアニメーション作品です。「動き」という次元を持ったときに生まれる性質やテクスチャーに注目して制作しました。ぼーっと眺めながら動きの心地よさを楽しめるようにしました。20歳の誕生日から今日までずっとアニメーションを描き続けてきました。これからもアニメーションは私の創作意欲の原点です。",
     "project": "D",
@@ -1832,7 +1943,9 @@
     "materials": [
       "プロジェクター"
     ],
-    "main_image": "images/images_2026/thumbnails/b58_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b58_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1485,
+    "1stImage_height": 979,
     "image_list": [
       "images/images_2026/b58/b58_01.webp",
       "images/images_2026/b58/b58_02.webp"
@@ -1848,7 +1961,7 @@
     "sort_number": "058",
     "name": "武田 夏葉",
     "hiragana_name": "たけだなつは",
-    "en_name": "Takeda Natsuha",
+    "en_name": "Takeda-Natsuha",
     "title": "ひらひらひらがな",
     "concept": "単体で読ませるだけでなく、繰り返し配置することで装飾やテキスタイルのように使える点を特徴としている。文字と模様の境界を曖昧にし、広がりを意識した。さらに、文字を結んだりリボンなどに見立てて動かすなど、文字と文字の繋がりや、文字の持つ表情や可能性を広げることを試みるものである。以上の点を通して、ひらがなを「読むもの」から「装飾として楽しむもの」へと展開する表現を提案している。",
     "project": "D",
@@ -1863,7 +1976,9 @@
       "布",
       "モニター"
     ],
-    "main_image": "images/images_2026/b59/b59_01.webp",
+    "thumbnail": "images/images_2026/b59/b59_01.webp",
+    "1stImage_width": 656,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b59/b59_01.webp",
       "images/images_2026/b59/b59_02.webp",
@@ -1880,7 +1995,7 @@
     "sort_number": "059",
     "name": "玉井 さくら",
     "hiragana_name": "たまいさくら",
-    "en_name": "Tamai Sakura",
+    "en_name": "Tamai-Sakura",
     "title": "紡ぐ",
     "concept": "日々多くの人やものと同時に、たくさんの言葉に出会う。 その中には、時折ふと思い出しては愛でるものがある。  無形である言葉を、質量と質感を持つ紙と糸を用いて手縫いで綴じ、何度も触れることのできるかたちへ。 紙は情緒、糸は紡ぎ繋ぐもの。 確かな手触りを通して、糸と紙、紙と言葉、言葉と人のあたたかな調和のあり方を試みた。",
     "project": "D",
@@ -1894,7 +2009,9 @@
       "紙",
       "糸"
     ],
-    "main_image": "images/images_2026/thumbnails/b60_03_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b60_03_sizedown_thumbnail.webp",
+    "1stImage_width": 874,
+    "1stImage_height": 874,
     "image_list": [
       "images/images_2026/b60/b60_01.webp",
       "images/images_2026/b60/b60_02.webp",
@@ -1911,7 +2028,7 @@
     "sort_number": "060",
     "name": "玉井 裕己",
     "hiragana_name": "たまいゆみ",
-    "en_name": "Tamai Yumi",
+    "en_name": "Tamai-Yumi",
     "title": "眠る身体と日々",
     "concept": "眠るという行為は「日々の記録」だ。どんな日でも眠ることで、自分を整え、その日を終えて、また次の日へとつなげていく。この四年間、「制作」において、身体の形と向き合い、「生活」においては、自分自身をケアすることと向き合い続けた。だからこそ、眠りの形を、自分の形を、一日一日を大事に描きとめた。これからも、生きていくために。",
     "project": "D",
@@ -1924,7 +2041,9 @@
     "materials": [
       "布"
     ],
-    "main_image": "images/images_2026/b61/b61_02.webp",
+    "thumbnail": "images/images_2026/b61/b61_02.webp",
+    "1stImage_width": 1906,
+    "1stImage_height": 1131,
     "image_list": [
       "images/images_2026/b61/b61_01.webp",
       "images/images_2026/b61/b61_02.webp",
@@ -1941,7 +2060,7 @@
     "sort_number": "061",
     "name": "千原 萌",
     "hiragana_name": "ちはらもえ",
-    "en_name": "Chihara Moe",
+    "en_name": "Chihara-Moe",
     "title": "宝箱",
     "concept": "子どもの頃に大切にしていたキラキラは、宝箱にしまい込むことで守られていたはずだった。しかし時間は宝箱の中でも止まらず、記憶や憧れは少しずつ形を変えていく。この作品は結晶と化してしまった過去の宝物と、現在進行形で成長し続ける結晶を通して、時間によって変質した輝きを新たな価値として見つめ直す試みである。",
     "project": "D",
@@ -1955,7 +2074,9 @@
       "ガラス",
       "ミョウバン"
     ],
-    "main_image": "images/images_2026/thumbnails/b62_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b62_01_sizedown_thumbnail.webp",
+    "1stImage_width": 874,
+    "1stImage_height": 1192,
     "image_list": [
       "images/images_2026/b62/b62_01.webp",
       "images/images_2026/b62/b62_02.webp",
@@ -1973,7 +2094,7 @@
     "sort_number": "062",
     "name": "町田 ちひろ",
     "hiragana_name": "まちだちひろ",
-    "en_name": "Machida Chihiro",
+    "en_name": "Machida-Chihiro",
     "title": "記憶の抜け殻",
     "concept": "祖母が70年暮らした家はいずれ取り壊される。家具や使っていた物に染みついた思い出は確かにあったはずなのに、家がなくなるとともに呆気なく消えてしまうように感じる。祖母の家で見ていたレースの暖簾やカーテン越しの風景は、輪郭が曖昧にぼけ、どこか記憶の中の景色に近い。そんなレースを用い、祖父母の家にあったものから暮らしの抜け殻をつくり、失われていく時間をとどめようとした。",
     "project": "D",
@@ -1987,7 +2108,9 @@
       "布",
       "糸"
     ],
-    "main_image": "images/images_2026/thumbnails/b63_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b63_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b63/b63_01.webp",
       "images/images_2026/b63/b63_02.webp"
@@ -2005,7 +2128,7 @@
     "sort_number": "063",
     "name": "松村 衣子",
     "hiragana_name": "まつむらきぬこ",
-    "en_name": "Matsumura Kinuko",
+    "en_name": "Matsumura-Kinuko",
     "title": "いつも　と　もしも",
     "concept": "「あなたの日課はなんですか？」「もし、１日だけなにかに変身できるとしたら、なにになりたいですか？」年齢も性別も異なる人びとに、この２つの質問を投げかけました。誰かの何気なく過ぎゆく「いつも」の日々と、想像の中の「もしも」の世界を行き来するアニメーション作品です。画一的になりがちな現代のコミュニケーションを、少しだけ親密で、ユーモラスなものとして捉え直したいと考えました。",
     "project": "D",
@@ -2019,7 +2142,9 @@
       "モニター",
       "木材"
     ],
-    "main_image": "images/images_2026/thumbnails/b64_02_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b64_02_sizedown_thumbnail.webp",
+    "1stImage_width": 1400,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b64/b64_01.webp",
       "images/images_2026/b64/b64_02.webp"
@@ -2035,7 +2160,7 @@
     "sort_number": "064",
     "name": "皆川 結菜",
     "hiragana_name": "みながわゆうな",
-    "en_name": "Minagawa Yuna",
+    "en_name": "Minagawa-Yuna",
     "title": "coffee",
     "concept": "本作品は、日常に遍在する嗜好品であるコーヒーを、単なる飲料としてではなく、「安らぎ」や「日常の余白」といった、人や空間に作用する媒介として捉え直す試みである。コーヒーで布を染めることで、偶発的に生まれる濃淡や滲みを内包した表情を立ち上げ、空間を構成する素材とした。コーヒーが生み出す空気感や心理的変化を体感する場となることを意図している。",
     "project": "D",
@@ -2049,7 +2174,9 @@
       "布",
       "コーヒー"
     ],
-    "main_image": "images/images_2026/thumbnails/b65_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b65_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b65/b65_01.webp",
       "images/images_2026/b65/b65_02.webp",
@@ -2067,7 +2194,7 @@
     "sort_number": "065",
     "name": "村川 未莉",
     "hiragana_name": "むらかわみり",
-    "en_name": "Murakawa Miri",
+    "en_name": "Murakawa-Miri",
     "title": "22んず（ててんず）",
     "concept": "「この粘土を1回握ってください。」ててんずの形は22人に握ってもらった粘土そのものの形です。変形された粘土を張子の技法で仕上げ、本当の意味で''手から生まれた''キャラクターとなっています。人の手は、同じようでいて一人一人全く違うものをもっています。かたちと向き合うことで人と向き合い、ひとつひとつが大切で、個性的で、愛らしいキャラクターたちになりました。",
     "project": "D",
@@ -2081,7 +2208,9 @@
       "紙",
       "アクリル絵の具"
     ],
-    "main_image": "images/images_2026/thumbnails/b66_02_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b66_02_sizedown_thumbnail.webp",
+    "1stImage_width": 1191,
+    "1stImage_height": 556,
     "image_list": [
       "images/images_2026/b66/b66_01.webp",
       "images/images_2026/b66/b66_02.webp",
@@ -2098,7 +2227,7 @@
     "sort_number": "066",
     "name": "矢島 千里",
     "hiragana_name": "やじませんり",
-    "en_name": "Yajima Senri",
+    "en_name": "Yajima-Senri",
     "title": "解脱",
     "concept": "「ものづくりの解脱」はジャイナ教を基に考える、自分の人生における制作のテーマである。私が考える「ものづくりの解脱」とはジャイナ教にも通ずる三宝に則って制作に取り組むことで、まだ人類が成し遂げられていないような新しい作品を作れるようになるのではないかという思想。三宝を確立するためにあまり触れたことのない素材、プロセスで新たな価値観の創造に挑んだ。",
     "project": "D",
@@ -2111,7 +2240,9 @@
     "materials": [
       "木材（榧）"
     ],
-    "main_image": "images/images_2026/thumbnails/b67_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b67_01_sizedown_thumbnail.webp",
+    "1stImage_width": 874,
+    "1stImage_height": 1509,
     "image_list": [
       "images/images_2026/b67/b67_01.webp",
       "images/images_2026/b67/b67_02.webp",
@@ -2128,7 +2259,7 @@
     "sort_number": "067",
     "name": "栁澤 杏月",
     "hiragana_name": "やなぎさわあんず",
-    "en_name": "Yanagisawa Anzu",
+    "en_name": "Yanagisawa-Anzu",
     "title": "愛と、循環。",
     "concept": "近年、AIが急速に生活へ浸透していく状況に、私はどこかカルト的な不気味さを感じた。そこで「もし今のAI文化が、AIを崇拝する宗教だったら？」というテーマで制作した。本作は人間の知性をAIに吸い取られ”奉納”する儀式を体験できる装置である。人間の知性が集積して生まれた「知」は、個人に寄り添う形へと変化し、返答として人間に戻る。そして再び人の知性へと還元され、循環していく。",
     "project": "D",
@@ -2143,7 +2274,9 @@
       "モニター",
       "木材"
     ],
-    "main_image": "images/images_2026/thumbnails/b68_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b68_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b68/b68_01.webp",
       "images/images_2026/b68/b68_02.webp"
@@ -2159,7 +2292,7 @@
     "sort_number": "068",
     "name": "山口 桃佳",
     "hiragana_name": "やまぐちももか",
-    "en_name": "Yamaguchi Momoka",
+    "en_name": "Yamaguchi-Momoka",
     "title": "共生",
     "concept": "この4年間で何百枚もの線を重ねるうちに、私は｢生きている絵｣を描きたいと思うようになった。私が生命力を感じるものは、ひとつの大きな存在ではなく、小さく雑多なものたちが群れをなす瞬間だ。手で描かれた形や色が集まり、互いに呼吸するようにそこに在る。その共生の気配を見ることを目標に、今回の作品群を制作した。",
     "project": "D",
@@ -2172,7 +2305,9 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/thumbnails/b69_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b69_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1906,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b69/b69_01.webp",
       "images/images_2026/b69/b69_02.webp",
@@ -2189,7 +2324,7 @@
     "sort_number": "069",
     "name": "横山 颯",
     "hiragana_name": "よこやまそう",
-    "en_name": "Yokoyama Sou",
+    "en_name": "Yokoyama-Sou",
     "title": "不可解像",
     "concept": "狂いが生み出す純粋な美を求めて。私たちが世界をみる時に生じる認識のフィルターや偏りは、各々の経験や自我などの「アイデンティティ」が作用している。本作は手元を見ずに描く偶発的な線と意図的な再構成を組み合わせることで、認識と現実のずれを可視化した。そこに描かれた情報は狂っている。だからこそ、描く意味があるのだ。狂いは我々の純粋性を肯定する。そこに美しさをみる。",
     "project": "D",
@@ -2204,7 +2339,9 @@
       "金属",
       "アクリル"
     ],
-    "main_image": "images/images_2026/b70/b70_01.webp",
+    "thumbnail": "images/images_2026/b70/b70_01.webp",
+    "1stImage_width": 656,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b70/b70_01.webp",
       "images/images_2026/b70/b70_02.webp",
@@ -2222,7 +2359,7 @@
     "sort_number": "070",
     "name": "吉澤 夢",
     "hiragana_name": "よしざわゆめ",
-    "en_name": "Yoshizawa Yume",
+    "en_name": "Yoshizawa-Yume",
     "title": "バクバクバグバク",
     "concept": "バクの「バグバク」には、悩みがあります。びっくりしたり焦ったりして心臓がバクバクすると、体にバグが起きて、知らない自分に変身してしまうのです。それがこわくて、なかなか家の外に出られません。バグバクは毎晩、食べたいものを食べたり、行きたい場所へ行ったりする夢を見ます。そして朝起きると、それが夢だったことに悲しくなるのです。ある日「このままじゃいけない」と思い、外へ出る決心をします。",
     "project": "D",
@@ -2236,7 +2373,9 @@
       "紙",
       "木材"
     ],
-    "main_image": "images/images_2026/b71/b71_02.webp",
+    "thumbnail": "images/images_2026/b71/b71_02.webp",
+    "1stImage_width": 1400,
+    "1stImage_height": 655,
     "image_list": [
       "images/images_2026/b71/b71_01.webp",
       "images/images_2026/b71/b71_02.webp",
@@ -2256,7 +2395,7 @@
     "sort_number": "071",
     "name": "シン ジョンミン",
     "hiragana_name": "しんじょんみん",
-    "en_name": "Shin Jeongmin",
+    "en_name": "Shin-Jeongmin",
     "title": "VECTOR 50",
     "concept": "本作品は、生産終了が予定されている50cc原動機付スクーターに対し、これまでの感謝と敬意を込めて制作したデザイン提案です。長年、人々の身近な移動手段として社会を支えてきた存在に対し、最後に新しい価値と記憶を残したいという想いを出発点としています。従来のバイクや車に多く見られる空力性能を重視した曲線的・流線型の造形とは異なり、曲線を極力排除し、直線と面のみで構成されたカウルをデザインしました。",
     "project": "F",
@@ -2273,7 +2412,9 @@
       "スタイロフォーム",
       "FRP"
     ],
-    "main_image": "images/images_2026/b72/b72_04.webp",
+    "thumbnail": "images/images_2026/b72/b72_04.webp",
+    "1stImage_width": 1400,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b72/b72_01.webp",
       "images/images_2026/b72/b72_02.webp",
@@ -2293,7 +2434,7 @@
     "sort_number": "072",
     "name": "谷森 絢菜",
     "hiragana_name": "たにもりあやな",
-    "en_name": "Tanimori Ayana",
+    "en_name": "Tanimori-Ayana",
     "title": "光を留める",
     "concept": "元来写真とは光が焼き付く物理的な現象に過ぎません。そんな実態を伴う現象としての写真に着目をして作品を制作しました。アナログプリントの手法を応用し、自由に色を付けて描いたインクを、ネガを通して光で焼き付けています。原理としては写真の技法でありながら、絵のような表現や、アナログならではの質感、温かみのある写真表現を探求しました。",
     "project": "F",
@@ -2306,7 +2447,9 @@
     "materials": [
       "布"
     ],
-    "main_image": "images/images_2026/b73/b73_01.webp",
+    "thumbnail": "images/images_2026/b73/b73_01.webp",
+    "1stImage_width": 1906,
+    "1stImage_height": 656,
     "image_list": [
       "images/images_2026/b73/b73_01.webp",
       "images/images_2026/b73/b73_02.webp",
@@ -2324,7 +2467,7 @@
     "sort_number": "073",
     "name": "青木 心",
     "hiragana_name": "あおきしん",
-    "en_name": "Aoki Shin",
+    "en_name": "Aoki-Shin",
     "title": "トーテムポール",
     "concept": "かつてトーテムポールが、天と地、あるいは精霊と人間を繋ぐための垂直のメディアであったならば、現代におけるそれは何であるべきか。私はそれを、失われつつある原始的な身体感覚を呼び覚ますための装置として捉え、原始的欲求を想起させる柱として再構築した。中でも、触りたいという人間の根源的な欲求に焦点を当てた。流動的な線とコンクリートという無機質な物質が混在するこの柱が、身体に触れたいという衝動を生み出す。",
     "project": "F",
@@ -2338,7 +2481,9 @@
       "スタイロフォーム",
       "コンクリート"
     ],
-    "main_image": "images/images_2026/b74/b74_02.webp",
+    "thumbnail": "images/images_2026/b74/b74_02.webp",
+    "1stImage_width": 656,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b74/b74_01.webp",
       "images/images_2026/b74/b74_02.webp",
@@ -2355,7 +2500,7 @@
     "sort_number": "074",
     "name": "石原 風花",
     "hiragana_name": "いしはらふうか",
-    "en_name": "Ishihara Fuka",
+    "en_name": "Ishihara-Fuka",
     "title": "moiré",
     "concept": "制作の出発点にあるのは“シャボン玉”。光を受けて絶えず変化する儚く不安定な存在への関心である。屈折や透過、遮蔽のような現象、さらに見る角度や環境によっても姿かたちが変わる様子、関係性の中であらわれるその一瞬に強い魅力を感じた。本作は存在そのものの再現ではなく、シャボン玉をふいたときに感じたイメージ、繊細で軽やかに、キラキラと曖昧に変化する像をとどめようとする試みである。",
     "project": "F",
@@ -2369,7 +2514,9 @@
       "紙",
       "樹脂"
     ],
-    "main_image": "images/images_2026/b75/b75_01.webp",
+    "thumbnail": "images/images_2026/b75/b75_01.webp",
+    "1stImage_width": 656,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b75/b75_01.webp",
       "images/images_2026/b75/b75_02.webp",
@@ -2386,7 +2533,7 @@
     "sort_number": "075",
     "name": "川端 冴輔",
     "hiragana_name": "かわばたさすけ",
-    "en_name": "Kawabata Sasuke",
+    "en_name": "Kawabata-Sasuke",
     "title": "Inevitable",
     "concept": "人間の身体は自身の意志とは無関係に、環境に適応した形へと成長する。生命活動に抗えない力が働くのは人間だけではない。静止しているかのように見える蛹も絶えず変化し、やがて羽化に至る。このような強制的な力を「身体に宿る無意識」と定義した。多くの新生児が本作品と同等の大きさで生まれ、同じように無意識の下で不可逆的な成長を続ける。本作はすべての生物に備わるシステムの力強さと神秘を表現するものである。",
     "project": "F",
@@ -2400,7 +2547,9 @@
       "石粉粘土",
       "木材"
     ],
-    "main_image": "images/images_2026/b76/b76_01.webp",
+    "thumbnail": "images/images_2026/b76/b76_01.webp",
+    "1stImage_width": 656,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b76/b76_01.webp",
       "images/images_2026/b76/b76_02.webp"
@@ -2416,7 +2565,7 @@
     "sort_number": "076",
     "name": "佐藤 里菜",
     "hiragana_name": "さとうりな",
-    "en_name": "Sato Rina",
+    "en_name": "Sato-Rina",
     "title": "cube",
     "concept": "実際には起こらない現象が、目の前で起こる面白さ。映像や絵では体験できない、現実で起こるからこそ意味がある現象について考えた。本来なら立体にならない素材を集めて立体にし、まわりのアクリルがせき止められているかのように見えるキューブを制作した。一粒一粒の単位がどんなものでも集まり、輪郭をつくっていたらそれは立体と呼べるのではないか。この作品で立体の新しい捉え方を表現したい。",
     "project": "F",
@@ -2429,7 +2578,9 @@
     "materials": [
       "樹脂"
     ],
-    "main_image": "images/images_2026/b77/b77_03.webp",
+    "thumbnail": "images/images_2026/b77/b77_03.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b77/b77_01.webp",
       "images/images_2026/b77/b77_02.webp",
@@ -2448,7 +2599,7 @@
     "sort_number": "077",
     "name": "佐藤 怜",
     "hiragana_name": "さとうれい",
-    "en_name": "Sato Rei",
+    "en_name": "Sato-Rei",
     "title": "ROOTS",
     "concept": "パブリックスペースを自由に使うためのストリートファニチャー。物理的な境界で区切るのではなく、家具を移動させ、そこに人が入り込むことで、その時々の効果を瞬間的に構築する。曲げられたパイプの造形は、人々が無意識的に行ってきた「腰掛ける」という身体的経験を誘発し、人とプロダクト、そして環境を自然に結びつける。",
     "project": "F",
@@ -2461,7 +2612,9 @@
     "materials": [
       "金属"
     ],
-    "main_image": "images/images_2026/thumbnails/b78_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b78_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1400,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b78/b78_01.webp",
       "images/images_2026/b78/b78_02.webp",
@@ -2479,7 +2632,7 @@
     "sort_number": "078",
     "name": "徳重 樹",
     "hiragana_name": "とくしげみき",
-    "en_name": "Tokushige Miki",
+    "en_name": "Tokushige-Miki",
     "title": "marble",
     "concept": "手仕事に宿る生命力。制御されたものづくりが主流となった現代において、均質さに慣れてしまった私たちの感覚からこぼれ落ちたゆらぎや偶然性がもたらす豊かさを回復するため、手仕事のもつ不均一性の価値を改めて見つめ直す。人の手のゆらぎが生む独特のマーブル模様と、素材の特性に基づく形・色・質感を抽出し、それらが一体となるあり方を探った。",
     "project": "F",
@@ -2492,7 +2645,9 @@
     "materials": [
       "石粉粘土"
     ],
-    "main_image": "images/images_2026/b79/b79_01.webp",
+    "thumbnail": "images/images_2026/b79/b79_01.webp",
+    "1stImage_width": 690,
+    "1stImage_height": 348,
     "image_list": [
       "images/images_2026/b79/b79_01.webp",
       "images/images_2026/b79/b79_02.webp",
@@ -2513,7 +2668,7 @@
     "sort_number": "079",
     "name": "萩 海風",
     "hiragana_name": "はぎみかぜ",
-    "en_name": "Hagi Mikaze",
+    "en_name": "Hagi-Mikaze",
     "title": "辞書を掬う",
     "concept": "役割を終えつつある紙の辞書を素材として再構成し、その物質的特性と新たな可能性を探る。紙を一度ほぐし、再び形づくるプロセスを通して、素材がもつ強度や印刷された文字の存在を引き出している。制作過程において文字は完全には消失せず、表層に漂う情報の痕跡として可視化される。「読むもの」から「掬い取り、構成する素材」へと転換することで、情報媒体としての辞書のあり方を揺さぶる。",
     "project": "F",
@@ -2526,7 +2681,9 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/thumbnails/b80_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b80_01_sizedown_thumbnail.webp",
+    "1stImage_width": 2144,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b80/b80_01.webp",
       "images/images_2026/b80/b80_02.webp"
@@ -2542,7 +2699,7 @@
     "sort_number": "080",
     "name": "濱 そよか",
     "hiragana_name": "はまそよか",
-    "en_name": "Hama Soyoka",
+    "en_name": "Hama-Soyoka",
     "title": "Chips Ride",
     "concept": "家族の日常に寄り添い、子供の想像力を広げる木製遊具。ポテトチップのようなシンプルな曲面は、シーソーやスツールなど多様な用途を生み出し、世代を超えて親しまれる。インテリアに溶け込むミニマルな造形は、遊具としての役目を終えた後も、美しいオブジェとして空間を彩り続ける。ものと人が共に時を重ね、記憶を刻んでいく。そんな豊かな生活の在り方を提案する。",
     "project": "F",
@@ -2555,7 +2712,9 @@
     "materials": [
       "木材"
     ],
-    "main_image": "images/images_2026/b81/b81_03.webp",
+    "thumbnail": "images/images_2026/b81/b81_03.webp",
+    "1stImage_width": 1397,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b81/b81_01.webp",
       "images/images_2026/b81/b81_02.webp",
@@ -2572,7 +2731,7 @@
     "sort_number": "081",
     "name": "真﨑 花",
     "hiragana_name": "まさきはな",
-    "en_name": "Masaki Hana",
+    "en_name": "Masaki-Hana",
     "title": "water lilies",
     "concept": "植物をグラフィカルな立体物として捉え、クロード・モネの《睡蓮の池》を再構成した。苔をモチーフに、石や木の表面に密集して生える様子を、パーツの重なりや量感によって立体的に描写している。遠くからは、《睡蓮の池》として認識されるが、近づくことで苔の集合体であることに気づき、平面から立体物へと変化する視点に着目し、絵画的イメージと物質的な存在感の間を行き来する曖昧さを表現した。",
     "project": "F",
@@ -2586,7 +2745,9 @@
       "木材",
       "石塑粘土"
     ],
-    "main_image": "images/images_2026/thumbnails/b82_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b82_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1400,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b82/b82_01.webp",
       "images/images_2026/b82/b82_02.webp",
@@ -2605,7 +2766,7 @@
     "sort_number": "082",
     "name": "松井 瑶子",
     "hiragana_name": "まついたまこ",
-    "en_name": "Matsui Tamako",
+    "en_name": "Matsui-Tamako",
     "title": "pure",
     "concept": "顔周りを華やかに見せ、権力の象徴としても用いられる飾り襟。それは本来、上質な布地や高価な宝石で飾り立てられることがほとんどである。しかし今回の作品は、高価な素材ではなく、身近な素材である「紙」を用いた。素材の価値や象徴性といった従来の文脈をなくし、純粋に「美しさ」のみを表現している。この作品は、飾り襟が持つ本来の権威や素材のヒエラルキーから解放された美を追求する、脱構築的なアプローチを試みている。",
     "project": "F",
@@ -2618,7 +2779,9 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/thumbnails/b83_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b83_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1191,
+    "1stImage_height": 1505,
     "image_list": [
       "images/images_2026/b83/b83_01.webp",
       "images/images_2026/b83/b83_02.webp",
@@ -2635,7 +2798,7 @@
     "sort_number": "083",
     "name": "吉住 亜也伽",
     "hiragana_name": "よしずみあやか",
-    "en_name": "Yoshizumi Ayaka",
+    "en_name": "Yoshizumi-Ayaka",
     "title": "◯⚪︎○",
     "concept": "球体のインテリアを見たいと思いました。平面がなく家具として使いづらい球体は、日常生活の中であまり姿を見ることがありません。だからこそ新たな彩りを与えてくれると考え、球体の可能性を模索しました。テーブルの表面に突起があり、角のあるものは引っかかり、そうでないものも摩擦によって置くことができます。家具として完璧に機能するわけではありませんが、それ以上に、日常に彩りを与えてくれる家具を目指しました。",
     "project": "F",
@@ -2650,7 +2813,9 @@
       "樹脂",
       "スタイロフォーム"
     ],
-    "main_image": "images/images_2026/thumbnails/b84_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b84_01_sizedown_thumbnail.webp",
+    "1stImage_width": 894,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b84/b84_01.webp",
       "images/images_2026/b84/b84_02.webp",
@@ -2667,7 +2832,7 @@
     "sort_number": "084",
     "name": "渡辺 里菜",
     "hiragana_name": "わたなべりな",
-    "en_name": "Watanabe Rina",
+    "en_name": "Watanabe-Rina",
     "title": "◯",
     "concept": "茶室を持ち運ぶような感覚で使用できる、茶道具をコンパクトにまとめるためのプロダクト。外箱は布と革を用いた持ち運び可能なデザインとし、作法や場の雰囲気に限定されることなく、道具を収める佇まいそのものが空間と調和する茶箱として仕上げている。タイトルは円相の掛け軸から着想し、和と洋の調和やつながりを表現した。お茶を点てる行為を日常に取り入れ、茶道と生活の新しいつながり方を提案する。",
     "project": "F",
@@ -2681,7 +2846,9 @@
       "布",
       "樹脂"
     ],
-    "main_image": "images/images_2026/thumbnails/b85_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b85_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1132,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b85/b85_01.webp",
       "images/images_2026/b85/b85_02.webp",
@@ -2699,7 +2866,7 @@
     "sort_number": "085",
     "name": "キム ガヒョン",
     "hiragana_name": "きむがひょん",
-    "en_name": "Kim Gahyun",
+    "en_name": "Kim-Gahyun",
     "title": "思い込みの形",
     "concept": "食事をする瞬間を題材にし、手と結果の間に存在する道具を意図的に省略した、ロトスコーピングを用いた2Dアニメーション ゲシュタルト現象は視覚認知だけでなく、コミュニケーションの過程にも表れると考えます。人との会話では、文脈や状況から不足した情報を補完し、意味を理解することができます。本作品では、意図的に生み出された「情報の空白」が、周囲の文脈や視覚的手がかりによって成立することを表現します。",
     "project": "Y",
@@ -2712,7 +2879,9 @@
     "materials": [
       "プロジェクター"
     ],
-    "main_image": "images/images_2026/thumbnails/b86_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b86_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1906,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b86/b86_01.webp",
       "images/images_2026/b86/b86_02.webp"
@@ -2728,7 +2897,7 @@
     "sort_number": "086",
     "name": "チャ ミン",
     "hiragana_name": "ちゃみん",
-    "en_name": "Cha Min",
+    "en_name": "Cha-Min",
     "title": "物が感情を表す時",
     "concept": "私たちは絵や映画みたいな作品を鑑賞する時、私たち人の立場から立って作品を見て感じることが多いです。それなら、私たち人の立場ではなく物の立場から見たとしたらどんなものを見て感じるのでしょうか？私たち人の日常の中にある物を見て観察することで、その日常の中で物が感じる感情と感覚を表し、「物が感情を表す時」を表現した作品です。",
     "project": "Y",
@@ -2741,7 +2910,9 @@
     "materials": [
       "プロジェクター"
     ],
-    "main_image": "images/images_2026/thumbnails/b87_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b87_01_sizedown_thumbnail.webp",
+    "1stImage_width": 2144,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b87/b87_01.webp",
       "images/images_2026/b87/b87_02.webp"
@@ -2757,7 +2928,7 @@
     "sort_number": "087",
     "name": "張替 咲良",
     "hiragana_name": "はりがえさくら",
-    "en_name": "Harigae Sakura",
+    "en_name": "Harigae-Sakura",
     "title": "viewer",
     "concept": "会場に設置したカメラで来場者の姿を撮影し、その映像をリアルタイムでプロジェクターに投影する。鑑賞者は作品を見る主体から、見られる対象へと立場を反転させられる。展示空間における「見る／見られる」という関係性を可視化することで、作品と鑑賞者の境界の曖昧さや、私たちが日常的に置かれている視線の構造を問い直す。今日ここに、様々な卒業作品を見に来たあなたは、私の卒業作品になる。",
     "project": "Y",
@@ -2771,7 +2942,9 @@
       "プロジェクター",
       "カメラ"
     ],
-    "main_image": "images/images_2026/thumbnails/b88_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b88_01_sizedown_thumbnail.webp",
+    "1stImage_width": 2144,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/b88/b88_01.webp"
     ],
@@ -2786,7 +2959,7 @@
     "sort_number": "088",
     "name": "伊藤 陽平",
     "hiragana_name": "いとうようへい",
-    "en_name": "Ito Yohei",
+    "en_name": "Ito-Yohei",
     "title": "打ち消し",
     "concept": "『マイナス×マイナス＝プラス』のように、歪み×歪み＝正常という現象をテーマにした作品。あらかじめ歪ませた映像を、同じ歪みを加えるよう補正されたカメラで撮影することで、結果として“正常に見える映像”が成立する。歪んだモチーフが正しい形として知覚される瞬間に生まれる安心感と、歪んだ映像と正常な映像とのギャップを体験させる。",
     "project": "Y",
@@ -2801,7 +2974,9 @@
       "カメラ",
       "PC"
     ],
-    "main_image": "images/images_2026/b89/b89_03.webp",
+    "thumbnail": "images/images_2026/b89/b89_03.webp",
+    "1stImage_width": 1132,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b89/b89_01.webp",
       "images/images_2026/b89/b89_02.webp",
@@ -2819,7 +2994,7 @@
     "sort_number": "089",
     "name": "齋田 健太",
     "hiragana_name": "さいだけんた",
-    "en_name": "Saida Kenta",
+    "en_name": "Saida-Kenta",
     "title": "余白",
     "concept": "不完全な物がもつ魅力について考え、私はモノの一部のみを切り取った彫刻を制作しました。人が想像する行為の中には、「余白」が存在します。これらはあえて一部しか提示しないことで、鑑賞者が残りを補い、想像し、これまで無意識のうちに感じ取ってきた感覚を呼び起こします。これらの作品は、鑑賞者が自ら気づくという「喜び」を生み出すことを目指しています。",
     "project": "Y",
@@ -2835,7 +3010,9 @@
       "金属",
       "樹脂"
     ],
-    "main_image": "images/images_2026/b90/b90_02.webp",
+    "thumbnail": "images/images_2026/b90/b90_02.webp",
+    "1stImage_width": 557,
+    "1stImage_height": 557,
     "image_list": [
       "images/images_2026/b90/b90_01.webp",
       "images/images_2026/b90/b90_02.webp",
@@ -2853,7 +3030,7 @@
     "sort_number": "090",
     "name": "佐々木 成美",
     "hiragana_name": "ささきなるみ",
-    "en_name": "Sasaki Narumi",
+    "en_name": "Sasaki-Narumi",
     "title": "95:5",
     "concept": "日本は男女どちらかが苗字を変えないと結婚できない、世界最後の夫婦同氏制の国です。現状、結婚に伴い苗字を変えているのは女性が95%で、男性は5%と偏っています。この100枚の肖像は、結婚による改姓者の男女比を可視化したものです。実際に改姓を経験した男女の旧姓のハンコで顔を描き、苗字も顔も生まれ持ったアイデンティティであることを表現しました。",
     "project": "Y",
@@ -2867,7 +3044,9 @@
       "紙",
       "木材"
     ],
-    "main_image": "images/images_2026/thumbnails/b91_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b91_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1906,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b91/b91_01.webp",
       {
@@ -2888,7 +3067,7 @@
     "sort_number": "091",
     "name": "福本 紗菜",
     "hiragana_name": "ふくもとさな",
-    "en_name": "Fukumoto Sana",
+    "en_name": "Fukumoto-Sana",
     "title": "blown out highlights",
     "concept": "古い写真を見返す時、そこに映るのは確かに私であるが記憶が朧げであるため、私ではない違う人の様に感じる。記憶がぼんやり蘇る写真を見ると経験や知識から新しく情景が想起される。「写真の白飛び」という日常の偶発的な表現を用い有性さを飛ばし、匿名性のある写真の表現を試みた。この表現より生まれた写真からは、それぞれの経験や知識を通して白く飛んだ余白を埋めるように、様々な感情や情景を感じられるかもしれない。",
     "project": "Y",
@@ -2903,7 +3082,9 @@
       "アルミフレーム",
       "テープライト"
     ],
-    "main_image": "images/images_2026/b92/b92_01.webp",
+    "thumbnail": "images/images_2026/b92/b92_01.webp",
+    "1stImage_width": 655,
+    "1stImage_height": 894,
     "image_list": [
       "images/images_2026/b92/b92_01.webp",
       "images/images_2026/b92/b92_02.webp"
@@ -2919,7 +3100,7 @@
     "sort_number": "092",
     "name": "八木 美海",
     "hiragana_name": "やぎみみ",
-    "en_name": "Yagi Mimi",
+    "en_name": "Yagi-Mimi",
     "title": "目標と失敗がもたらすモノの行為主体性の強化",
     "concept": "ヒトは生活において自らで意思決定し、能動的に行動する、行為の主体性を持っている。モノに行為主体性を宿したとき、我々がそれをどのように感じ取るのかを探る試みである。モノに目標を与え主体的に行動させると、環境や対象との関係によってエラーが生じる。その過程で現れる成功や失敗が、モノに主体性やキャラクターを持たせるのではないか。",
     "project": "Y",
@@ -2935,7 +3116,9 @@
       "Arduino",
       "電子部品"
     ],
-    "main_image": "images/images_2026/b93/b93_01.webp",
+    "thumbnail": "images/images_2026/b93/b93_01.webp",
+    "1stImage_width": 1132,
+    "1stImage_height": 656,
     "image_list": [
       "images/images_2026/b93/b93_01.webp",
       "images/images_2026/b93/b93_02.webp"
@@ -2953,7 +3136,7 @@
     "sort_number": "093",
     "name": "山口 葵",
     "hiragana_name": "やまぐちあおい",
-    "en_name": "Yamaguchi Aoi",
+    "en_name": "Yamaguchi-Aoi",
     "title": "とある、ことばの記録",
     "concept": "通常つけない文字にてんてん(濁点)やまる(半濁点)をつけた架空のことばを制作し、本にまとめた。文字の形や本来のことばが持つ意味から皆なんとなく“よめてしまう”、共通する概念があることに面白さを感じた。てんてんやまるをつけることによって、ことばの持っている意味やイメージに新たな広がりを感じてもらいたい。",
     "project": "Y",
@@ -2967,7 +3150,9 @@
       "紙",
       "木材"
     ],
-    "main_image": "images/images_2026/thumbnails/b94_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/b94_01_sizedown_thumbnail.webp",
+    "1stImage_width": 874,
+    "1stImage_height": 874,
     "image_list": [
       "images/images_2026/b94/b94_01.webp",
       "images/images_2026/b94/b94_02.webp"
@@ -2983,7 +3168,7 @@
     "sort_number": "094",
     "name": "姚 琛璐",
     "hiragana_name": "ようちんろ",
-    "en_name": "Yao Chenlu",
+    "en_name": "Yao-Chenlu",
     "title": "Face on the Building",
     "concept": "「Face on the Building」シリーズでは、建築を「居住のための対象」から切り離し、知覚されることそのものとして捉えることを試みている。扉や窓がもはや出入りや使用を指し示さなくなるとき、立面や動線、そして痕跡が、感情や表情を担い始める。本シリーズを通して、日常の中に潜在する風景をあらためて見出し、生活や空間を少しずらした視点から捉えることを目指している。",
     "project": "M",
@@ -2997,7 +3182,9 @@
       "紙",
       "色鉛筆"
     ],
-    "main_image": "images/images_2026/thumbnails/m01_02_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/m01_02_sizedown_thumbnail.webp",
+    "1stImage_width": 1132,
+    "1stImage_height": 656,
     "image_list": [
       "images/images_2026/m01/m01_01.webp",
       "images/images_2026/m01/m01_02.webp",
@@ -3015,7 +3202,7 @@
     "sort_number": "095",
     "name": "黄 時雨",
     "hiragana_name": "こうしぐれ",
-    "en_name": "Huang Shiyu",
+    "en_name": "Huang-Shiyu",
     "title": "接続される現在",
     "concept": "観測装置は、私の存在と世界の存在を同期にする場。不確実な技術の森の中で、リアリティを領得するための糸口となる。装置の周囲を回り、覗き込み、動き続ける。剥き出しの断片たちは、身体に編み直され、一つのリアリティへと収束していく。私は装置を作る。それは、技術という名のブラックボックスに、再び生身の身体をき入れるための、ささやかな抵抗である。",
     "project": "M",
@@ -3028,7 +3215,9 @@
     "materials": [
       "ミクストメディア"
     ],
-    "main_image": "images/images_2026/thumbnails/m02_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/m02_01_sizedown_thumbnail.webp",
+    "1stImage_width": 2857,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/m02/m02_01.webp"
     ],
@@ -3045,7 +3234,7 @@
     "sort_number": "096",
     "name": "髙橋 海松",
     "hiragana_name": "たかはしみる",
-    "en_name": "Takahashi Miru",
+    "en_name": "Takahashi-Miru",
     "title": "この葉にかくれていることは",
     "concept": "文庫本を一冊、ズボンのポケットにさして歩く人がいる。そこには何がかくれているのだろう。にぎやかな海がまるごと、それとも、砂の吹く町の百年かもしれない。一冊の本をほどき、バラバラにすると、つらなっていた言葉もまた、一瞬を切り取る窓へと変わった。この葉があれば、人は、新しい景色を見つけることができ、忘れたくない一瞬に帰ることができる。言葉をひとつ、ポケットに入れておけば、いつでも、何度でも。",
     "project": "M",
@@ -3059,7 +3248,9 @@
       "紙",
       "糸"
     ],
-    "main_image": "images/images_2026/thumbnails/m03_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/m03_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1667,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/m03/m03_01.webp",
       "images/images_2026/m03/m03_02.webp",
@@ -3077,7 +3268,7 @@
     "sort_number": "097",
     "name": "チャ チャ",
     "hiragana_name": "ちゃちゃ",
-    "en_name": "Chaucer Xie",
+    "en_name": "Chaucer-Xie",
     "title": "相形",
     "concept": "流れのなかに相が残り、動きのなかに型を成す。その動的な平衡を目にする時、私たちは物質の中に、本来あるはずのない「意志」の輪郭を見出す。",
     "project": "M",
@@ -3090,7 +3281,9 @@
     "materials": [
       "ミクストメディア"
     ],
-    "main_image": "images/images_2026/thumbnails/m04_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/m04_01_sizedown_thumbnail.webp",
+    "1stImage_width": 892,
+    "1stImage_height": 1138,
     "image_list": [
       "images/images_2026/m04/m04_01.webp",
       "images/images_2026/m04/m04_02.webp",
@@ -3107,7 +3300,7 @@
     "sort_number": "098",
     "name": "宮内 暖笑",
     "hiragana_name": "みやうちのえ",
-    "en_name": "Miyauchi Noe",
+    "en_name": "Miyauchi-Noe",
     "title": "お茶会 / live~drawing~3 / Dreaming Dog / お皿を洗っています",
     "concept": "",
     "project": "M",
@@ -3117,7 +3310,9 @@
       "id": "dakerosaaaa"
     },
     "materials": [],
-    "main_image": "images/images_2026/m05/m05_02.webp",
+    "thumbnail": "images/images_2026/m05/m05_02.webp",
+    "1stImage_width": 1430,
+    "1stImage_height": 1132,
     "overview_image":"images/images_2026/m05/m05_01.webp",
     "image_list": [
       "images/images_2026/m05/m05_01.webp",
@@ -3164,7 +3359,7 @@
     "sort_number": "099",
     "name": "シュ シフ",
     "hiragana_name": "しゅしふ",
-    "en_name": "Zhu Sifu",
+    "en_name": "Zhu-Sifu",
     "title": "「みみもと​」 最終章の​心に​響く​音",
     "concept": "人生の終わりに寄り添う、音のケアを提案する作品。聴覚は人間に最後まで残る感覚である。調査から、終末期の多くの患者が孤独の中で最期を迎えている現実が見えてきた。入院生活で常に耳元にある枕に音を宿し、朝と黄昏、季節の移ろい、大切な人の声を届けることで、最終章の時間を静かにつなぎ、人生の終わりを孤独なものではなくしていく。",
     "project": "M",
@@ -3180,7 +3375,9 @@
       "樹脂",
       "モニター"
     ],
-    "main_image": "images/images_2026/m06/m06_01.webp",
+    "thumbnail": "images/images_2026/m06/m06_01.webp",
+    "1stImage_width": 874,
+    "1stImage_height": 557,
     "image_list": [
       "images/images_2026/m06/m06_01.webp",
       "images/images_2026/m06/m06_02.webp"
@@ -3198,7 +3395,7 @@
     "sort_number": "100",
     "name": "藤井 菫",
     "hiragana_name": "ふじいすみれ",
-    "en_name": "Fujii Sumire",
+    "en_name": "Fujii-Sumire",
     "title": "実存の確認",
     "concept": "空間はいつも私たちのまわりにあるのに、その姿を直接見ることはできない。空間の実存は、身体との関わりの中で成立している。本作は、触れること、そこに身体を置くことを通して、背景として扱われてきた空間の存在を捉え直す試みである。視覚的な把握におさまらない感覚の層に注目し、空間が確かに「在る」ものとして持続している状態を示そうとしている。",
     "project": "M",
@@ -3214,7 +3411,9 @@
       "飴",
       "紙"
     ],
-    "main_image": "images/images_2026/thumbnails/m07_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/m07_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1400,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/m07/m07_01.webp",
       "images/images_2026/m07/m07_02.webp",
@@ -3238,7 +3437,7 @@
     "sort_number": "101",
     "name": "ユ ゼファン",
     "hiragana_name": "ゆぜふぁん",
-    "en_name": "Yu Zhefan",
+    "en_name": "Yu-Zhefan",
     "title": "RESEARCH ABOUT EVERYDAY THINGS",
     "concept": "東京滞在中に記録した日常の風景や都市環境に見られる即興的な形態の発見を起点とし、板金に対して「切る」と「折る」という二つの操作のみを用いて造形を行うプロジェクトである。最小限の操作によって生じる形態からパターンを抽出し、写真に捉えられた日常的かつ実用的な形の在り方を抽象化された操作へと翻訳することで、素材の特性と形態生成のプロセスを検証し、造形の可能性を探る。",
     "project": "M",
@@ -3251,7 +3450,9 @@
     "materials": [
       "金属"
     ],
-    "main_image": "images/images_2026/thumbnails/m08_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/m08_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 1132,
     "image_list": [
       "images/images_2026/m08/m08_01.webp",
       "images/images_2026/m08/m08_02.webp"
@@ -3267,7 +3468,7 @@
     "sort_number": "102",
     "name": "余 津津",
     "hiragana_name": "ゆじんじん",
-    "en_name": "Yu Jinjin",
+    "en_name": "Yu-Jinjin",
     "title": "時間のカタチ",
     "concept": "私たちは日々、時計やカレンダーなどの時間道具を通じて時間を理解し、生活に取り入れている。しかし、時間はこれらのツールによって、いつの間にか具体的で独自の「かたち」を与えられていることに、あまり気づかない。本研究では、時間の「かたち」がどのように変化し、私たちの知覚や行動に影響を及ぼしているのかを探りたい。そして、時間の「見え方」や「感じ方」に新たな視点をもたらす表現の可能性を模索していく。",
     "project": "M",
@@ -3280,7 +3481,9 @@
     "materials": [
       "紙"
     ],
-    "main_image": "images/images_2026/thumbnails/m09_01_sizedown_thumbnail.webp",
+    "thumbnail": "images/images_2026/thumbnails/m09_01_sizedown_thumbnail.webp",
+    "1stImage_width": 1668,
+    "1stImage_height": 1134,
     "image_list": [
       "images/images_2026/m09/m09_01.webp",
       "images/images_2026/m09/m09_02.webp",

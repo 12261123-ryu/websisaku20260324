@@ -4,7 +4,7 @@
 let allWorks = []; 
 let knownMaterials = []; 
 let activeTagId = null;   /* 選択中のタグIDを保存する */
-
+let projectKeywords = null;
 
 
 
@@ -24,6 +24,7 @@ function shuffleArray(array) {
 fetch('project.json')
   .then(response => response.json())
   .then(data => {
+    projectKeywords = data["filter_keywords"];
     const keywords = data["filter_keywords"];
     // 素材IDのリストを作成
     knownMaterials = keywords.map(item => item.id);
@@ -312,9 +313,8 @@ function checkUrlParams() {
       if (allWorks.length > 0 && knownMaterials.length > 0) {
         clearInterval(timer);
 
-        fetch('project.json').then(res => res.json()).then(data => {
-          const keywords = data.filter_keywords;
-          let targetItem;
+        const keywords = projectKeywords;
+        let targetItem;
 
           if (filterId === "others") {
             targetItem = keywords.find(k => k.id === "その他");
@@ -346,7 +346,6 @@ function checkUrlParams() {
             });
 
           }
-        });
       }
     }, 100);
   }
