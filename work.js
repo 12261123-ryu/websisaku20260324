@@ -278,14 +278,38 @@ if (work.project === "M") {
       const width = typeof item === 'object' && item.width ? item.width : null;
 
       const layoutClass = layout ? ` image-layout-${layout}` : '';
-      const widthStyle = width ? `style="width:${width}%"` : '';
 
-      const imgTag = `
-        <div class="content-item sub-image-item${layoutClass}">
-          <img src="${imgPath}" loading="lazy" decoding="async" ${widthStyle}
-          onerror="this.style.background='#f9f9f9'; this.removeAttribute('src');">
-        </div>`;
-      subContentContainer.insertAdjacentHTML('beforeend', imgTag);
+      //const widthStyle = width ? `style="width:${width}%"` : '';
+      //const imgTag = `
+      //  <div class="content-item sub-image-item${layoutClass}">
+      //    <img src="${imgPath}" loading="lazy" decoding="async" ${widthStyle}
+      //    onerror="this.style.background='#f9f9f9'; this.removeAttribute('src');">
+      //  </div>`;
+      //subContentContainer.insertAdjacentHTML('beforeend', imgTag);
+      
+      const wrapper = document.createElement('div');
+      wrapper.className = `content-item sub-image-item${layoutClass}`;
+
+      const img = document.createElement('img');
+      img.decoding = 'async';
+      img.loading = 'lazy';
+      img.style.aspectRatio = '3 / 2';
+      img.style.backgroundColor = '#f9f9f9';
+      img.style.display = 'block';
+      img.style.width = width ? `${width}%` : '100%';
+
+      img.addEventListener('load', () => {
+        img.style.aspectRatio = '';
+        img.style.backgroundColor = '';
+      });
+      img.addEventListener('error', () => {
+        img.style.background = '#f9f9f9';
+        img.removeAttribute('src');
+      });
+
+      img.src = imgPath;
+      wrapper.appendChild(img);
+      subContentContainer.appendChild(wrapper);
     });
   }
 };

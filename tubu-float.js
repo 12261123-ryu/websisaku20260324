@@ -307,13 +307,16 @@ function tick() {
     //画面内に入ったらenteringフラグを解除
     if (d.entering) {
       if (d.x > 0 && d.x < width - IMG_SIZE && d.y > 0 && d.y < height - IMG_SIZE) {
-        d.entering = false;
-
-        //画面内に入ったら通常の漂う速度に戻す
-        const normalSpeed = randomBetween(0.06, 0.16);
-        const angle = randomBetween(0, Math.PI * 2);
-        d.vx = Math.cos(angle) * normalSpeed;
-        d.vy = Math.sin(angle) * normalSpeed;
+        const currentSpeed = Math.sqrt(d.vx * d.vx + d.vy * d.vy);
+        const targetSpeed = d.targetSpeed || (d.targetSpeed = randomBetween(0.06, 0.16));
+  
+        if (currentSpeed > targetSpeed) {
+          const factor = Math.max(targetSpeed, currentSpeed - 0.003) / currentSpeed;
+          d.vx *= factor;
+          d.vy *= factor;
+        } else {
+          d.entering = false;
+        }
       }
       d.el.style.left = `${d.x}px`;
       d.el.style.top = `${d.y}px`;
@@ -537,6 +540,14 @@ function createInitialFloaters(isFirstVisit) {
   });
 
   function init() {
+
+  // アイコン画像のプリロード
+  const preloadKeys = ['A','B','C','D','F','M','Y'];
+  preloadKeys.forEach(key => {
+    const img = new Image();
+    img.src = `images/tubu/icon_playwith_${key}.webp`;
+  });
+
   const isFirstVisit = !sessionStorage.getItem('hasVisited');
   sessionStorage.setItem('hasVisited', '1'); // すぐにセット
   createInitialFloaters(isFirstVisit);
