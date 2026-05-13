@@ -103,6 +103,12 @@
   transition: color 0.3s ease;
 }
 
+.meta-info .hover-flicker-text span,
+.work-grid.for-recommend .work-item .work-title span,
+.work-grid.for-recommend .work-item .work-designer span {
+  transition: opacity 0.15s ease;
+}
+
 
 
 

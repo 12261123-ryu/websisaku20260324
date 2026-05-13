@@ -1,3 +1,64 @@
+function randomRevealFlicker(spanEl) {
+  const text = spanEl.dataset.originalText || spanEl.textContent;
+  spanEl.dataset.originalText = text;
+  spanEl.innerHTML = '';
+
+  const chars = text.split('');
+  chars.forEach((c) => {
+    const s = document.createElement('span');
+    s.textContent = c;
+    s.style.opacity = '0';
+    s.style.whiteSpace = 'pre';
+    spanEl.appendChild(s);
+  });
+
+  const charSpans = Array.from(spanEl.querySelectorAll('span'));
+  const total = charSpans.length;
+  const duration = 500;
+  const startTime = performance.now();
+
+  let animId;
+  function frame(now) {
+    const elapsed = now - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    const visibleCount = Math.round(progress * total);
+
+    charSpans.forEach(s => s.style.opacity = '0');
+
+    if (progress < 1) {
+      const shuffled = [...charSpans].sort(() => Math.random() - 0.5);
+      shuffled.slice(0, visibleCount).forEach(s => s.style.opacity = '1');
+      animId = requestAnimationFrame(frame);
+    } else {
+      charSpans.forEach(s => s.style.opacity = '1');
+    }
+  }
+
+  animId = requestAnimationFrame(frame);
+  spanEl._flickerAnimId = animId;
+}
+
+function resetText(spanEl) {
+  if (spanEl._flickerAnimId) cancelAnimationFrame(spanEl._flickerAnimId);
+  spanEl.textContent = spanEl.dataset.originalText || spanEl.textContent;
+  delete spanEl.dataset.originalText;
+}
+
+function initWorkPageTextHoverEffects() {
+  document.querySelectorAll('.meta-info .hover-flicker-text').forEach((span) => {
+    span.addEventListener('mouseenter', () => randomRevealFlicker(span));
+    span.addEventListener('mouseleave', () => resetText(span));
+  });
+
+  document.querySelectorAll('.work-grid.for-recommend .work-item').forEach((item) => {
+    item.addEventListener('mouseenter', () => {
+      item.querySelectorAll('span.work-title, span.work-designer').forEach((s) => randomRevealFlicker(s));
+    });
+    item.addEventListener('mouseleave', () => {
+      item.querySelectorAll('span.work-title, span.work-designer').forEach((s) => resetText(s));
+    });
+  });
+}
 
 
 async function loadWorkDetail() {
@@ -31,6 +92,7 @@ async function loadWorkDetail() {
       
       renderWorkPage(work, knownMaterials);
       renderRecommendations(work, works, knownMaterials);
+      initWorkPageTextHoverEffects();
 
       //つぶつぶカラー変更用：作者の所属プロジェクトカラーへ
       if (window.updateTubuColors) {
@@ -103,10 +165,10 @@ function renderWorkPage(work, knownMaterials = []) {
 if (work.project === "M") {
     const masterDetail = work.Master_project ? `（${work.Master_project}）` : "";
     // リンク化：?filter=M を送る
-    projectElem.innerHTML = `<a href="index.html?filter=M" class="tag-link">#大学院${masterDetail}</a>`;
+    projectElem.innerHTML = `<a href="index.html?filter=M" class="tag-link"><span class="hover-flicker-text">#大学院${masterDetail}</span></a>`;
 } else {
     // リンク化：プロジェクトの記号（A, Bなど）をfilterに送る
-    projectElem.innerHTML = `<a href="index.html?filter=${work.project}" class="tag-link">#${work.project}プロジェクト</a>`;
+    projectElem.innerHTML = `<a href="index.html?filter=${work.project}" class="tag-link"><span class="hover-flicker-text">#${work.project}プロジェクト</span></a>`;
 }
   
   // --- 3. 素材表記のカスタマイズ ---
@@ -122,7 +184,7 @@ if (work.project === "M") {
       const baseM = trimmedM.replace(/（.*）|\(.*\)/, '').trim(); // 括弧を除いた素材名
       if (knownMaterials.includes(baseM)) {
       // 主要素材はリンク付きのHTML文字列として保存
-      knowns.push(`<a href="index.html?filter=${baseM}" class="tag-link">#${trimmedM}</a>`);
+      knowns.push(`<a href="index.html?filter=${baseM}" class="tag-link"><span class="hover-flicker-text">#${trimmedM}</span></a>`);
     } else {
       others.push(trimmedM);
     }
@@ -133,7 +195,7 @@ if (work.project === "M") {
     if (others.length > 0) {
   // リンク先を index.html?filter=その他 に統一
   // #その他 から後の（素材名）までを一つのリンク塊として見せる
-  displayParts.push(`<a href="index.html?filter=その他" class="tag-link">#その他（${others.join('、')}）</a>`);
+  displayParts.push(`<a href="index.html?filter=その他" class="tag-link"><span class="hover-flicker-text">#その他（${others.join('、')}）</span></a>`);
 }
 
     matElem.innerHTML = displayParts.join('、');
@@ -169,7 +231,7 @@ if (work.project === "M") {
 
     if (linkUrl && contactArea) {
       contactArea.style.display = 'flex'; // データがある時だけ表示（レイアウトに合わせてblock等に変更可）
-      contactElem.innerHTML = `<a href="${linkUrl}" target="_blank" rel="noopener noreferrer">${displayText}</a>`;
+      contactElem.innerHTML = `<a href="${linkUrl}" target="_blank" rel="noopener noreferrer"><span class="hover-flicker-text">${displayText}</span></a>`;
     }
   } else {
     // contact_typeが空欄なら項目自体を隠す
@@ -184,7 +246,7 @@ if (work.project === "M") {
       webLinkElem.style.display = 'flex';
       const existingContent = webLinkContent.innerHTML;
       const separator = existingContent ? '<br>' : '';
-      webLinkContent.innerHTML += `${separator}<a href="${work.contact_web}" target="_blank" rel="noopener noreferrer">個人ウェブサイト</a>`;
+      webLinkContent.innerHTML += `${separator}<a href="${work.contact_web}" target="_blank" rel="noopener noreferrer"><span class="hover-flicker-text">個人ウェブサイト</span></a>`;
     }
   }
 
@@ -516,11 +578,11 @@ function renderExceptionWorkPage(work, knownMaterials = []) {
         <div class="meta-info">
           <div class="meta-row">
             <span class="meta-label">所属：</span>
-            <span class="meta-content"><a href="index.html?filter=M" class="tag-link">#大学院${masterDetail}</a></span>
+            <span class="meta-content"><a href="index.html?filter=M" class="tag-link"><span class="hover-flicker-text">#大学院${masterDetail}</span></a></span>
           </div>
           <div class="meta-row">
             <span class="meta-label">連絡先：</span>
-            <span id="work-contact" class="meta-content"><a href="${contactUrl}" target="_blank" rel="noopener noreferrer">${contactText}</a></span>
+            <span id="work-contact" class="meta-content"><a href="${contactUrl}" target="_blank" rel="noopener noreferrer"><span class="hover-flicker-text">${contactText}</span></a></span>
           </div>
         </div>
       </section>
@@ -540,14 +602,14 @@ function renderExceptionWorkPage(work, knownMaterials = []) {
         if (!trimmedM) return;
         const baseM = trimmedM.replace(/（.*）|\(.*\)/, '').trim();
         if (knownMaterials.includes(baseM)) {
-        knowns.push(`<a href="index.html?filter=${baseM}" class="tag-link">#${trimmedM}</a>`);
+        knowns.push(`<a href="index.html?filter=${baseM}" class="tag-link"><span class="hover-flicker-text">#${trimmedM}</span></a>`);
         } else {
           others.push(trimmedM);
         }
       });
       let matParts = [];
       if (knowns.length > 0) matParts.push(knowns.join('、'));
-      if (others.length > 0) matParts.push(`<a href="index.html?filter=その他" class="tag-link">#その他（${others.join('、')}）</a>`);
+      if (others.length > 0) matParts.push(`<a href="index.html?filter=その他" class="tag-link"><span class="hover-flicker-text">#その他（${others.join('、')}）</span></a>`);
       const materialsHtml = matParts.join('、');
 
       const imagesHtml = sub.image_list.map(img => `
