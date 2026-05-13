@@ -18,6 +18,109 @@ function shuffleArray(array) {
   return clone;
 }
 
+function initWorkItemFadeIn() {
+  const workItems = document.querySelectorAll('article.work-item');
+  if (!workItems.length) return;
+
+  if (!('IntersectionObserver' in window)) {
+    workItems.forEach((el) => el.classList.add('visible'));
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const index = Number(entry.target.dataset.fadeIndex || 0);
+        entry.target.style.transitionDelay = `${Math.min(index * 0.08, 0.4)}s`;
+        entry.target.classList.add('visible');
+        const textSpans = entry.target.querySelectorAll('span.work-title, span.work-designer');
+        textSpans.forEach(span => randomRevealFlicker(span));
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  workItems.forEach((el, index) => {
+    el.dataset.fadeIndex = String(index);
+    observer.observe(el);
+  });
+}
+
+function randomRevealFlicker(spanEl) {
+  const text = spanEl.dataset.originalText || spanEl.textContent;
+  spanEl.dataset.originalText = text;
+  spanEl.innerHTML = '';
+
+  const chars = text.split('');
+  chars.forEach((c) => {
+    const s = document.createElement('span');
+    s.textContent = c;
+    s.style.opacity = '0';
+    s.style.whiteSpace = 'pre';
+    spanEl.appendChild(s);
+  });
+
+  const charSpans = Array.from(spanEl.querySelectorAll('span'));
+  const total = charSpans.length;
+  const duration = 500;
+  const startTime = performance.now();
+
+  let animId;
+  function frame(now) {
+    const elapsed = now - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    const visibleCount = Math.round(progress * total);
+
+    charSpans.forEach(s => s.style.opacity = '0');
+
+    if (progress < 1) {
+      const shuffled = [...charSpans].sort(() => Math.random() - 0.5);
+      shuffled.slice(0, visibleCount).forEach(s => s.style.opacity = '1');
+      animId = requestAnimationFrame(frame);
+    } else {
+      charSpans.forEach(s => s.style.opacity = '1');
+    }
+  }
+
+  animId = requestAnimationFrame(frame);
+  spanEl._flickerAnimId = animId;
+}
+
+function resetText(spanEl) {
+  if (spanEl._flickerAnimId) cancelAnimationFrame(spanEl._flickerAnimId);
+  spanEl.textContent = spanEl.dataset.originalText || spanEl.textContent;
+  delete spanEl.dataset.originalText;
+}
+
+function initWorkItemHoverEffect() {
+  const workItems = document.querySelectorAll('article.work-item');
+  workItems.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+      const spans = item.querySelectorAll('span.work-title, span.work-designer');
+      spans.forEach(span => randomRevealFlicker(span));
+    });
+    item.addEventListener('mouseleave', () => {
+      const spans = item.querySelectorAll('span.work-title, span.work-designer');
+      spans.forEach(span => resetText(span));
+    });
+  });
+}
+
+function initFilterTagHoverEffect() {
+  if (initFilterTagHoverEffect._bound) return;
+  const tagSpans = document.querySelectorAll('.filter-tags span');
+  if (!tagSpans.length) return;
+  initFilterTagHoverEffect._bound = true;
+  tagSpans.forEach(span => {
+    span.addEventListener('mouseenter', () => {
+      randomRevealFlicker(span);
+    });
+    span.addEventListener('mouseleave', () => {
+      resetText(span);
+    });
+  });
+}
+
 
 
 // 1. 絞り込みタグの生成
@@ -129,6 +232,8 @@ fetch('project.json')
 
     //タグが作り終わった直後にURLチェックを実行
     checkUrlParams();
+
+    initFilterTagHoverEffect();
   });
 
 
@@ -239,6 +344,10 @@ else {
       titleElem.innerText = `${displayName}を使用した作品はありません。`;
     }
   }
+
+  initWorkItemFadeIn();
+  initWorkItemHoverEffect();
+  initFilterTagHoverEffect();
 }
   
 
